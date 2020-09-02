@@ -5,7 +5,7 @@ eniten pisteitä saanut voittaa kilpailun alkusarjan päätyttyä. Osallistujat 
 
 OHJEET:
 
-Ohjelma käynnistetään suorittamalla KonsoliFutis.py, avautuvasta käyttöliittymästä voidaan luoda uusia osallistujia tai katsoa pistetilannetta.
+Ohjelma käynnistetään suorittamalla futisveikkaus_konsoli.py, avautuvasta käyttöliittymästä voidaan luoda uusia osallistujia tai katsoa pistetilannetta.
 Admin käyttöliittymässä voidaan lisätä ja päivittää otteluita sekä laskea osallistujien pisteitä. Admin.py tiedostoa ja admin_kirjautuminen() funktiota muokkaamalla
 voi halutessaan luoda Admin-paneeliin kirjautumiseen salasanan. Appsiin on laitettu hieman täytedataa, mutta ne voi halutessaan poistaa ja luoda oman puhtaan tietokannan.
 
