@@ -1,5 +1,5 @@
 # projektit
 Projekteja joita teen/jotka ovat valmiita
 
-Kesken: Futisveikkaus
-Valmiit: Noppapeli, Wargame, Miinaharava
+Kesken: Futisveikkaus (Webapp)
+Valmiit: Noppapeli, Wargame, Miinaharava, Futisveikkaus(Konsoli)
