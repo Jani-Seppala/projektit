@@ -4,18 +4,6 @@ import bcrypt
 import getpass
 import admin
 
-"""
-Komento veikkauksen lopetukselle ja tuloksen tallentamiselle niin että voi jatkaa myöhemmin?
-SELVITÄ miksi pandas tulostaa otsikot eri riville tulostaessa
-luo_osallistuja funktion tiivistys niin että luodessa nickkiä, sqlite palauttaa samalla sen id:n?
-huom. ei bugi. Mikäli turnaus on käynnistynyt ja lisätään uusi veikkaaja siinä vaiheessa kun yhteispisteet() funktio on ajettu, ei uuden veikkaajan pisteitä enää lasketa menneistä otteluista
-Tietokannan yhteys luodaan automaattisesti ohjelman käynnistyessä ja se ei näy loppukäyttäjälle, admin paneelista voi kuitenkin muokata tietokantayhteyksiä
-getpass ja erillinen username/pass word tiedosto adminille sekä oma käyttöliittymä loppukäyttäjälle ja adminiklle
-turnauksen käynnistyttyä loppukäyttäjälle näkyviin vain pistetulokset
-en saa getpassia toimimaan, säädäpä sitä ensi kerralla jos jaksat
-tutki laske_ottelut_pisteet() meneekö 50-50 maalimäärät oikein?
-"""
-
 
 def luo_yhteys():
     """Luodaan tietokanta sekä yhteys siihen. Tämän jälkeen tietokantaan lisätään hieman täytedataa"""
