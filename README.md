@@ -1,5 +1,4 @@
 # projektit
-Projekteja joita teen/jotka ovat valmiita
+Projekteja joita olen tehnyt ennen vuotta 2024
 
-Kesken: Futisveikkaus (Webapp)
-Valmiit: Noppapeli, Wargame, Miinaharava, Futisveikkaus(Konsoli)
+Noppapeli, Wargame, Miinaharava, Futisveikkaus(Konsoli)
