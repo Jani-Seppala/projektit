@@ -41,7 +41,7 @@ def play(board):
 
 lost = 0
 won = 0
-n = 1000000
+n = 100000
 
 for game in range(n):
 

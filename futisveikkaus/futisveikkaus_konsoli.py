@@ -53,9 +53,12 @@ def luo_yhteys():
 
 
 def laske_ottelu_pisteet(tulos, veikkaus):
-    """ Parametreinä tulos ja veikkaus merkkijonot Esim. "1-2", "0-10", "8-5".
+    """ Parametreinä tulos ja veikkaus merkkijonot Esim. "1-2", "0-9", "8-5".
     Laskee ottelun yksiristikaksi tuloksen ja jakaa pisteet sen mukaisesti.
+    10-0
+    2-10
     """
+
     pisteet = 0
 
     tulos_kotimaalit, tulos_vierasmaalit = tulos.split("-")
