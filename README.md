@@ -1,4 +1,5 @@
 # projektit
-Projekteja joita olen tehnyt ennen vuotta 2024
+Projekteja joita olen tehnyt vuosien varrella
 
-Noppapeli, Wargame, Miinaharava, Futisveikkaus(Konsoli)
+Valmiit: Noppapeli, Wargame, Miinaharava, Futisveikkaus(Konsoli)
+Kesken: Markkinauutiset_ChatGPT

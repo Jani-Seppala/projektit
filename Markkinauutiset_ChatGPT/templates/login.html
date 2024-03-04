@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<!-- Container class to center the form on the page -->
+<div class="container mt-5">
+    <!-- Form heading -->
+    <h2>Login</h2>
+    <!-- Start of the form -->
+    <form action="/login" method="post">
+        <!-- Form group for email (assuming you're now using email to login) -->
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <!-- Form group for password -->
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <!-- Submit button for the form -->
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>
+{% endblock %}
