@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block content %}
+<form action="{{ url_for('favorites') }}" method="post">
+  {% for stock in stocks %}
+  <div>
+    <input
+      type="checkbox"
+      name="favorite_stocks"
+      value="{{ stock._id }}"
+      {%
+      if
+      stock._id|string
+      in
+      user_favorites
+      %}checked{%
+      endif
+      %}
+    />
+
+    <label>{{ stock.company }} ({{ stock.sector }})</label>
+  </div>
+  {% endfor %}
+  <button type="submit">Update Favorites</button>
+</form>
+{% endblock %}

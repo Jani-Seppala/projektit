@@ -17,47 +17,31 @@ def fetch_news():
 
 def process_and_save_news(news_data):
     for item in news_data['results']['item']:
-        # Directly check if the news item is related to 'Main Market, Helsinki'
         if item.get('market') == "Main Market, Helsinki":
-            # Construct a unique identifier based on stable attributes (disclosureId is already unique)
+            # Checks if the news item already exists in the database
             unique_id = item['disclosureId']
-            
-            # Check if the news item already exists in the database
             existing_news_item = mongo.db.news.find_one({'disclosureId': unique_id})
             
-            # If it doesn't exist, fetch the text content and save the news item
             if not existing_news_item:
-                # Since we're fetching new items, we always fetch the text content
+                # If the news item does not exist, fetch the content from the URL
                 item_text = fetch_text_from_url(item['messageUrl'])
                 if item_text:
-                    # Add the text content to the news item object under 'messageUrlContent'
                     item['messageUrlContent'] = item_text
+
+                # Check if the stock exists in the database
+                stock = mongo.db.stocks.find_one({"company": item.get('company')})
+                if stock:
+                    # Add the stock `_id` to the news item
+                    item['stock_id'] = stock['_id']
                 
-                # Save the news item to the database
+                # Save the modified news item with the stock `_id` included
                 mongo.db.news.insert_one(item)
             else:
                 print(f"News item {unique_id} already exists. Skipping content fetch.")
 
 
-# def english_version_exists(news_item):
-#     """
-#     Check if an English version of the news item already exists in the database.
-#     """
-#     # Assuming 'company', 'categoryId', 'cnsCategory', 'releaseTime', and 'market'
-#     # are sufficient to uniquely identify related news items.
-#     print(f'english_version exist news_item {news_item}')
-#     exists = mongo.db.news.find_one({
-#         'company': news_item['company'],
-#         'categoryId': news_item['categoryId'],
-#         'cnsCategory': news_item['cnsCategory'],
-#         'releaseTime': news_item['releaseTime'],
-#         'market': news_item['market'],
-#         'language': 'en'  # Looking specifically for an English version
-#     })
-#     return bool(exists)
-
-
 def fetch_text_from_url(url):
+    # Sends a GET request to the news URL and return the text content as one big string
     try:
         response = requests.get(url)
         if response.status_code == 200:
