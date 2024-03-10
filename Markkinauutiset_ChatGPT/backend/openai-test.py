@@ -11,4 +11,8 @@ completion = client.chat.completions.create(
   ]
 )
 
-print(completion.choices[0].message)
+chatgpt_outpput = completion.choices[0].message
+print(type(chatgpt_outpput))
+print(chatgpt_outpput)
+print('.-----')
+print(completion.choices[0].message.content)

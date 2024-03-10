@@ -19,12 +19,16 @@ mongo = PyMongo(app)
 
 @app.route('/')
 def index():
-    return "Welcome to the Stock News Analysis App!"
+    return render_template('index.html')
 
 # User Registration Route
-print(app.config["MONGO_URI"])
 @app.route('/register', methods=['GET', 'POST'])
 def register():
+    # Redirect logged-in users to the index page
+    if 'user_id' in session:
+        flash('You are already logged in.', 'info')
+        return redirect(url_for('index'))
+    
     if request.method == 'POST':
         users = mongo.db.users  # Assuming your MongoDB collection for users is named 'users'
         existing_user = users.find_one({'email': request.form['email']})
@@ -35,7 +39,8 @@ def register():
                 'first_name': request.form['first_name'],
                 'last_name': request.form['last_name'],
                 'email': request.form['email'],
-                'password': hashpass
+                'password': hashpass,
+                'favorites': []  # Initialize an empty list for the user's favorites
             })
             flash('Registration successful!', 'success')
             return redirect(url_for('login'))  # Redirect to the login page after successful registration
@@ -48,6 +53,11 @@ def register():
 # Login Route
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    # Check if user is already logged in
+    if 'user_id' in session:
+        flash('You are already logged in.', 'info')
+        return redirect(url_for('index'))
+    
     if request.method == 'POST':
         users = mongo.db.users
         login_user = users.find_one({'email': request.form['email']})
@@ -71,67 +81,35 @@ def add_favorite(stock_id):
 # Route for user to add and show favorites
 @app.route('/favorites', methods=['GET', 'POST'])
 def favorites():
+    # Check if the user is logged in at the very beginning
+    if 'user_id' not in session:
+        flash('You need to be logged in to view or update favorites.', 'danger')
+        return redirect(url_for('login'))
+    
     if request.method == 'POST':
         selected_favorites = set(request.form.getlist('favorite_stocks'))
-        if 'user_id' in session:
-            user_id = ObjectId(session['user_id'])
-            user = mongo.db.users.find_one({"_id": user_id})
-            current_favorites = set(user.get('favorites', []))
-            
-            # Identify deselected favorites
-            deselected_favorites = current_favorites - selected_favorites
-            
-            # Update the favorites list: remove deselected, add newly selected
-            updated_favorites = (current_favorites | selected_favorites) - deselected_favorites
-            
-            mongo.db.users.update_one(
-                {"_id": user_id},
-                {"$set": {"favorites": list(updated_favorites)}}
-            )
-            flash('Favorites updated successfully!', 'success')
-        else:
-            flash('You need to be logged in to update favorites.', 'danger')
-    # For GET requests, display the form with current favorites
+        user_id = ObjectId(session['user_id'])
+        user = mongo.db.users.find_one({"_id": user_id})
+        current_favorites = set(user.get('favorites', []))
+        
+        # Identify deselected favorites
+        deselected_favorites = current_favorites - selected_favorites
+        
+        # Update the favorites list: remove deselected, add newly selected
+        updated_favorites = (current_favorites | selected_favorites) - deselected_favorites
+        
+        mongo.db.users.update_one(
+            {"_id": user_id},
+            {"$set": {"favorites": list(updated_favorites)}}
+        )
+        flash('Favorites updated successfully!', 'success')
+    
+    # The user is guaranteed to be logged in if this part of the code is reached
     stocks = list(mongo.db.stocks.find())
-    user_favorites = []
-    if 'user_id' in session:
-        user = mongo.db.users.find_one({"_id": ObjectId(session['user_id'])})
-        if user:
-            user_favorites = user.get('favorites', [])
+    user = mongo.db.users.find_one({"_id": ObjectId(session['user_id'])})
+    user_favorites = user.get('favorites', [])
+    
     return render_template('favorites.html', stocks=stocks, user_favorites=user_favorites)
-
-# @app.route('/favorites', methods=['GET', 'POST'])
-# def favorites():
-#     if request.method == 'POST':
-#         selected_favorites = request.form.getlist('favorite_stocks')
-#         if 'user_id' in session:
-#             user_id = ObjectId(session['user_id'])
-#             user = mongo.db.users.find_one({"_id": user_id})
-#             current_favorites = user.get('favorites', [])
-            
-#             # Create a set of favorites to ensure uniqueness
-#             updated_favorites = set(current_favorites + selected_favorites)
-            
-#             # Optionally, here you could implement logic to remove deselected favorites
-#             # For simplicity, this example just combines old and new favorites
-            
-#             mongo.db.users.update_one(
-#                 {"_id": user_id},
-#                 {"$set": {"favorites": list(updated_favorites)}}
-#             )
-#             flash('Favorites updated successfully!', 'success')
-#         else:
-#             flash('You need to be logged in to update favorites.', 'danger')
-#     # Display the form with current favorites for GET requests
-#     stocks = list(mongo.db.stocks.find())
-#     user_favorites = []
-#     if 'user_id' in session:
-#         user = mongo.db.users.find_one({"_id": ObjectId(session['user_id'])})
-#         if user:
-#             user_favorites = user.get('favorites', [])
-#     return render_template('favorites.html', stocks=stocks, user_favorites=user_favorites)
-
-
 
 
 # Logout Route
