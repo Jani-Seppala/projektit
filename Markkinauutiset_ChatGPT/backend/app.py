@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, session, Response
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from flask_cors import CORS
+from bson import json_util
 import bcrypt
-from flask import session
 import config  # Ensure you have a config.py file with your configurations
 
 app = Flask(__name__)
@@ -16,6 +17,8 @@ print(config.SECRET_KEY)
 
 # Initialize PyMongo
 mongo = PyMongo(app)
+CORS(app)
+
 
 @app.route('/')
 def index():
@@ -120,6 +123,44 @@ def logout():
     # Flash a message indicating the user has been logged out
     flash('You have been successfully logged out.', 'info')
     return redirect(url_for('index'))
+
+
+# API ENDPOINTS
+
+@app.route('/api/stocks')
+def get_stocks():
+    stocks = mongo.db.stocks.find()  # Assuming you have a "stocks" collection
+    stocks_list = list(stocks)
+    # Convert ObjectId() to string because it is not JSON serializable
+    for stock in stocks_list:
+        stock['_id'] = str(stock['_id'])
+    return jsonify(stocks_list)
+
+
+@app.route('/api/users/register', methods=['POST'])
+def register_user():
+    # Assume request.json contains email, password, etc.
+    user_data = request.json
+    # Process registration (hash password, validate data, etc.)
+    # Save the user to the database
+    return jsonify({"success": True, "message": "User registered successfully"})
+
+
+@app.route('/api/news-with-analysis')
+def get_news_with_analysis():
+    news_items = mongo.db.news.find()
+    result = []
+
+    for news_item in news_items:
+        news_item_json = json_util.dumps(news_item)  # Serialize
+        analysis = mongo.db.analysis.find_one({"news_id": news_item["_id"]})
+        analysis_json = json_util.dumps(analysis) if analysis else None  # Serialize
+        result.append({"news": json_util.loads(news_item_json), "analysis": json_util.loads(analysis_json) if analysis_json else None})
+
+    # Serialize the entire result list and then create a Response object
+    result_json = json_util.dumps(result)
+    return Response(result_json, mimetype='application/json')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
