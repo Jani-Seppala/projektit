@@ -1,0 +1,19 @@
+.flash-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.flash-message.success {
+  background-color: #4CAF50; /* Green */
+}
+
+.flash-message.error {
+  background-color: #f44336; /* Red */
+}
+
+.flash-message.info {
+  background-color: #2196F3; /* Blue */
+}

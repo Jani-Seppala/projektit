@@ -1,0 +1,19 @@
+.search-results {
+  position: absolute;
+  z-index: 1000; /* Make sure it's above other content */
+  width: 100%;
+  background: white;
+  max-height: 200px; /* Adjust based on your preference */
+  overflow-y: auto; /* Makes it scrollable */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Optional: adds some shadow for better visibility */ 
+}
+
+.search-result-item {
+  cursor: pointer;
+  /* Additional styling for your search result items */
+}
+
+.search-results {
+  /* Styling for the container of your search results, if needed */
+}
+

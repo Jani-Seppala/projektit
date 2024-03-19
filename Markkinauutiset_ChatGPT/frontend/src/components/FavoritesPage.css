@@ -1,0 +1,34 @@
+.favorite-stocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.favorite-stock {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.favorite-stock button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-result {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}

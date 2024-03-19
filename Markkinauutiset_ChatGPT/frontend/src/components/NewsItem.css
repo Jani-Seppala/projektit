@@ -1,0 +1,59 @@
+.company-name {
+    font-size: 26px; /* Adjust the size as needed */
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .headline {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  .headline-link {
+    display: inline-block; /* Makes the link occupy only the required space */
+    text-decoration: none; /* Removes the underline from the link */
+    /* color: black; Keeps the text color black */
+  }
+  
+  .headline-link:hover,
+  .headline-link:focus {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+  }
+  
+  .click-to-enlarge {
+    font-size: 0.8rem; /* Smaller font size */
+    color: #666; /* Subtle color */
+    text-align: center; /* Center-align text */
+    margin-top: 10px; /* Add some space above the text */
+  }
+  
+  .click-prompt {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0; /* Adjust to ensure container size doesn't change */
+  }
+  
+  .nav-link {
+    cursor: pointer;
+  }
+
+  .release-time {
+    vertical-align: bottom;
+    font-weight: bold;
+    margin-left: 10px;
+    opacity: 0.8;
+    font-size: 0.9em;
+  }
+  
+  .company-name-link {
+    display: inline-block; /* Makes the link occupy only the required space */
+    text-decoration: none; /* Removes the underline from the link */
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .company-name-link:hover,
+  .company-name-link:focus {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+  }
+  
