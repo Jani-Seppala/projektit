@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate hook for redirection
-import { useUser } from '../App.js'; // Add this line
-import './RegisterPage.css'; // Assuming you have CSS for styling the page and flash messages
+import { useNavigate } from 'react-router-dom';
+import FlashMessage from './FlashMessage';
+import './Forms.css';
 
 function RegisterPage() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
-  
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -24,51 +24,69 @@ function RegisterPage() {
     try {
       const response = await axios.post('http://localhost:5000/api/users/register', user);
       if (response.data.success) {
-        console.log('Registration succesful:');
-        navigate('/login');
+        console.log('Registration successful:');
+        navigate('/login', { state: { message: 'Registration successful!', type: 'success' } });
       } else {
         console.error('Registration failed:', response.data.message);
+        setErrorMessage(response.data.message);
       }
     } catch (error) {
       console.error('There was an error!', error);
     }
   };
 
-  // Your form rendering code here...
-
-  // Display flash message somewhere in your component, styled based on its type
   return (
-    <div>
-      <form onSubmit={handleSubmit} className="register-form">
-  <div className="form-group">
-    <label>
-      First Name:
-      <input type="text" value={firstName} onChange={e => setFirstName(e.target.value)} required className="form-control" />
-    </label>
-  </div>
-  <div className="form-group">
-    <label>
-      Last Name:
-      <input type="text" value={lastName} onChange={e => setLastName(e.target.value)} required className="form-control" />
-    </label>
-  </div>
-  <div className="form-group">
-    <label>
-      Email:
-      <input type="email" value={email} onChange={e => setEmail(e.target.value)} required className="form-control" />
-    </label>
-  </div>
-  <div className="form-group">
-    <label>
-      Password:
-      <input type="password" value={password} onChange={e => setPassword(e.target.value)} required className="form-control" />
-    </label>
-  </div>
-  <input type="submit" value="Register" className="btn btn-primary" />
-</form>
+    <div className="login-page">
+      {errorMessage && (
+        <FlashMessage message={errorMessage} type="error" />
+      )}
+      <form onSubmit={handleSubmit} className="login-form">
+        <div className="form-group">
+          <label>First Name:</label>
+          <input
+            type="text"
+            className="form-control"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Last Name:</label>
+          <input
+            type="text"
+            className="form-control"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Email:</label>
+          <input
+            type="email"
+            className="form-control"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Password:</label>
+          <input
+            type="password"
+            className="form-control"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit" className="btn btn-primary">
+          Register
+        </button>
+      </form>
     </div>
   );
 }
 
 export default RegisterPage;
-

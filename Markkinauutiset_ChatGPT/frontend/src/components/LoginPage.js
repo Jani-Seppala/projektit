@@ -1,43 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useUser } from '../components/UserContext';
-import './LoginPage.css'; // Ensure you have CSS for styling this page similarly to your register page
+// import './LoginPage.css'; // Ensure you have CSS for styling this page similarly to your register page
+import FlashMessage from './FlashMessage'; // Import your FlashMessage component
+import './Forms.css';
 
 function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState(''); // Add this line
   const navigate = useNavigate();
-  const { setIsLoggedIn } = useUser(); // Add this line
+  const location = useLocation(); // Access navigation state
+  const { setIsLoggedIn } = useUser();
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try {
-      const response = await axios.post('http://localhost:5000/api/users/login', { email, password });
-      if (response.data.success) {
-        console.log('Login successful:', response.data);
-        localStorage.setItem('token', response.data.token);
-        setIsLoggedIn(true);
-        navigate('/');
-        // console.log('Login successful:', response.data);
-        // localStorage.setItem('token', response.data.token);
-        // setIsLoggedIn(true);
-        // navigate('/', {
-        //   state: { flashMessage: 'Login successful!', flashMessageType: 'success' } // Pass flash message through state
-        // });
-
-      } else {
-        console.error('Login failed:', response.data.message);
-      }
-    } catch (error) {
-      console.error('Login error:', error);
+  try {
+    const response = await axios.post('http://localhost:5000/api/users/login', { email, password });
+    if (response.data.success) {
+      console.log('Login successful:', response.data);
+      localStorage.setItem('token', response.data.token);
+      localStorage.setItem('userId', response.data.user._id);
+      setIsLoggedIn(true);
+      navigate('/', { state: { message: 'Logged in!', type: 'success' } });
     }
-  };
+  } catch (error) {
+    console.error('Login error:', error);
+    if (error.response && error.response.status === 401) {
+      setErrorMessage(error.response.data.message);
+    } else {
+      setErrorMessage('An unexpected error occurred.');
+    }
+  }
+};
 
   return (
     <div className="login-page">
-      <h2>Login</h2>
+      {errorMessage && (
+      <FlashMessage message={errorMessage} type="error" />
+      )}
+      {/* Check for location.state and render FlashMessage if present */}
+      {location.state?.message && (
+      <FlashMessage message={location.state.message} type={location.state.type} />
+      )}
       <form onSubmit={handleSubmit} className="login-form">
         <div className="form-group">
           <label>Email:</label>

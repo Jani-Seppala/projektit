@@ -1,52 +1,107 @@
-
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import NewsItem from './NewsItem';
 
 function StockPage() {
-  const { stockId } = useParams(); // Extract stockId from the URL
+  const { stockId } = useParams();
   const [stockData, setStockData] = useState(null);
   const [newsData, setNewsData] = useState([]);
+  const [favorites, setFavorites] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const token = localStorage.getItem('token');
+  console.log(token);
 
   useEffect(() => {
     const fetchStockData = async () => {
       try {
         const response = await axios.get(`http://localhost:5000/api/stocks/${stockId}`);
+        console.log('Stock Response:', response); // Debug print
         setStockData(response.data);
-        const newsResponse = await axios.get(`http://localhost:5000/api/news-with-analysis/${stockId}`);
+  
+        const newsResponse = await axios.get(`http://localhost:5000/api/news-with-analysis?stock_id=${stockId}`);
+        console.log('News Response:', newsResponse); // Debug print
+        console.log('News Data:', newsResponse.data);
         setNewsData(newsResponse.data);
+  
+        if (token) {
+          const favoritesResponse = await axios.get('http://localhost:5000/api/favorites', {
+            headers: {
+              Authorization: `Bearer ${token}`
+            }
+          });
+          console.log('Favorites Response:', favoritesResponse.data);
+          setFavorites(favoritesResponse.data.map(stock => stock._id));
+        }
         setLoading(false);
       } catch (err) {
+        console.error('Error:', err); // Debug print
         setError('Failed to fetch data');
         setLoading(false);
-        console.error(err);
       }
     };
-
+  
     fetchStockData();
-  }, [stockId]); // Re-run this effect if stockId changes
+  }, [stockId, token]);
+
+
+  const handleAddToFavorites = (stockToAdd) => {
+    const userId = localStorage.getItem('userId');
+    if (!favorites.includes(stockToAdd._id)) {
+      
+      axios.post(`http://localhost:5000/api/users/${userId}/add_favorite/${stockToAdd._id}`, {}, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      })
+      .then(() => {
+        const newFavorites = [...favorites, stockToAdd._id];
+        setFavorites(newFavorites);
+        console.log('Favorites after adding:', newFavorites);
+      })
+      .catch(error => console.error("Failed to add stock to favorites", error));
+    }
+  };
+
+  const handleRemoveFromFavorites = () => {
+    const updatedFavorites = favorites.filter(favoriteId => favoriteId !== stockId);
+    setFavorites(updatedFavorites);
+    console.log('Favorites after removing:', updatedFavorites);
+    axios.post('http://localhost:5000/api/favorites', { favorites: updatedFavorites }, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      }
+    }).catch(error => console.error("Failed to update favorites", error));
+  
+  };
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
+
+  console.log('Favorites:', favorites);
+  console.log('Stock ID:', stockId);
+  const isFavorite = favorites.includes(stockId);
+  console.log('Is Favorite:', isFavorite);
 
   return (
     <div>
       <h2>Stock Details</h2>
       {stockData ? (
-        <div>
+        <div className="d-flex justify-content-between align-items-center">
           <h3>{stockData.company} ({stockData.symbol})</h3>
-          <p>Market: {stockData.sector}</p>
-          {/* Add more stock details here as needed */}
+          {token && (
+            <button className={`btn ${isFavorite ? 'btn-danger' : 'btn-primary'}`} onClick={() => isFavorite ? handleRemoveFromFavorites() : handleAddToFavorites(stockData)}>
+              {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
+            </button>
+          )}
         </div>
       ) : (
         <p>Stock information not available.</p>
       )}
-          {newsData.length > 0 ? (
-          newsData.map(({ news, analysis }) => {
-          // Ensure you're using the $oid property if _id is an object
+      {newsData.length > 0 ? (
+        newsData.map(({ news, analysis }) => {
           const keyId = news._id.$oid || news._id;
           return <NewsItem key={keyId} news={news} analysis={analysis} />;
         })

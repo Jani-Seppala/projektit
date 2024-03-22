@@ -4,6 +4,7 @@ from flask_jwt_extended import JWTManager, create_access_token, jwt_required, ge
 from bson.objectid import ObjectId
 from flask_cors import CORS
 from bson import json_util
+from datetime import timedelta
 import bson.json_util
 import bcrypt
 import config  # Ensure you have a config.py file with your configurations
@@ -21,7 +22,6 @@ print(config.SECRET_KEY)
 # Initialize PyMongo
 mongo = PyMongo(app)
 CORS(app)
-# CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 @app.route('/')
@@ -48,7 +48,6 @@ def register_user():
     else:
         return jsonify({"success": False, "message": "Email is already registered."})
 
-# Login Route
 
 @app.route('/api/users/login', methods=['POST'])
 def login():
@@ -59,8 +58,21 @@ def login():
         hashed_password = login_user['password']
         password_check = bcrypt.checkpw(request.json['password'].encode('utf-8'), hashed_password)
         if password_check:
-            access_token = create_access_token(identity=str(login_user['_id']))
-            return jsonify({"success": True, "message": f"Welcome back, {login_user['first_name']}!", "token": access_token})
+            # access_token = create_access_token(identity=str(login_user['_id']))
+            # # Convert the ObjectId to a string before returning the user data
+            # login_user['_id'] = str(login_user['_id'])
+            # # Remove the password before returning the user data
+            # login_user.pop('password')
+            # return jsonify({"success": True, "message": f"Welcome back, {login_user['first_name']}!", "token": access_token, "user": login_user})
+            
+            # Set the token to expire in 1 hour
+            expires = timedelta(hours=1)
+            access_token = create_access_token(identity=str(login_user['_id']), expires_delta=expires)
+            # Convert the ObjectId to a string before returning the user data
+            login_user['_id'] = str(login_user['_id'])
+            # Remove the password before returning the user data
+            login_user.pop('password')
+            return jsonify({"success": True, "message": f"Welcome back, {login_user['first_name']}!", "token": access_token, "user": login_user})
         else:
             return jsonify({"success": False, "message": "Invalid login credentials."}), 401
     else:
@@ -92,8 +104,14 @@ def get_favorites():
     user_id = get_jwt_identity()  # Get user ID from the JWT payload
     user = mongo.db.users.find_one({"_id": ObjectId(user_id)})
     if user and 'favorites' in user:
-        # Convert ObjectIds in the favorites list to strings
-        favorites_info = [str(favorite) for favorite in user['favorites']]
+        # Convert strings in the favorites list to ObjectIds
+        favorites_ids = [ObjectId(favorite) for favorite in user['favorites']]
+        # Fetch the full details of each favorite stock
+        favorites_info = list(mongo.db.stocks.find({"_id": {"$in": favorites_ids}}))
+        # Convert ObjectIds in the favorites_info to strings
+        for favorite in favorites_info:
+            favorite['_id'] = str(favorite['_id'])
+        print('Favorites Info:', favorites_info)  # Add this line
         return jsonify(favorites_info)
     else:
         return jsonify({"error": "User not found"}), 404
@@ -160,46 +178,36 @@ def get_stock(stockId):
         return jsonify({"error": "An error occurred", "details": str(e)}), 500
 
 
-# @app.route('/api/news-with-analysis')
-# def get_news_with_analysis():
-#     news_items = mongo.db.news.find()
-#     result = []
+@app.route('/api/news-with-analysis', methods=['GET'])
+def get_news_with_analysis():
+    # Handle GET request
+    stock_id = request.args.get('stock_id')
+    stock_ids = request.args.get('stock_ids')
+    print('Received stock_id:', stock_id)
+    print('Received stock_ids:', stock_ids)
 
-#     for news_item in news_items:
-#         analysis = mongo.db.analysis.find_one({"news_id": news_item["_id"]})
-#         # Combine news item and analysis into one dictionary
-#         combined = {"news": news_item, "analysis": analysis}
-#         # Append the combined document to the result list
-#         result.append(combined)
+    if stock_id:
+        # If stock_id is provided, fetch news for the specified stock
+        news_items = mongo.db.news.find({"stock_id": ObjectId(stock_id)})
+    elif stock_ids:
+        # If stock_ids is provided, fetch news for the specified stocks
+        stock_ids_list = stock_ids.split(',')
+        stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
+        news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})
+        print('Fetched news items:', list(news_items))  # Log the fetched news items
+        news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})  # Fetch the news items again
+    else:
+        # If neither stock_id nor stock_ids is provided, fetch all news
+        news_items = mongo.db.news.find()
 
-#     # Use bson.json_util.dumps to convert the result to JSON string
-#     # This handles MongoDB-specific data types like ObjectId
-#     result_json = bson.json_util.dumps(result)
-#     # Use Flask's Response object to return the JSON string with correct content type
-#     return app.response_class(response=result_json, mimetype='application/json')
-
-
-@app.route('/api/news-with-analysis', defaults={'stock_id': None})
-@app.route('/api/news-with-analysis/<stock_id>', methods=['GET'])
-def get_news_with_analysis(stock_id=None):
-    # If a stock_id is provided, filter news by this stock_id; otherwise, fetch all news
-    query = {"stock_id": ObjectId(stock_id)} if stock_id else {}
-    news_items = mongo.db.news.find(query)
     result = []
-
     for news_item in news_items:
-        # Assuming analysis documents reference news_id, not stock_id directly
         analysis = mongo.db.analysis.find_one({"news_id": news_item["_id"]})
-        # Combine news item and analysis into one dictionary
         combined = {"news": news_item, "analysis": analysis}
-        # Append the combined document to the result list
         result.append(combined)
 
-    # Use bson.json_util.dumps to convert the result to JSON string
-    result_json = bson.json_util.dumps(result)
-    # Return the JSON string with correct content type
+    result_json = json_util.dumps(result)
     return app.response_class(response=result_json, mimetype='application/json')
-
 
 
 @app.route('/api/users/me', methods=['GET'])
