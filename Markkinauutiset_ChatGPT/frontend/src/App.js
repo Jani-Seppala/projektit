@@ -4,6 +4,7 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import FavoritesPage from './components/FavoritesPage';
 import StockPage from './components/StockPage';
+import InfoPage from './components/InfoPage';
 import SearchBar from './components/SearchBar';
 import Logout from './components/Logout';
 import NewsAndAnalysis from './components/NewsAndAnalysis';
@@ -24,7 +25,7 @@ function App() {
         <div className="container">
           <Link className="navbar-brand fs-2" to="/">News App</Link>
           <div className="navbar-collapse collapse">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 fs-4">            
               {!isLoggedIn && (
                 <>
                   <li className="nav-item"><Link className="nav-link" to="/login">Login</Link></li>
@@ -37,6 +38,7 @@ function App() {
                   <li className="nav-item"><Logout onLogout={handleLogout} /></li>
                 </>
               )}
+              <li className="nav-item"><Link className="nav-link" to="/info">Info</Link></li>
             </ul>
             <SearchBar />
           </div>
@@ -50,6 +52,7 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
           <Route path="/stocks/:stockId" element={<StockPage />} />
+          <Route path="/info" element={<InfoPage />} />
         </Routes>
       </div>
     </Router>

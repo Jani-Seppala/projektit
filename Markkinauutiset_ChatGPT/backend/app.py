@@ -58,13 +58,6 @@ def login():
         hashed_password = login_user['password']
         password_check = bcrypt.checkpw(request.json['password'].encode('utf-8'), hashed_password)
         if password_check:
-            # access_token = create_access_token(identity=str(login_user['_id']))
-            # # Convert the ObjectId to a string before returning the user data
-            # login_user['_id'] = str(login_user['_id'])
-            # # Remove the password before returning the user data
-            # login_user.pop('password')
-            # return jsonify({"success": True, "message": f"Welcome back, {login_user['first_name']}!", "token": access_token, "user": login_user})
-            
             # Set the token to expire in 1 hour
             expires = timedelta(hours=1)
             access_token = create_access_token(identity=str(login_user['_id']), expires_delta=expires)

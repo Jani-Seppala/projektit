@@ -1,9 +1,9 @@
 import json
 
 # Path to your text file
-text_file_path = r'C:\Users\Kingi\Ohjelmointi\OpiKoodia\Markkinauutiset_ChatGPT_tiedot\mainYhtiot.txt'
+text_file_path = r'C:\Users\Kingi\Ohjelmointi\OpiKoodia\Markkinauutiset_ChatGPT_tiedot\FirstNorthYhtiot.txt'
 # Output JSON file path
-json_file_path = r'C:\Users\Kingi\Ohjelmointi\OpiKoodia\Markkinauutiset_ChatGPT_tiedot\mainYhtiotJson.json'
+json_file_path = r'C:\Users\Kingi\Ohjelmointi\OpiKoodia\Markkinauutiset_ChatGPT_tiedot\FirstNorthYhtiotJson.json'
 
 # Initialize an empty list to hold the company data
 companies = []
