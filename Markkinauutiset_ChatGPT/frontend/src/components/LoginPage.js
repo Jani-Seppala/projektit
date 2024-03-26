@@ -2,16 +2,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useUser } from '../components/UserContext';
-// import './LoginPage.css'; // Ensure you have CSS for styling this page similarly to your register page
-import FlashMessage from './FlashMessage'; // Import your FlashMessage component
+import FlashMessage from './FlashMessage';
 import './Forms.css';
 
 function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState(''); // Add this line
+  const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
-  const location = useLocation(); // Access navigation state
+  const location = useLocation();
   const { setIsLoggedIn } = useUser();
   
 

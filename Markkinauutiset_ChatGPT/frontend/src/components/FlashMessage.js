@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-
-// Assuming you have some basic styling for the flash message
 import './FlashMessage.css';
 
 function FlashMessage({ message, type, duration = 3000, onDismiss }) {

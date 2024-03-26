@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import './SearchBar.css'; // Make sure you have this CSS file
+import './SearchBar.css';
 
 function SearchBar() {
   const [searchTerm, setSearchTerm] = useState('');

@@ -1,7 +1,5 @@
-
-
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Make sure to import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import './NewsItem.css';
 
 const marketToFlag = {
@@ -38,9 +36,6 @@ function NewsItem({ news, analysis }) {
         {flagSrc && <img src={flagSrc} alt="Country flag" style={{ width: "20px", marginRight: "5px", verticalAlign: "middle" }} />}
         {/* Wrap the company name in a span and Link component */}
         <span onClick={handleLinkClick}>
-          {/* <Link to={`/stocks/${news.stock_id.$oid || news.stock_id}`} className="company-name-link">
-            {news.company}
-          </Link> */}
             <Link to={`/stocks/${news.stock_id.$oid || news.stock_id}`} className="company-name-link">
             {news.company}
             </Link>

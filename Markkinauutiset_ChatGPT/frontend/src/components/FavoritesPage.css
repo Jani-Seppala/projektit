@@ -3,12 +3,12 @@
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
-  flex-direction: row; /* Add this line */
+  flex-direction: row;
 }
 
 .remove-button {
-  font-size: 1rem; /* Adjust this to make the 'X' smaller or larger */
-  color: black; /* Change the color of the 'X' */
+  font-size: 1rem; 
+  color: black; 
   background-color: transparent !important; /* Keep the background transparent */
   border-color: transparent; /* Make the border transparent */
   margin-left: 10px; /* Add some space between the 'X' and the company name */
@@ -20,12 +20,12 @@
 }
 
 .favorite-stock-box {
-  max-width: 300px; /* Adjust this to your liking */
+  max-width: 300px;
   padding: 8px; /* Add some padding around the content */
 }
 
 .alert-info h3 {
-  font-size: 1rem; /* Adjust this to your liking */
+  font-size: 1rem;
 }
 
 .favorite-stock {

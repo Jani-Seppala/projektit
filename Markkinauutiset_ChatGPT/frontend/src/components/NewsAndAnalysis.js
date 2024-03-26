@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import axios from 'axios'; // Make sure to import axios
-import NewsItem from './NewsItem'; // Import from NewsItem.js
-import FlashMessage from './FlashMessage'; // Make sure the path is correct
+import axios from 'axios';
+import NewsItem from './NewsItem';
+import FlashMessage from './FlashMessage';
 
   function NewsAndAnalysis({ favorites, token }) {
-    console.log('Favorites:', favorites); // Add this line
+    console.log('Favorites:', favorites);
     const [newsWithAnalysis, setNewsWithAnalysis] = useState([]);
     const location = useLocation();
   
@@ -20,7 +20,7 @@ import FlashMessage from './FlashMessage'; // Make sure the path is correct
             'Content-Type': 'application/json'
           }
         }).then(response => {
-          console.log('Fetched news for favorite stocks:', response.data); // Add this line
+          console.log('Fetched news for favorite stocks:', response.data);
           setNewsWithAnalysis(response.data);
         }).catch(error => {
           console.error("Failed to fetch news for favorite stocks", error);
@@ -29,7 +29,7 @@ import FlashMessage from './FlashMessage'; // Make sure the path is correct
         // Fetch all news
         axios.get('http://localhost:5000/api/news-with-analysis')
           .then(response => {
-            console.log('Fetched all news:', response.data); // Add this line
+            console.log('Fetched all news:', response.data);
             setNewsWithAnalysis(response.data);
           })
           .catch(error => console.error('Error fetching news with analysis:', error));

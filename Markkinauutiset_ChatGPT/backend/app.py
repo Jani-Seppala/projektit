@@ -7,12 +7,12 @@ from bson import json_util
 from datetime import timedelta
 import bson.json_util
 import bcrypt
-import config  # Ensure you have a config.py file with your configurations
+import config
 
 app = Flask(__name__)
 
 # Configurations
-app.config["MONGO_URI"] = config.MONGO_URI  # Your MongoDB URI
+app.config["MONGO_URI"] = config.MONGO_URI  # MongoDB URI
 app.config["SECRET_KEY"] = config.SECRET_KEY  # Secret key for session management
 jwt = JWTManager(app)
 
@@ -104,7 +104,7 @@ def get_favorites():
         # Convert ObjectIds in the favorites_info to strings
         for favorite in favorites_info:
             favorite['_id'] = str(favorite['_id'])
-        print('Favorites Info:', favorites_info)  # Add this line
+        print('Favorites Info:', favorites_info)  # debug
         return jsonify(favorites_info)
     else:
         return jsonify({"error": "User not found"}), 404
@@ -159,7 +159,6 @@ def get_stocks():
 @app.route('/api/stocks/<stockId>', methods=['GET'])
 def get_stock(stockId):
     try:
-        # Assuming your MongoDB collection is named 'stocks' and uses default ObjectIds
         stock = mongo.db.stocks.find_one({"_id": ObjectId(stockId)})
         if stock:
             # Convert the _id from ObjectId to string for JSON serialization
@@ -173,7 +172,6 @@ def get_stock(stockId):
 
 @app.route('/api/news-with-analysis', methods=['GET'])
 def get_news_with_analysis():
-    # Handle GET request
     stock_id = request.args.get('stock_id')
     stock_ids = request.args.get('stock_ids')
     print('Received stock_id:', stock_id)
@@ -187,7 +185,7 @@ def get_news_with_analysis():
         stock_ids_list = stock_ids.split(',')
         stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})
-        print('Fetched news items:', list(news_items))  # Log the fetched news items
+        print('Fetched news items:', list(news_items))  # debug
         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})  # Fetch the news items again
     else:
         # If neither stock_id nor stock_ids is provided, fetch all news

@@ -44,7 +44,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <div className="nav-spacer"></div> {/* This line is added */}
+      <div className="nav-spacer"></div>
       <div className="container">
         <Routes>
           <Route path="/" element={<NewsAndAnalysis key={logoutCount} />} />

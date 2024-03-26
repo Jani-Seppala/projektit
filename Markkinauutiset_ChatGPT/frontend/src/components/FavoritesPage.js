@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NewsAndAnalysis from './NewsAndAnalysis';
-import './FavoritesPage.css'; // Assuming you have a CSS file for styling
+import './FavoritesPage.css';
 
 function FavoritesPage() {
   const [favorites, setFavorites] = useState([]);
-  const token = localStorage.getItem('token'); // Assuming JWT token is stored in localStorage
-
+  const token = localStorage.getItem('token');
+  
   useEffect(() => {
     // Fetch the user's current favorites directly with detailed information
     axios.get('http://localhost:5000/api/favorites', {

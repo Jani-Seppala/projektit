@@ -1,17 +1,16 @@
 .company-name {
-    font-size: 26px; /* Adjust the size as needed */
+    font-size: 26px;
     margin-right: 5px;
     vertical-align: middle;
   }
   
   .headline {
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 18px;
   }
   
   .headline-link {
     display: inline-block; /* Makes the link occupy only the required space */
     text-decoration: none; /* Removes the underline from the link */
-    /* color: black; Keeps the text color black */
   }
   
   .headline-link:hover,
@@ -20,9 +19,9 @@
   }
   
   .click-to-enlarge {
-    font-size: 0.8rem; /* Smaller font size */
-    color: #666; /* Subtle color */
-    text-align: center; /* Center-align text */
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
     margin-top: 10px; /* Add some space above the text */
   }
   
@@ -47,7 +46,7 @@
   .company-name-link {
     display: inline-block; /* Makes the link occupy only the required space */
     text-decoration: none; /* Removes the underline from the link */
-    font-size: 20px; /* Adjust the size as needed */
+    font-size: 20px;
     margin-right: 5px;
     vertical-align: middle;
   }
