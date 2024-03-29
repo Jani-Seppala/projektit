@@ -1,16 +1,38 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Select from 'react-select';
+import PhoneInput from 'react-phone-number-input';
+// import PhoneInput, { getCountryCallingCode } from 'react-phone-number-input';
+import { countries as countriesList } from 'countries-list';
 import FlashMessage from './FlashMessage';
+import 'react-phone-number-input/style.css';
 import './Forms.css';
+
+
+const countryOptions = Object.entries(countriesList).map(([code, { name }]) => ({
+  value: code,
+  label: name,
+}));
 
 function RegisterPage() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [address, setAddress] = useState('');
+  const [country, setCountry] = useState(null);
+  const [phone, setPhone] = useState('');
+  const [defaultCountry, setDefaultCountry] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
+
+  const handleCountryChange = selectedOption => {
+    console.log("Selected country option:", selectedOption); // Debug log
+    setCountry(selectedOption);
+    setDefaultCountry(selectedOption.value);
+  };
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -18,7 +40,10 @@ function RegisterPage() {
       first_name: firstName,
       last_name: lastName,
       email: email,
-      password: password
+      password: password,
+      address:address,
+      country: country?.label,
+      phone: phone
     };
 
     try {
@@ -42,7 +67,7 @@ function RegisterPage() {
       )}
       <form onSubmit={handleSubmit} className="login-form">
         <div className="form-group">
-          <label>First Name:</label>
+          <label>First Name: *</label>
           <input
             type="text"
             className="form-control"
@@ -52,7 +77,7 @@ function RegisterPage() {
           />
         </div>
         <div className="form-group">
-          <label>Last Name:</label>
+          <label>Last Name: *</label>
           <input
             type="text"
             className="form-control"
@@ -62,7 +87,7 @@ function RegisterPage() {
           />
         </div>
         <div className="form-group">
-          <label>Email:</label>
+          <label>Email: *</label>
           <input
             type="email"
             className="form-control"
@@ -72,7 +97,33 @@ function RegisterPage() {
           />
         </div>
         <div className="form-group">
-          <label>Password:</label>
+          <label>Address: (optional)</label>
+          <input
+            type="text"
+            className="form-control"
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
+          />
+        </div>
+        <div className="form-group">
+        <label>Country: (optional)</label>
+        <Select
+          options={countryOptions}
+          value={country}
+          onChange={handleCountryChange}
+        />
+      </div>
+      <div className="form-group">
+        <label>Phone: (optional)</label>
+        <PhoneInput
+          international
+          defaultCountry={defaultCountry} // Use the dynamically set default country
+          value={phone}
+          onChange={setPhone}
+        />
+      </div>
+        <div className="form-group">
+          <label>Password: *</label>
           <input
             type="password"
             className="form-control"
@@ -81,7 +132,7 @@ function RegisterPage() {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary form-button">
           Register
         </button>
       </form>

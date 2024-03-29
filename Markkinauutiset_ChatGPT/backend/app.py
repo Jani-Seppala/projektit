@@ -29,24 +29,65 @@ def index():
     return render_template('index.html')
 
 
+# @app.route('/api/users/register', methods=['POST'])
+# def register_user():
+#     users = mongo.db.users
+#     existing_user = users.find_one({'email': request.json['email']})
+
+#     if existing_user is None:
+#         password = request.json['password']
+#         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
+#         users.insert_one({
+#             'first_name': request.json['first_name'],
+#             'last_name': request.json['last_name'],
+#             'email': request.json['email'],
+#             'password': hashed_password,
+#             'favorites': []
+#         })
+#         return jsonify({"success": True, "message": "User registered successfully"})
+#     else:
+#         return jsonify({"success": False, "message": "Email is already registered."})
+
 @app.route('/api/users/register', methods=['POST'])
 def register_user():
     users = mongo.db.users
     existing_user = users.find_one({'email': request.json['email']})
 
     if existing_user is None:
+        # Mandatory fields
+        first_name = request.json['first_name']
+        last_name = request.json['last_name']
+        email = request.json['email']
         password = request.json['password']
+        
+        # Optional fields
+        address = request.json.get('address', '')
+        country = request.json.get('country', '')
+        phone = request.json.get('phone', '')
+
         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-        users.insert_one({
-            'first_name': request.json['first_name'],
-            'last_name': request.json['last_name'],
-            'email': request.json['email'],
+
+        # Create user document including optional fields if provided
+        user_data = {
+            'first_name': first_name,
+            'last_name': last_name,
+            'email': email,
             'password': hashed_password,
             'favorites': []
-        })
+        }
+        
+        # Only add optional fields to document if they are not empty
+        if address: user_data['address'] = address
+        if country: user_data['country'] = country
+        if phone: user_data['phone'] = phone
+
+        # Insert the new user document into the collection
+        users.insert_one(user_data)
+
         return jsonify({"success": True, "message": "User registered successfully"})
     else:
         return jsonify({"success": False, "message": "Email is already registered."})
+
 
 
 @app.route('/api/users/login', methods=['POST'])

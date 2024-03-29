@@ -66,7 +66,7 @@ function LoginPage() {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary form-button">
           Login
         </button>
       </form>

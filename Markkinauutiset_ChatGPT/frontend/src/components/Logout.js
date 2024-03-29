@@ -13,7 +13,9 @@ function Logout({ onLogout }) {
     onLogout();
   };
 
-  return <a className="nav-link" onClick={handleLogout}>Logout</a>;
+  // return <a className="nav-link" onClick={handleLogout}>Logout</a>;
+  return <button className="nav-link btn btn-link" onClick={handleLogout} style={{ border: 'none', backgroundColor: 'transparent', textDecoration: 'underline', color: 'blue' }}>Logout</button>;
+
 }
 
 export default Logout;
