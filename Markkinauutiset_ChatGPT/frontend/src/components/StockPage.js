@@ -90,7 +90,7 @@ function StockPage() {
       <h2>Stock Details</h2>
       {stockData ? (
         <div className="d-flex justify-content-between align-items-center">
-          <h3>{stockData.company} ({stockData.symbol})</h3>
+          <h3>{stockData.name} ({stockData.symbol})</h3>
           {token && (
             <button className={`btn ${isFavorite ? 'btn-danger' : 'btn-primary'}`} onClick={() => isFavorite ? handleRemoveFromFavorites() : handleAddToFavorites(stockData)}>
               {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}

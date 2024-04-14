@@ -1,3 +1,5 @@
+# UPDATES ALL OF THE COMPANIES TO MONGO DB OVERWRITING EVERYTHING, SHOULD ONLY BE USED WHEN MAKING NEW DB!!!
+
 # from pymongo import MongoClient
 # import json
 # import config
@@ -31,13 +33,14 @@
 # client.close()
 
 
+# UPDATES THE STOCKS IN THE DATABASE AND ADDS NEW STOCKS IF THEY ARE NOT ALREADY IN THE DATABASE
+# NOT TESTED THOROUGHLY, SHOULD ONLY USE MANUAL UPDATES WITH THE DRY RUN SET TO TRUE
 
 from pymongo import MongoClient
 import json
 import config
 import os
 import logging
-
 
 # Set up logging
 logging.basicConfig(filename='update_stocks.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -56,7 +59,7 @@ except FileNotFoundError as e:
 
 # MongoDB connection
 client = MongoClient(config.MONGO_URI)
-db = client.get_database()  # Automatically infer database name from URI
+db = client.get_database()
 collection = db['stocks']
 
 # Dry run setting
@@ -67,28 +70,27 @@ if dry_run:
     print("Dry run mode - No changes will be made to the database")
 
 updates = []
-for stock in stocks_data:
-    existing_stock = collection.find_one({'isin': stock['isin']})
+for new_stock in stocks_data:
+    # Use both ISIN and market for finding the existing document
+    existing_stock = collection.find_one({'isin': new_stock['isin'], 'market': new_stock['market']})
     if existing_stock:
-        # Check for differences in all fields except 'isin'
-        differences = {key: stock[key] for key in stock if key != 'isin' and stock[key] != existing_stock.get(key)}
+        # Check for differences, excluding 'isin' and 'market'
+        differences = {key: new_stock[key] for key in new_stock if key not in ['isin', 'market'] and new_stock[key] != existing_stock.get(key)}
         if differences:
-            print(f"Updating {stock['name']} with changes: {differences}")
-            update = {
-                'isin': stock['isin'],
-                'update': {'$set': differences}
-            }
-            updates.append(update)
+            print(f"Updating {new_stock['name']} in {new_stock['market']} with changes: {differences}")
+            if not dry_run:
+                collection.update_one({'isin': new_stock['isin'], 'market': new_stock['market']}, {'$set': differences})
+            updates.append(new_stock)
     else:
-        print(f"New stock {stock['name']} will be added to the database.")
+        print(f"New stock {new_stock['name']} will be added to the database.")
+        if not dry_run:
+            collection.insert_one(new_stock)
 
-# Apply updates
-if not dry_run:
-    for update in updates:
-        collection.update_one({'isin': update['isin']}, update['update'])
-    print(f"Applied {len(updates)} updates to the database.")
+if dry_run:
+    print(f"Dry run complete. Detected {len(updates)} updates but no changes made.")
 else:
-    print("Dry run mode - No changes were made to the database.")
+    print(f"Applied updates to {len(updates)} stocks in the database.")
 
 # Close the connection
 client.close()
+

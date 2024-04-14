@@ -8,6 +8,8 @@ from datetime import timedelta
 import bson.json_util
 import bcrypt
 import config
+import subprocess
+import os
 
 app = Flask(__name__)
 
@@ -16,37 +18,25 @@ app.config["MONGO_URI"] = config.MONGO_URI  # MongoDB URI
 app.config["SECRET_KEY"] = config.SECRET_KEY  # Secret key for session management
 jwt = JWTManager(app)
 
-print(config.MONGO_URI)
-print(config.SECRET_KEY)
+# print(config.MONGO_URI)
+# print(config.SECRET_KEY)
 
 # Initialize PyMongo
 mongo = PyMongo(app)
 CORS(app)
 
 
+def start_scheduler():
+    nasdaq_script_path = 'C:\\Users\\Kingi\\Ohjelmointi\\Github\\projektit\\Markkinauutiset_ChatGPT\\backend\\nasdaqApiCall.py'
+    
+    # Start nasdaqApiCall.py as a background process
+    subprocess.Popen(['python', nasdaq_script_path])
+    
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
-
-# @app.route('/api/users/register', methods=['POST'])
-# def register_user():
-#     users = mongo.db.users
-#     existing_user = users.find_one({'email': request.json['email']})
-
-#     if existing_user is None:
-#         password = request.json['password']
-#         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-#         users.insert_one({
-#             'first_name': request.json['first_name'],
-#             'last_name': request.json['last_name'],
-#             'email': request.json['email'],
-#             'password': hashed_password,
-#             'favorites': []
-#         })
-#         return jsonify({"success": True, "message": "User registered successfully"})
-#     else:
-#         return jsonify({"success": False, "message": "Email is already registered."})
 
 @app.route('/api/users/register', methods=['POST'])
 def register_user():
@@ -145,7 +135,7 @@ def get_favorites():
         # Convert ObjectIds in the favorites_info to strings
         for favorite in favorites_info:
             favorite['_id'] = str(favorite['_id'])
-        print('Favorites Info:', favorites_info)  # debug
+        # print('Favorites Info:', favorites_info)  # debug
         return jsonify(favorites_info)
     else:
         return jsonify({"error": "User not found"}), 404
@@ -184,7 +174,7 @@ def get_stocks():
     search_query = request.args.get('query', '')  # Retrieve the search query parameter
     if search_query:
         # Perform a case-insensitive search for stocks matching the query
-        stocks = mongo.db.stocks.find({"company": {"$regex": search_query, "$options": "i"}})
+        stocks = mongo.db.stocks.find({"name": {"$regex": search_query, "$options": "i"}})
     else:
         # If no query is provided, return all stocks
         stocks = mongo.db.stocks.find()
@@ -215,8 +205,8 @@ def get_stock(stockId):
 def get_news_with_analysis():
     stock_id = request.args.get('stock_id')
     stock_ids = request.args.get('stock_ids')
-    print('Received stock_id:', stock_id)
-    print('Received stock_ids:', stock_ids)
+    # print('Received stock_id:', stock_id)
+    # print('Received stock_ids:', stock_ids)
 
     if stock_id:
         # If stock_id is provided, fetch news for the specified stock
@@ -226,7 +216,7 @@ def get_news_with_analysis():
         stock_ids_list = stock_ids.split(',')
         stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})
-        print('Fetched news items:', list(news_items))  # debug
+        # print('Fetched news items:', list(news_items))  # debug
         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})  # Fetch the news items again
     else:
         # If neither stock_id nor stock_ids is provided, fetch all news
@@ -259,4 +249,5 @@ def get_logged_in_user():
     
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    start_scheduler()
+    app.run(debug=True, use_reloader=False)

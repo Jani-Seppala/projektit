@@ -3,7 +3,6 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Select from 'react-select';
 import PhoneInput from 'react-phone-number-input';
-// import PhoneInput, { getCountryCallingCode } from 'react-phone-number-input';
 import { countries as countriesList } from 'countries-list';
 import FlashMessage from './FlashMessage';
 import 'react-phone-number-input/style.css';
@@ -117,7 +116,7 @@ function RegisterPage() {
         <label>Phone: (optional)</label>
         <PhoneInput
           international
-          defaultCountry={defaultCountry} // Use the dynamically set default country
+          defaultCountry={defaultCountry}
           value={phone}
           onChange={setPhone}
         />

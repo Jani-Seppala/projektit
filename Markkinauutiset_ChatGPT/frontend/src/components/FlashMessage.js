@@ -8,7 +8,7 @@ function FlashMessage({ message, type, duration = 3000, onDismiss }) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-      if (onDismiss) onDismiss(); // Call the onDismiss callback if provided
+      if (onDismiss) onDismiss();
     }, duration);
 
     return () => clearTimeout(timer);

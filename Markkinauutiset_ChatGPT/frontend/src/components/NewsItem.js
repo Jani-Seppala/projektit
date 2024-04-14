@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NewsItem.css';
+import { useUser } from './UserContext';
 
 const marketToFlag = {
   "Helsinki": "/flags/fi.png",
@@ -16,9 +17,12 @@ function getFlagForMarket(market) {
 }
 
 function NewsItem({ news, analysis }) {
+  const { darkMode } = useUser(); // Access darkMode state
   const [isExpanded, setIsExpanded] = useState(false);
-
   const flagSrc = getFlagForMarket(news.market);
+
+  // Determine the classes to apply based on darkMode
+  const newsItemClass = darkMode ? "news-item my-3 p-3 bg-dark text-white border rounded" : "news-item my-3 p-3 bg-light text-dark border rounded";
 
   // This function toggles the expanded state
   const toggleExpand = () => {
@@ -30,8 +34,18 @@ function NewsItem({ news, analysis }) {
     e.stopPropagation();
   };
 
+    // Function to format analysis content with line breaks
+    const formatAnalysisContent = (content) => {
+      return content.split('\n').map((text, index) => (
+        <span key={index}>
+          {text}
+          <br />
+        </span>
+      ));
+    };
+
   return (
-    <div className="news-item my-3 p-3 bg-light border rounded" onClick={toggleExpand}>
+    <div className={newsItemClass} onClick={toggleExpand}>
       <div className="news-header mb-2">
         {flagSrc && <img src={flagSrc} alt="Country flag" style={{ width: "20px", marginRight: "5px", verticalAlign: "middle" }} />}
         {/* Wrap the company name in a span and Link component */}
@@ -50,7 +64,8 @@ function NewsItem({ news, analysis }) {
       {analysis && (
         <div className={`analysis-content mt-3 ${isExpanded ? 'expanded' : 'collapsed'}`}>
           <h5>Analysis</h5>
-          <p>{isExpanded ? analysis.analysis_content : `${analysis.analysis_content.substring(0, 100)}...`}</p>
+          {/* <p>{isExpanded ? analysis.analysis_content : `${analysis.analysis_content.substring(0, 100)}...`}</p> */}
+          {isExpanded ? formatAnalysisContent(analysis.analysis_content) : `${analysis.analysis_content.substring(0, 100)}...`}
           {!isExpanded && <div className="click-to-enlarge">Click to enlarge</div>}
         </div>
       )}

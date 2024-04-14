@@ -8,7 +8,7 @@ import json
 import os
 
 
-def determine_market(url, currency, isin):
+def determine_market(url, stock_href):
     market = "Unknown Market"  # Default assignment
 
     # Direct assignments for main markets based on URL
@@ -23,25 +23,20 @@ def determine_market(url, currency, isin):
     elif "baltic" in url:
         market = "Main Market, Baltic"
     elif "first-north" in url:
-        # Initialize market based on ISIN code
-        isin_to_market = {
-            "SE": "First North Sweden",
-            "FI": "First North Finland",
-            "DK": "First North Denmark",
-            "IS": "First North Iceland",
+        # Mapping of First North markets based on instrument code prefix
+        market_map = {
+            "SSE": "First North Sweden",
+            "HEX": "First North Finland",
+            "CSE": "First North Denmark",
+            "ICEX": "First North Iceland",
+            # Add more mappings as necessary
         }
-        country_code = isin[:2]  # Extract country code from ISIN
-        market = isin_to_market.get(country_code, None)  # Attempt to assign market based on ISIN
 
-        # If market couldn't be determined by ISIN, use currency as a fallback
-        if not market:
-            currency_to_market = {
-                "SEK": "First North Sweden",
-                "EUR": "First North Finland", 
-                "DKK": "First North Denmark",
-                "ISK": "First North Iceland",
-            }
-            market = currency_to_market.get(currency, "Check Manually")  # Fallback for manual checking
+        # Check if any known instrument code prefix is present in the URL
+        for code_prefix, market_name in market_map.items():
+            if f"Instrument={code_prefix}" in stock_href:
+                market = market_name
+                break  # Stop searching once a match is found
 
     return market
 
@@ -57,18 +52,18 @@ def scrape_stocks(url):
         if len(cells) >= 6:
             name_link = cells[0].find_element(By.TAG_NAME, 'a')
             name = name_link.text
-            href = name_link.get_attribute('href')
+            stock_href = name_link.get_attribute('href')
             symbol = cells[1].text
             currency = cells[2].text
             isin = cells[3].text
             sector = cells[4].text
             icb = cells[5].text
 
-            market = determine_market(url, currency, isin)
+            market = determine_market(url,stock_href)
             # Add the market information to your stocks_data dictionary
             stocks_data.append({
                 "name": name,
-                "href": href,
+                "link": stock_href,
                 "symbol": symbol,
                 "currency": currency,
                 "isin": isin,
@@ -78,7 +73,7 @@ def scrape_stocks(url):
             })
             
         
-    time.sleep(5)
+    # time.sleep(5)
     
     
 
@@ -106,7 +101,7 @@ for url in urls:
 
 driver.quit()
 
-filename = 'stocks_data.json'
+filename = 'stocks_data2.json'
 print(f"Current working directory: {os.getcwd()}")
 print(f"Attempting to write to file: {filename}")
 with open(filename, 'w', encoding='utf-8') as f:

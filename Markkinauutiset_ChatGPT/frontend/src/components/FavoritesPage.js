@@ -15,7 +15,6 @@ function FavoritesPage() {
       }
     })
     .then(response => {
-      // console.log('Fetched all news:', response.data); // Add this line
       console.log('Fetched favorites:', response.data);
       setFavorites(response.data);
     })
@@ -45,7 +44,7 @@ function FavoritesPage() {
       {favorites.map(stock => (
         <div key={stock._id} className="alert alert-info favorite-stock-box">
           <div className="favorite-stock">
-            <h3>{stock.company}</h3>
+            <h3>{stock.name}</h3>
             <button onClick={() => handleRemoveFromFavorites(stock)} className="btn btn-outline-dark remove-button">X</button>
           </div>
         </div>

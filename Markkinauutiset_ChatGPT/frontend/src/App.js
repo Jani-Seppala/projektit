@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
@@ -12,16 +12,30 @@ import { useUser, UserProvider } from './components/UserContext';
 import './App.css';
 
 function App() {
-  const { isLoggedIn } = useUser();
+  const { isLoggedIn, toggleDarkMode, darkMode } = useUser();
   const [logoutCount, setLogoutCount] = useState(0);
 
   const handleLogout = () => {
     setLogoutCount(logoutCount + 1);
   };
 
+  // Apply or remove the dark-mode class on the body element based on the darkMode state
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add('dark-mode');
+    } else {
+      document.body.classList.remove('dark-mode');
+    }
+  }, [darkMode]); // This effect runs whenever darkMode changes
+
+    // Determine navbar and button classes based on darkMode
+    const navbarClass = darkMode ? "navbar navbar-expand-lg navbar-dark bg-dark" : "navbar navbar-expand-lg navbar-light bg-light";
+    const toggleButtonClass = darkMode ? "btn btn-light" : "btn btn-dark";
+
+
   return (
     <Router>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-navbar mb-4">
+      <nav className={`${navbarClass} fixed-navbar mb-4`}>
         <div className="container">
           <Link className="navbar-brand fs-2" to="/">News App</Link>
           <div className="navbar-collapse collapse">
@@ -40,6 +54,9 @@ function App() {
               )}
               <li className="nav-item"><Link className="nav-link" to="/info">Info</Link></li>
             </ul>
+            <button onClick={toggleDarkMode} className={`${toggleButtonClass} me-3`}>
+              {darkMode ? 'Light Mode' : 'Dark Mode'}
+            </button>
             <SearchBar />
           </div>
         </div>

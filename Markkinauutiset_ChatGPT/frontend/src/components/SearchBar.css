@@ -12,7 +12,17 @@
   cursor: pointer;
 }
 
-.search-results {
-  /* Styling for the container of search results */
+.dark-mode-results {
+  background: #333; /* Dark background for dark mode */
+  color: #e0e0e0; /* Light text color for dark mode */
 }
 
+/* Ensure the search result items are also styled appropriately */
+.dark-mode-results .search-result-item {
+  color: #e0e0e0; /* Light text color for visibility */
+}
+
+/* Optionally, add hover styling for better UX */
+.dark-mode-results .search-result-item:hover {
+  background-color: #444; /* Slightly lighter background on hover */
+}
