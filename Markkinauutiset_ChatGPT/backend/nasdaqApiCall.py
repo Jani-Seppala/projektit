@@ -145,7 +145,18 @@ def find_best_stock_match(company_name, market, stocks_collection):
     # Filter stocks by market
     stocks_in_same_market = [stock for stock in stocks_collection if stock.get('market') == market]
     stock_names = {stock['_id']: (normalize_company_name(stock['name']), stock.get('symbol', 'N/A')) for stock in stocks_in_same_market}
-    best_match, score = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values())
+    # best_match, score = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values())
+    result = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values())
+    
+    # best_match, score = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values(), default=(None, 0))
+    
+    # Check if result is None
+    if result is None:
+        print(f"Could not find a good match for news item company name '{company_name}' in market '{market}'.")
+        return None, None
+    else:
+        best_match, score = result
+
 
     if score > 85:  # You may adjust this threshold based on your observation
         stock_id = list(stock_names.keys())[list({k: v[0] for k, v in stock_names.items()}.values()).index(best_match)]
@@ -309,12 +320,16 @@ def check_and_reschedule():
     now = datetime.datetime.now(CET)
     hour = now.hour
     weekday = now.weekday()
+    
+    # Clear any existing schedules regardless of the time or day
+    schedule.clear()
 
     if weekday < 5 and 7 <= hour < 19:
         schedule.every().minute.at(":05").do(market_hours_job)
+        # schedule.every(10).minutes.at(":05").do(market_hours_job)
     else:
-        schedule.clear()  # Clears all scheduled jobs
-        schedule.every(2).minutes.do(off_market_hours_job)
+        # schedule.clear()  # Clears all scheduled jobs
+        schedule.every(15).minutes.do(off_market_hours_job)
 
 main_market_url = "https://api.news.eu.nasdaq.com/news/query.action?type=json&showAttachments=true&showCnsSpecific=true&showCompany=true&countResults=false&freeText=&market=&cnscategory=&company=&fromDate=&toDate=&globalGroup=exchangeNotice&globalName=NordicMainMarkets&displayLanguage=en&language=&timeZone=CET&dateMask=yyyy-MM-dd%20HH%3Amm%3Ass&limit=20&start=0&dir=DESC"
 first_north_url = "https://api.news.eu.nasdaq.com/news/query.action?type=json&showAttachments=true&showCnsSpecific=true&showCompany=true&countResults=false&freeText=&market=&cnscategory=&company=&fromDate=&toDate=&globalGroup=exchangeNotice&globalName=NordicFirstNorth&displayLanguage=en&language=&timeZone=CET&dateMask=yyyy-MM-dd%20HH%3Amm%3Ass&limit=20&start=0&dir=DESC"

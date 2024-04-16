@@ -201,26 +201,58 @@ def get_stock(stockId):
         return jsonify({"error": "An error occurred", "details": str(e)}), 500
 
 
+# @app.route('/api/news-with-analysis', methods=['GET'])
+# def get_news_with_analysis():
+#     stock_id = request.args.get('stock_id')
+#     stock_ids = request.args.get('stock_ids')
+#     # print('Received stock_id:', stock_id)
+#     # print('Received stock_ids:', stock_ids)
+    
+    
+
+#     if stock_id:
+#         # If stock_id is provided, fetch news for the specified stock
+#         news_items = mongo.db.news.find({"stock_id": ObjectId(stock_id)})
+#     elif stock_ids:
+#         # If stock_ids is provided, fetch news for the specified stocks
+#         stock_ids_list = stock_ids.split(',')
+#         stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
+#         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})
+#         # print('Fetched news items:', list(news_items))  # debug
+#         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})  # Fetch the news items again
+#     else:
+#         # If neither stock_id nor stock_ids is provided, fetch all news
+#         news_items = mongo.db.news.find()
+
+#     result = []
+#     for news_item in news_items:
+#         analysis = mongo.db.analysis.find_one({"news_id": news_item["_id"]})
+#         combined = {"news": news_item, "analysis": analysis}
+#         result.append(combined)
+
+#     result_json = json_util.dumps(result)
+#     return app.response_class(response=result_json, mimetype='application/json')
+
 @app.route('/api/news-with-analysis', methods=['GET'])
 def get_news_with_analysis():
     stock_id = request.args.get('stock_id')
     stock_ids = request.args.get('stock_ids')
-    # print('Received stock_id:', stock_id)
-    # print('Received stock_ids:', stock_ids)
+
+    # Decide on the field and the direction of sorting (-1 for descending, 1 for ascending)
+    sort_field = 'releaseTime'
+    sort_direction = -1  # Use pymongo.DESCENDING or -1 for descending order
 
     if stock_id:
-        # If stock_id is provided, fetch news for the specified stock
-        news_items = mongo.db.news.find({"stock_id": ObjectId(stock_id)})
+        # Fetch news for the specified stock, sorted by releaseTime
+        news_items = mongo.db.news.find({"stock_id": ObjectId(stock_id)}).sort(sort_field, sort_direction)
     elif stock_ids:
-        # If stock_ids is provided, fetch news for the specified stocks
+        # Fetch news for multiple specified stocks, sorted by releaseTime
         stock_ids_list = stock_ids.split(',')
         stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
-        news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})
-        # print('Fetched news items:', list(news_items))  # debug
-        news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})  # Fetch the news items again
+        news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}}).sort(sort_field, sort_direction)
     else:
-        # If neither stock_id nor stock_ids is provided, fetch all news
-        news_items = mongo.db.news.find()
+        # Fetch all news, sorted by releaseTime
+        news_items = mongo.db.news.find().sort(sort_field, sort_direction)
 
     result = []
     for news_item in news_items:
@@ -230,6 +262,7 @@ def get_news_with_analysis():
 
     result_json = json_util.dumps(result)
     return app.response_class(response=result_json, mimetype='application/json')
+
 
 
 @app.route('/api/users/me', methods=['GET'])

@@ -21,7 +21,13 @@ def determine_market(url, stock_href):
     elif "stockholm" in url:
         market = "Main Market, Stockholm"
     elif "baltic" in url:
-        market = "Main Market, Baltic"
+        # Additional logic for Baltic markets based on stock_href
+        if "TAL" in stock_href:
+            market = "Main Market, Tallinn"
+        elif "RIS" in stock_href:
+            market = "Main Market, Riga"
+        elif "VSE" in stock_href:
+            market = "Main Market, Vilnius"
     elif "first-north" in url:
         # Mapping of First North markets based on instrument code prefix
         market_map = {
@@ -79,11 +85,11 @@ def scrape_stocks(url):
 
 # URLs to scrape
 urls = [
-    "https://www.nasdaqomxnordic.com/shares/listed-companies/first-north",
-    "https://www.nasdaqomxnordic.com/shares/listed-companies/copenhagen",
-    "https://www.nasdaqomxnordic.com/shares/listed-companies/helsinki",
-    "https://www.nasdaqomxnordic.com/shares/listed-companies/iceland",
-    "https://www.nasdaqomxnordic.com/shares/listed-companies/stockholm",
+    # "https://www.nasdaqomxnordic.com/shares/listed-companies/first-north",
+    # "https://www.nasdaqomxnordic.com/shares/listed-companies/copenhagen",
+    # "https://www.nasdaqomxnordic.com/shares/listed-companies/helsinki",
+    # "https://www.nasdaqomxnordic.com/shares/listed-companies/iceland",
+    # "https://www.nasdaqomxnordic.com/shares/listed-companies/stockholm",
     "https://www.nasdaqomxnordic.com/shares/listed-companies/baltic"
 ]
 

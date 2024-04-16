@@ -1,0 +1,522 @@
+[
+    {
+        "name": "Arco Vara",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL41126&symbol=ARC1T&name=Arco%20Vara",
+        "symbol": "ARC1T",
+        "currency": "EUR",
+        "isin": "EE3100034653",
+        "sector": "Real Estate",
+        "icb": "3510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Coop Pank",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL185866&symbol=CPA1T&name=Coop%20Pank",
+        "symbol": "CPA1T",
+        "currency": "EUR",
+        "isin": "EE3100007857",
+        "sector": "Financials",
+        "icb": "3010",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Ekspress Grupp",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL39958&symbol=EEG1T&name=Ekspress%20Grupp",
+        "symbol": "EEG1T",
+        "currency": "EUR",
+        "isin": "EE3100016965",
+        "sector": "Consumer Services",
+        "icb": "4030",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "EfTEN Real Estate Fund sh.",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL146226&symbol=EFT1T&name=EfTEN%20Real%20Estate%20Fund%20sh.",
+        "symbol": "EFT1T",
+        "currency": "EUR",
+        "isin": "EE3100127242",
+        "sector": "Financials",
+        "icb": "3020",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Enefit Green",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL238464&symbol=EGR1T&name=Enefit%20Green",
+        "symbol": "EGR1T",
+        "currency": "EUR",
+        "isin": "EE3100137985",
+        "sector": "Utilities",
+        "icb": "6510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Harju Elekter Group",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL24272&symbol=HAE1T&name=Harju%20Elekter%20Group",
+        "symbol": "HAE1T",
+        "currency": "EUR",
+        "isin": "EE3100004250",
+        "sector": "Industrials",
+        "icb": "5020",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Hepsor",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL241419&symbol=HPR1T&name=Hepsor",
+        "symbol": "HPR1T",
+        "currency": "EUR",
+        "isin": "EE3100082306",
+        "sector": "Real Estate",
+        "icb": "3510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Infortar",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL314784&symbol=INF1T&name=Infortar",
+        "symbol": "INF1T",
+        "currency": "EUR",
+        "isin": "EE3100149394",
+        "sector": "Financials",
+        "icb": "3020",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "LHV Group",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL121858&symbol=LHV1T&name=LHV%20Group",
+        "symbol": "LHV1T",
+        "currency": "EUR",
+        "isin": "EE3100102203",
+        "sector": "Financials",
+        "icb": "3010",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Merko Ehitus",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL57419&symbol=MRK1T&name=Merko%20Ehitus",
+        "symbol": "MRK1T",
+        "currency": "EUR",
+        "isin": "EE3100098328",
+        "sector": "Industrials",
+        "icb": "5010",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Nordecon",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL34544&symbol=NCN1T&name=Nordecon",
+        "symbol": "NCN1T",
+        "currency": "EUR",
+        "isin": "EE3100039496",
+        "sector": "Industrials",
+        "icb": "5010",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Pro Kapital Grupp",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL89659&symbol=PKG1T&name=Pro%20Kapital%20Grupp",
+        "symbol": "PKG1T",
+        "currency": "EUR",
+        "isin": "EE3100006040",
+        "sector": "Real Estate",
+        "icb": "3510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "PRFoods",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL75238&symbol=PRF1T&name=PRFoods",
+        "symbol": "PRF1T",
+        "currency": "EUR",
+        "isin": "EE3100101031",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Silvano Fashion Group",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL24289&symbol=SFG1T&name=Silvano%20Fashion%20Group",
+        "symbol": "SFG1T",
+        "currency": "EUR",
+        "isin": "EE3100001751",
+        "sector": "Consumer Services",
+        "icb": "4020",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Tallink Grupp",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL32442&symbol=TAL1T&name=Tallink%20Grupp",
+        "symbol": "TAL1T",
+        "currency": "EUR",
+        "isin": "EE3100004466",
+        "sector": "Consumer Services",
+        "icb": "4050",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "TKM Grupp",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL24379&symbol=TKM1T&name=TKM%20Grupp",
+        "symbol": "TKM1T",
+        "currency": "EUR",
+        "isin": "EE0000001105",
+        "sector": "Consumer Services",
+        "icb": "4040",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Tallinna Sadam",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL156278&symbol=TSM1T&name=Tallinna%20Sadam",
+        "symbol": "TSM1T",
+        "currency": "EUR",
+        "isin": "EE3100021635",
+        "sector": "Industrials",
+        "icb": "5020",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Tallinna Vesi",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL29785&symbol=TVE1T&name=Tallinna%20Vesi",
+        "symbol": "TVE1T",
+        "currency": "EUR",
+        "isin": "EE3100026436",
+        "sector": "Utilities",
+        "icb": "6510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "DelfinGroup",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS238374&symbol=DGR1R&name=DelfinGroup",
+        "symbol": "DGR1R",
+        "currency": "EUR",
+        "isin": "LV0000101806",
+        "sector": "Financials",
+        "icb": "3020",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "INDEXO",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS262351&symbol=IDX1R&name=INDEXO",
+        "symbol": "IDX1R",
+        "currency": "EUR",
+        "isin": "LV0000101863",
+        "sector": "Financials",
+        "icb": "3020",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "SAF Tehnika",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS25219&symbol=SAF1R&name=SAF%20Tehnika",
+        "symbol": "SAF1R",
+        "currency": "EUR",
+        "isin": "LV0000101129",
+        "sector": "Telecommunications",
+        "icb": "1510",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "Akola group",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE72421&symbol=AKO1L&name=Akola%20group",
+        "symbol": "AKO1L",
+        "currency": "EUR",
+        "isin": "LT0000128092",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Apranga",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28424&symbol=APG1L&name=Apranga",
+        "symbol": "APG1L",
+        "currency": "EUR",
+        "isin": "LT0000102337",
+        "sector": "Consumer Services",
+        "icb": "4040",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "AUGA group",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE54100&symbol=AUG1L&name=AUGA%20group",
+        "symbol": "AUG1L",
+        "currency": "EUR",
+        "isin": "LT0000127466",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Grigeo",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28428&symbol=GRG1L&name=Grigeo",
+        "symbol": "GRG1L",
+        "currency": "EUR",
+        "isin": "LT0000102030",
+        "sector": "Basic Materials",
+        "icb": "5510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Ignitis Grupe",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE204204&symbol=IGN1L&name=Ignitis%20Grupe",
+        "symbol": "IGN1L",
+        "currency": "EUR",
+        "isin": "LT0000115768",
+        "sector": "Utilities",
+        "icb": "6510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "KN Energies",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28435&symbol=KNE1L&name=KN%20Energies",
+        "symbol": "KNE1L",
+        "currency": "EUR",
+        "isin": "LT0000111650",
+        "sector": "Industrials",
+        "icb": "5020",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Novaturas",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE152827&symbol=NTU1L&name=Novaturas",
+        "symbol": "NTU1L",
+        "currency": "EUR",
+        "isin": "LT0000131872",
+        "sector": "Consumer Services",
+        "icb": "4050",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Panevezio Statybos Trestas",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28446&symbol=PTR1L&name=Panevezio%20Statybos%20Trestas",
+        "symbol": "PTR1L",
+        "currency": "EUR",
+        "isin": "LT0000101446",
+        "sector": "Industrials",
+        "icb": "5010",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Pieno Zvaigzdes",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28415&symbol=PZV1L&name=Pieno%20Zvaigzdes",
+        "symbol": "PZV1L",
+        "currency": "EUR",
+        "isin": "LT0000111676",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Rokiskio Suris",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28416&symbol=RSU1L&name=Rokiskio%20Suris",
+        "symbol": "RSU1L",
+        "currency": "EUR",
+        "isin": "LT0000100372",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Siauliu Bankas",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28453&symbol=SAB1L&name=Siauliu%20Bankas",
+        "symbol": "SAB1L",
+        "currency": "EUR",
+        "isin": "LT0000102253",
+        "sector": "Financials",
+        "icb": "3010",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Telia Lietuva",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28414&symbol=TEL1L&name=Telia%20Lietuva",
+        "symbol": "TEL1L",
+        "currency": "EUR",
+        "isin": "LT0000123911",
+        "sector": "Telecommunications",
+        "icb": "1510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Vilkyskiu Pienine",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE34543&symbol=VLP1L&name=Vilkyskiu%20Pienine",
+        "symbol": "VLP1L",
+        "currency": "EUR",
+        "isin": "LT0000127508",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Nordic Fibreboard",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL42854&symbol=SKN1T&name=Nordic%20Fibreboard",
+        "symbol": "SKN1T",
+        "currency": "EUR",
+        "isin": "EE3100092503",
+        "sector": "Consumer Services",
+        "icb": "4020",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Trigon Property Development",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=TAL24390&symbol=TPD1T&name=Trigon%20Property%20Development",
+        "symbol": "TPD1T",
+        "currency": "EUR",
+        "isin": "EE3100003443",
+        "sector": "Real Estate",
+        "icb": "3510",
+        "market": "Main Market, Tallinn"
+    },
+    {
+        "name": "Amber Latvijas balzams",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS24421&symbol=BAL1R&name=Amber%20Latvijas%20balzams",
+        "symbol": "BAL1R",
+        "currency": "EUR",
+        "isin": "LV0000100808",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "Latvijas Gaze",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS24426&symbol=GZE1R&name=Latvijas%20Gaze",
+        "symbol": "GZE1R",
+        "currency": "EUR",
+        "isin": "LV0000100899",
+        "sector": "Utilities",
+        "icb": "6510",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "Latvijas Juras medicinas centr",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS39596&symbol=LJM1R&name=Latvijas%20Juras%20medicinas%20centr",
+        "symbol": "LJM1R",
+        "currency": "EUR",
+        "isin": "LV0000100741",
+        "sector": "Health Care",
+        "icb": "2010",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "Rigas kugu buvetava",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS24405&symbol=RKB1R&name=Rigas%20kugu%20buvetava",
+        "symbol": "RKB1R",
+        "currency": "EUR",
+        "isin": "LV0000100378",
+        "sector": "Industrials",
+        "icb": "5020",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "Siguldas CMAS",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=RIS39613&symbol=SCM1R&name=Siguldas%20CMAS",
+        "symbol": "SCM1R",
+        "currency": "EUR",
+        "isin": "LV0000100600",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Riga"
+    },
+    {
+        "name": "Amber Grid",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE95425&symbol=AMG1L&name=Amber%20Grid",
+        "symbol": "AMG1L",
+        "currency": "EUR",
+        "isin": "LT0000128696",
+        "sector": "Energy",
+        "icb": "6010",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "INVL Technology",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE101196&symbol=INC1L&name=INVL%20Technology",
+        "symbol": "INC1L",
+        "currency": "EUR",
+        "isin": "LT0000128860",
+        "sector": "Financials",
+        "icb": "3020",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "INVL Baltic Farmland",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE101195&symbol=INL1L&name=INVL%20Baltic%20Farmland",
+        "symbol": "INL1L",
+        "currency": "EUR",
+        "isin": "LT0000128753",
+        "sector": "Real Estate",
+        "icb": "3510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "INVL Baltic Real Estate",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE101194&symbol=INR1L&name=INVL%20Baltic%20Real%20Estate",
+        "symbol": "INR1L",
+        "currency": "EUR",
+        "isin": "LT0000127151",
+        "sector": "Real Estate",
+        "icb": "3510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Invalda INVL",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28430&symbol=IVL1L&name=Invalda%20INVL",
+        "symbol": "IVL1L",
+        "currency": "EUR",
+        "isin": "LT0000102279",
+        "sector": "Financials",
+        "icb": "3020",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Kauno Energija",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28431&symbol=KNR1L&name=Kauno%20Energija",
+        "symbol": "KNR1L",
+        "currency": "EUR",
+        "isin": "LT0000123010",
+        "sector": "Utilities",
+        "icb": "6510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "LITGRID",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE79712&symbol=LGD1L&name=LITGRID",
+        "symbol": "LGD1L",
+        "currency": "EUR",
+        "isin": "LT0000128415",
+        "sector": "Utilities",
+        "icb": "6510",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Snaige",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28417&symbol=SNG1L&name=Snaige",
+        "symbol": "SNG1L",
+        "currency": "EUR",
+        "isin": "LT0000109274",
+        "sector": "Consumer Services",
+        "icb": "4020",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Utenos Trikotazas",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28418&symbol=UTR1L&name=Utenos%20Trikotazas",
+        "symbol": "UTR1L",
+        "currency": "EUR",
+        "isin": "LT0000109324",
+        "sector": "Consumer Services",
+        "icb": "4020",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Vilniaus Baldai",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28420&symbol=VBL1L&name=Vilniaus%20Baldai",
+        "symbol": "VBL1L",
+        "currency": "EUR",
+        "isin": "LT0000104267",
+        "sector": "Consumer Services",
+        "icb": "4020",
+        "market": "Main Market, Vilnius"
+    },
+    {
+        "name": "Zemaitijos Pienas",
+        "link": "https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=VSE28455&symbol=ZMP1L&name=Zemaitijos%20Pienas",
+        "symbol": "ZMP1L",
+        "currency": "EUR",
+        "isin": "LT0000121865",
+        "sector": "Consumer Goods",
+        "icb": "4510",
+        "market": "Main Market, Vilnius"
+    }
+]

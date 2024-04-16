@@ -33,6 +33,13 @@ def append_market_suffix(ticker, market):
         return ticker + '.CO'
     elif "Reykjavik" in market or "Iceland" in market:
         return ticker + '.IC'
+    elif "Tallinn" in market or "Estonia" in market:
+        return ticker + '.TL'
+    elif "Riga" in market or "Latvia" in market:
+        return ticker + '.RG'
+    elif "Vilnius" in market or "Lithuania" in market:
+        return ticker + '.VS'
+
     return ticker
 
 
