@@ -1,0 +1,1554 @@
+2024-04-23 14:19:40,366 - INFO - Dry run mode - No changes will be made to the database
+2024-04-23 14:19:40,371 - INFO - Added alias '4C Group AB' to '4C Group' with match score 100
+2024-04-23 14:19:40,469 - INFO - Added alias 'AAC Clyde Space AB' to 'AAC Clyde Space' with match score 100
+2024-04-23 14:19:40,567 - INFO - Added alias 'Acarix AB' to 'Acarix' with match score 100
+2024-04-23 14:19:40,574 - INFO - Added alias 'Arcario AB' to 'Acarix' with match score 83
+2024-04-23 14:19:40,668 - INFO - Added alias 'Acarix AB' to 'Acarix AB TO3' with match score 100
+2024-04-23 14:19:40,765 - INFO - Added alias 'Acast AB' to 'Acast' with match score 100
+2024-04-23 14:19:40,889 - INFO - Added alias 'ACROUD AB' to 'ACROUD' with match score 100
+2024-04-23 14:19:41,006 - INFO - Added alias 'ADDvise Group AB (publ)' to 'ADDvise Group A' with match score 100
+2024-04-23 14:19:41,097 - INFO - Added alias 'ADDvise Group AB (publ)' to 'ADDvise Group B' with match score 92
+2024-04-23 14:19:41,190 - INFO - Added alias 'Advenica AB' to 'Advenica AB' with match score 100
+2024-04-23 14:19:41,281 - INFO - Added alias 'AGES Industries AB' to 'Ages Industri B' with match score 92
+2024-04-23 14:19:41,405 - INFO - Added alias 'Arlandastad Group AB' to 'Arlandastad Group' with match score 100
+2024-04-23 14:19:41,507 - INFO - Added alias 'AlzeCure Pharma AB' to 'AlzeCure Pharma' with match score 100
+2024-04-23 14:19:41,567 - INFO - Added alias 'Pharmiva AB' to 'AlzeCure Pharma' with match score 86
+2024-04-23 14:19:41,605 - INFO - Added alias 'Auriant Mining AB' to 'Auriant Mining' with match score 100
+2024-04-23 14:19:41,699 - INFO - Added alias 'Avensia AB' to 'Avensia' with match score 100
+2024-04-23 14:19:41,794 - INFO - Added alias 'Biokraft International AB' to 'Biokraft International' with match score 100
+2024-04-23 14:19:42,102 - INFO - Added alias 'Bokusgruppen AB' to 'Bokusgruppen' with match score 100
+2024-04-23 14:19:42,200 - INFO - Added alias 'ByggPartner Gruppen AB' to 'ByggPartner Gruppen' with match score 100
+2024-04-23 14:19:42,289 - INFO - Added alias 'CAG Group AB' to 'CAG Group' with match score 100
+2024-04-23 14:19:42,383 - INFO - Added alias 'Cheffelo AB' to 'Cheffelo' with match score 100
+2024-04-23 14:19:42,518 - INFO - Added alias 'Climeon AB' to 'Climeon B' with match score 100
+2024-04-23 14:19:42,614 - INFO - Added alias 'Climeon AB' to 'Climeon AB TO 1 B' with match score 100
+2024-04-23 14:19:42,718 - INFO - Added alias 'CombinedX AB' to 'CombinedX' with match score 100
+2024-04-23 14:19:42,823 - INFO - Added alias 'DevPort AB' to 'DevPort B' with match score 100
+2024-04-23 14:19:42,940 - INFO - Added alias 'DistIT AB' to 'DistIT' with match score 100
+2024-04-23 14:19:43,069 - INFO - Added alias 'Drillcon AB' to 'Drillcon' with match score 100
+2024-04-23 14:19:43,156 - INFO - Added alias 'Devyser Diagnostics AB' to 'Devyser Diagnostics' with match score 100
+2024-04-23 14:19:43,247 - INFO - Added alias 'Ecoclime Group AB' to 'Ecoclime Group B' with match score 100
+2024-04-23 14:19:43,343 - INFO - Added alias 'Ellen AB' to 'Embellence Group' with match score 100
+2024-04-23 14:19:43,343 - INFO - Added alias 'Embellence Group AB' to 'Embellence Group' with match score 100
+2024-04-23 14:19:43,388 - INFO - Added alias 'Rebelle AB' to 'Embellence Group' with match score 86
+2024-04-23 14:19:43,459 - INFO - Added alias 'Fortinova Fastigheter AB' to 'Fortinova Fastigheter ser. B' with match score 100
+2024-04-23 14:19:43,486 - INFO - Added alias 'Neobo Fastigheter AB' to 'Fortinova Fastigheter ser. B' with match score 81
+2024-04-23 14:19:43,556 - INFO - Added alias 'Fractal Gaming Group AB' to 'Fractal Gaming Group' with match score 100
+2024-04-23 14:19:43,664 - INFO - Added alias 'Freja eID Group AB' to 'Freja eID Group' with match score 100
+2024-04-23 14:19:43,773 - INFO - Added alias 'GomSpace Group AB' to 'GomSpace Group' with match score 100
+2024-04-23 14:19:43,856 - INFO - Added alias 'CDON AB' to 'Hexicon' with match score 86
+2024-04-23 14:19:43,874 - INFO - Added alias 'Hexicon AB' to 'Hexicon' with match score 100
+2024-04-23 14:19:43,969 - INFO - Added alias 'Implantica AG' to 'Implantica SDB' with match score 83
+2024-04-23 14:19:44,066 - INFO - Added alias 'Jetpak Top Holding AB' to 'Jetpak Top Holding' with match score 100
+2024-04-23 14:19:44,159 - INFO - Added alias 'Kancera AB' to 'Kancera' with match score 100
+2024-04-23 14:19:44,263 - INFO - Added alias 'Kancera AB' to 'Kancera AB BTA' with match score 100
+2024-04-23 14:19:44,375 - INFO - Added alias 'Lyko Group AB' to 'Lyko Group A' with match score 100
+2024-04-23 14:19:44,504 - INFO - Added alias 'MGI – Media and Games Invest SE' to 'MGI - Media and Games Invest' with match score 96
+2024-04-23 14:19:44,605 - INFO - Added alias 'MAG Interactive AB' to 'MAG Interactive' with match score 100
+2024-04-23 14:19:44,711 - INFO - Added alias 'Midsummer AB' to 'Midsummer' with match score 100
+2024-04-23 14:19:44,819 - INFO - Added alias 'Mentice AB' to 'Mentice' with match score 100
+2024-04-23 14:19:44,915 - INFO - Added alias 'Nanoform Finland Oyj' to 'Nanoform Finland Oyj' with match score 100
+2024-04-23 14:19:45,005 - INFO - Added alias 'Navigo Invest AB' to 'Navigo Invest Pref' with match score 100
+2024-04-23 14:19:45,107 - INFO - Added alias 'Navigo Invest AB' to 'Navigo Invest' with match score 100
+2024-04-23 14:19:45,155 - INFO - Added alias 'Annehem Fastigheter AB' to 'Neobo Fastigheter' with match score 81
+2024-04-23 14:19:45,182 - INFO - Added alias 'Fortinova Fastigheter AB' to 'Neobo Fastigheter' with match score 84
+2024-04-23 14:19:45,206 - INFO - Added alias 'Neobo Fastigheter AB' to 'Neobo Fastigheter' with match score 100
+2024-04-23 14:19:45,292 - INFO - Added alias 'Micro Holding AB' to 'Nexam Chemical Holding' with match score 83
+2024-04-23 14:19:45,297 - INFO - Added alias 'Nexam Chemical Holding AB' to 'Nexam Chemical Holding' with match score 100
+2024-04-23 14:19:45,414 - INFO - Added alias 'Oneflow AB' to 'Oneflow' with match score 100
+2024-04-23 14:19:45,548 - INFO - Added alias 'Paradox Interactive AB (publ)' to 'Paradox Interactive' with match score 100
+2024-04-23 14:19:45,654 - INFO - Added alias 'Precio Fishbone AB' to 'Precio Fishbone B' with match score 100
+2024-04-23 14:19:45,753 - INFO - Added alias 'Physitrack PLC' to 'Physitrack' with match score 100
+2024-04-23 14:19:45,845 - INFO - Added alias 'QleanAir AB' to 'QleanAir' with match score 100
+2024-04-23 14:19:45,949 - INFO - Added alias 'Raketech Group Holding plc' to 'Raketech Group Holding' with match score 100
+2024-04-23 14:19:46,060 - INFO - Added alias 'RugVista Group AB' to 'RugVista Group' with match score 100
+2024-04-23 14:19:46,156 - INFO - Added alias 'SaltX Technology Holding AB' to 'SaltX Technology Holding B' with match score 100
+2024-04-23 14:19:46,253 - INFO - Added alias 'Stenhus Fastigheter i Norden AB' to 'Stenhus Fastigheter i Norden' with match score 100
+2024-04-23 14:19:46,349 - INFO - Added alias 'SpectraCure AB' to 'SpectraCure' with match score 100
+2024-04-23 14:19:46,457 - INFO - Added alias 'Speqta AB' to 'Speqta' with match score 100
+2024-04-23 14:19:46,578 - INFO - Added alias 'Sprint Bioscience AB' to 'Sprint Bioscience' with match score 100
+2024-04-23 14:19:46,690 - INFO - Added alias 'Studentbostäder i Norden' to 'Studentbostäder i Norden' with match score 100
+2024-04-23 14:19:46,785 - INFO - Added alias 'TagMaster AB' to 'TagMaster B' with match score 100
+2024-04-23 14:19:46,873 - INFO - Added alias 'Terranet AB' to 'Terranet B' with match score 100
+2024-04-23 14:19:46,962 - INFO - Added alias 'Terranet AB' to 'Terranet AB TO7 B' with match score 100
+2024-04-23 14:19:47,054 - INFO - Added alias 'Terranet AB' to 'Terranet AB TO8 B' with match score 100
+2024-04-23 14:19:47,161 - INFO - Added alias 'Thunderful Group AB' to 'Thunderful Group' with match score 100
+2024-04-23 14:19:47,251 - INFO - Added alias 'Tempest Security AB' to 'Tempest Security' with match score 100
+2024-04-23 14:19:47,357 - INFO - Added alias 'Viva Wine Group AB' to 'Viva Wine Group' with match score 100
+2024-04-23 14:19:47,475 - INFO - Added alias 'Zinzino Holding AB' to 'Zinzino B' with match score 88
+2024-04-23 14:19:47,487 - INFO - Added alias 'MapsPeople A/S' to 'MapsPeople' with match score 100
+2024-04-23 14:19:47,508 - INFO - Added alias 'Relesys A/S' to 'Relesys' with match score 100
+2024-04-23 14:19:47,523 - INFO - Added alias 'Nanoform Finland Oyj' to 'Nanoform Finland Oyj' with match score 100
+2024-04-23 14:19:47,528 - INFO - Added alias '2cureX AB' to '2cureX' with match score 100
+2024-04-23 14:19:47,620 - INFO - Added alias 'Absolent Air Care Group AB' to 'Absolent Air Care Group' with match score 100
+2024-04-23 14:19:47,721 - INFO - Added alias 'Acconeer AB' to 'Acconeer' with match score 100
+2024-04-23 14:19:47,828 - INFO - Added alias 'Acconeer AB' to 'Acconeer AB BTA' with match score 100
+2024-04-23 14:19:47,920 - INFO - Added alias 'AcouSort AB' to 'AcouSort' with match score 100
+2024-04-23 14:19:48,010 - INFO - Added alias 'AcouSort AB' to 'AcouSort AB TO2' with match score 100
+2024-04-23 14:19:48,101 - INFO - Added alias 'Acuvi AB' to 'Acuvi' with match score 100
+2024-04-23 14:19:48,189 - INFO - Added alias 'Adtraction Group AB' to 'Adtraction Group' with match score 100
+2024-04-23 14:19:48,281 - INFO - Added alias 'Adventure Box Technology AB' to 'Adventure Box Technology' with match score 100
+2024-04-23 14:19:48,391 - INFO - Added alias 'AFRICA ENERGY CORP.' to 'AFRICA ENERGY CORP.' with match score 100
+2024-04-23 14:19:48,518 - INFO - Added alias 'Aegirbio AB' to 'AegirBio' with match score 100
+2024-04-23 14:19:48,697 - INFO - Added alias 'Svenska Aerogel Holding AB' to 'Svenska Aerogel Holding' with match score 100
+2024-04-23 14:19:48,714 - INFO - Added alias 'Agtira AB' to 'Agtira B' with match score 100
+2024-04-23 14:19:48,808 - INFO - Added alias 'Agtira AB' to 'Agtira AB TO 1' with match score 100
+2024-04-23 14:19:48,896 - INFO - Added alias 'Aino Health AB (publ)' to 'Aino Health' with match score 100
+2024-04-23 14:19:49,119 - INFO - Added alias 'eEducation Albert AB' to 'eEducation Albert' with match score 100
+2024-04-23 14:19:49,188 - INFO - Added alias 'Alcadon Holding AB' to 'Alcadon Group' with match score 100
+2024-04-23 14:19:49,288 - INFO - Added alias 'ALM Equity AB' to 'ALM Equity' with match score 100
+2024-04-23 14:19:49,393 - INFO - Added alias 'ALM Equity AB' to 'ALM Equity Pref' with match score 100
+2024-04-23 14:19:49,506 - INFO - Added alias 'Alpcot Holding AB' to 'Alpcot Holding B' with match score 100
+2024-04-23 14:19:49,613 - INFO - Added alias 'Alzinova AB' to 'Alzinova' with match score 100
+2024-04-23 14:19:49,703 - INFO - Added alias 'Amniotics AB' to 'Amniotics' with match score 100
+2024-04-23 14:19:49,790 - INFO - Added alias 'Annexin Pharmaceuticals AB' to 'Annexin Pharmaceuticals' with match score 100
+2024-04-23 14:19:49,822 - INFO - Added alias 'Immune Pharmaceuticals Inc' to 'Annexin Pharmaceuticals' with match score 83
+2024-04-23 14:19:49,839 - INFO - Added alias 'Newbury Pharmaceuticals AB' to 'Annexin Pharmaceuticals' with match score 81
+2024-04-23 14:19:49,883 - INFO - Added alias 'Aprendere Skolor AB' to 'Aprendere Skolor' with match score 100
+2024-04-23 14:19:49,972 - INFO - Added alias 'AppSpotr AB' to 'Appspotr' with match score 100
+2024-04-23 14:19:50,054 - INFO - Added alias 'Acarix AB' to 'Arcario' with match score 83
+2024-04-23 14:19:50,060 - INFO - Added alias 'Arcario AB' to 'Arcario' with match score 100
+2024-04-23 14:19:50,061 - INFO - Added alias 'ArcAroma AB' to 'Arcario' with match score 86
+2024-04-23 14:19:50,150 - INFO - Added alias 'ArcAroma AB' to 'Arcoma' with match score 83
+2024-04-23 14:19:50,150 - INFO - Added alias 'Arcoma AB' to 'Arcoma' with match score 100
+2024-04-23 14:19:50,249 - INFO - Added alias 'Arctic Minerals AB' to 'Arctic Minerals' with match score 100
+2024-04-23 14:19:50,337 - INFO - Added alias 'Arctic Blue Beverages AB' to 'Arctic Blue Beverages' with match score 100
+2024-04-23 14:19:50,431 - INFO - Added alias 'AroCell AB' to 'AroCell' with match score 100
+2024-04-23 14:19:50,541 - INFO - Added alias 'Aros Bostadsutveckling AB' to 'Aros Bostadsutveckling' with match score 100
+2024-04-23 14:19:50,635 - INFO - Added alias 'Aros Bostadsutveckling AB' to 'Aros Bostadsutveckling Pref B' with match score 100
+2024-04-23 14:19:50,727 - INFO - Added alias 'Artificial Solutions International AB' to 'Artificial Solutions Intern.' with match score 100
+2024-04-23 14:19:50,828 - INFO - Added alias 'Asarina Pharma AB' to 'Asarina Pharma' with match score 100
+2024-04-23 14:19:50,882 - INFO - Added alias 'Pharmiva AB' to 'Asarina Pharma' with match score 86
+2024-04-23 14:19:50,918 - INFO - Added alias 'Athanase Innovation AB' to 'Athanase Innovation' with match score 100
+2024-04-23 14:19:51,007 - INFO - Added alias 'Avtech Sweden AB' to 'Avtech Sweden B' with match score 100
+2024-04-23 14:19:51,014 - INFO - Added alias 'Catech AB' to 'Avtech Sweden B' with match score 83
+2024-04-23 14:19:51,075 - INFO - Added alias 'TC TECH Sweden AB' to 'Avtech Sweden B' with match score 83
+2024-04-23 14:19:51,095 - INFO - Added alias 'Awardit AB' to 'Awardit' with match score 100
+2024-04-23 14:19:51,185 - INFO - Added alias 'aXichem AB' to 'aXichem A' with match score 100
+2024-04-23 14:19:51,274 - INFO - Added alias 'aXichem AB' to 'aXichem AB A BTU' with match score 100
+2024-04-23 14:19:51,372 - INFO - Added alias 'Axolot Solutions Holding AB' to 'Axolot Solutions Holding' with match score 100
+2024-04-23 14:19:51,471 - INFO - Added alias 'W5 Solutions AB' to 'Axolot Solutions Holding' with match score 82
+2024-04-23 14:19:51,488 - INFO - Added alias 'Ayima Group AB' to 'Ayima Group B' with match score 100
+2024-04-23 14:19:51,594 - INFO - Added alias 'Bahnhof AB' to 'Bahnhof B' with match score 100
+2024-04-23 14:19:51,689 - INFO - Added alias 'Bawat Water Technologies AB' to 'Bawat Water Technologies' with match score 100
+2024-04-23 14:19:51,832 - INFO - Added alias 'New Bubbleroom Sweden AB' to 'New Bubbleroom Sweden' with match score 100
+2024-04-23 14:19:51,899 - INFO - Added alias 'BeammWave AB' to 'BeammWave B' with match score 100
+2024-04-23 14:19:51,998 - INFO - Added alias 'BIMobject AB' to 'BIMobject' with match score 100
+2024-04-23 14:19:52,087 - INFO - Added alias 'Binero Group AB' to 'Binero Group' with match score 100
+2024-04-23 14:19:52,183 - INFO - Added alias 'Bioextrax AB' to 'Bioextrax' with match score 100
+2024-04-23 14:19:52,277 - INFO - Added alias 'Biosergen AB' to 'Biosergen' with match score 100
+2024-04-23 14:19:52,373 - INFO - Added alias 'Biosergen AB' to 'Biosergen AB BTU' with match score 100
+2024-04-23 14:19:52,540 - INFO - Added alias 'Bio Vitos Pharma AB' to 'Bio Vitos Pharma' with match score 100
+2024-04-23 14:19:52,603 - INFO - Added alias 'Pharmiva AB' to 'Bio Vitos Pharma' with match score 86
+2024-04-23 14:19:52,648 - INFO - Added alias 'Bio-Works Technologies AB' to 'Bio-Works Technologies' with match score 100
+2024-04-23 14:19:52,796 - INFO - Added alias 'Nimbus Group AB' to 'Nimbus Group' with match score 100
+2024-04-23 14:19:52,843 - INFO - Added alias 'BoMill AB' to 'BoMill' with match score 100
+2024-04-23 14:19:52,932 - INFO - Added alias 'Bonäsudden Holding AB' to 'Bonäsudden Holding' with match score 100
+2024-04-23 14:19:53,022 - INFO - Added alias 'Bonzun AB' to 'Bonzun' with match score 100
+2024-04-23 14:19:53,126 - INFO - Added alias 'Botnia Exploration Holding AB' to 'Botnia Exploration Holding' with match score 100
+2024-04-23 14:19:53,220 - INFO - Added alias 'Braincool AB' to 'BrainCool' with match score 100
+2024-04-23 14:19:53,310 - INFO - Added alias 'Bredband2 i Skandinavien AB' to 'Bredband2 i Skandinavien' with match score 100
+2024-04-23 14:19:53,411 - INFO - Added alias 'Brilliant Future AB' to 'Brilliant Future' with match score 100
+2024-04-23 14:19:53,511 - INFO - Added alias 'Bambuser AB' to 'Bambuser' with match score 100
+2024-04-23 14:19:53,787 - INFO - Added alias 'Sweden BuyersClub AB' to 'Sweden BuyersClub' with match score 100
+2024-04-23 14:19:53,817 - INFO - Added alias 'Candles Scandinavia AB' to 'Candles Scandinavia B' with match score 100
+2024-04-23 14:19:53,908 - INFO - Added alias 'Careium AB' to 'Careium' with match score 100
+2024-04-23 14:19:53,999 - INFO - Added alias 'Case Group AB' to 'Case Group' with match score 100
+2024-04-23 14:19:54,095 - INFO - Added alias 'CodeMill AB' to 'CodeMill' with match score 100
+2024-04-23 14:19:54,184 - INFO - Added alias 'CDON AB' to 'CDON' with match score 100
+2024-04-23 14:19:54,202 - INFO - Added alias 'Hexicon AB' to 'CDON' with match score 86
+2024-04-23 14:19:54,217 - INFO - Added alias 'Metacon AB' to 'CDON' with match score 86
+2024-04-23 14:19:54,284 - INFO - Added alias 'Cortus Energy AB' to 'Cortus Energy' with match score 100
+2024-04-23 14:19:54,373 - INFO - Added alias 'Cedergrenska AB' to 'Cedergrenska' with match score 100
+2024-04-23 14:19:54,473 - INFO - Added alias 'Crunchfish AB' to 'Crunchfish' with match score 100
+2024-04-23 14:19:54,575 - INFO - Added alias 'ChargePanel AB' to 'ChargePanel' with match score 100
+2024-04-23 14:19:54,678 - INFO - Added alias 'ChargePanel AB' to 'ChargePanel AB TO 1' with match score 100
+2024-04-23 14:19:54,774 - INFO - Added alias 'ChargePanel AB' to 'ChargePanel AB TO 2' with match score 100
+2024-04-23 14:19:54,875 - INFO - Added alias 'Checkin.com Group AB' to 'Checkin.com Group' with match score 100
+2024-04-23 14:19:54,974 - INFO - Added alias 'ChromoGenics AB' to 'ChromoGenics' with match score 100
+2024-04-23 14:19:55,034 - INFO - Added alias 'Ngenic AB' to 'ChromoGenics' with match score 83
+2024-04-23 14:19:55,091 - INFO - Added alias 'Cell Impact AB' to 'Cell Impact' with match score 100
+2024-04-23 14:19:55,183 - INFO - Added alias 'Cell Impact AB' to 'Cell Impact AB TO 2' with match score 100
+2024-04-23 14:19:55,276 - INFO - Added alias 'Cinis Fertilizer AB' to 'Cinis Fertilizer' with match score 100
+2024-04-23 14:19:55,376 - INFO - Added alias 'CirChem AB' to 'CirChem' with match score 100
+2024-04-23 14:19:55,481 - INFO - Added alias 'Clean Industry Solutions Hold Europe AB' to 'Clean Industry Solutions Hold' with match score 100
+2024-04-23 14:19:55,593 - INFO - Added alias 'Clavister Holding AB' to 'Clavister Holding' with match score 100
+2024-04-23 14:19:55,689 - INFO - Added alias 'Clavister Holding AB' to 'Clavister Holding AB TO 8' with match score 100
+2024-04-23 14:19:55,791 - INFO - Added alias 'Clavister Holding AB' to 'Clavister Holding AB TO 9' with match score 100
+2024-04-23 14:19:55,909 - INFO - Added alias 'Corline Biomedical AB' to 'Corline Biomedical' with match score 100
+2024-04-23 14:19:55,943 - INFO - Added alias 'Neola Medical AB' to 'Corline Biomedical' with match score 83
+2024-04-23 14:19:56,001 - INFO - Added alias 'Clemondo Group AB' to 'Clemondo Group' with match score 100
+2024-04-23 14:19:56,097 - INFO - Added alias 'Clean Motion AB' to 'Clean Motion' with match score 100
+2024-04-23 14:19:56,193 - INFO - Added alias 'Cline Scientific AB' to 'Cline Scientific B' with match score 100
+2024-04-23 14:19:56,300 - INFO - Added alias 'Clinical Laserthermia Systems AB' to 'Clinical Laserthermia Syst. B' with match score 96
+2024-04-23 14:19:56,451 - INFO - Added alias 'Chordate Medical Holding AB' to 'Chordate Medical Holding' with match score 100
+2024-04-23 14:19:56,577 - INFO - Added alias 'Chordate Medical Holding AB' to 'Chordate Medical Holding AB TO 8' with match score 100
+2024-04-23 14:19:56,753 - INFO - Added alias 'Scandinavian ChemoTech AB' to 'Scandinavian ChemoTech B' with match score 100
+2024-04-23 14:19:56,796 - INFO - Added alias 'Coala-life Group AB' to 'Coala-life Group' with match score 100
+2024-04-23 14:19:56,892 - INFO - Added alias 'Coala-life Group AB' to 'Coala-life Group AB TO3' with match score 100
+2024-04-23 14:19:57,002 - INFO - Added alias 'Combigene AB' to 'Combigene' with match score 100
+2024-04-23 14:19:57,100 - INFO - Added alias 'Compodium International AB' to 'Compodium International' with match score 100
+2024-04-23 14:19:57,186 - INFO - Added alias 'Cereno Scientific AB' to 'Cereno Scientific B' with match score 100
+2024-04-23 14:19:57,287 - INFO - Added alias 'Cyxone AB' to 'Cyxone' with match score 100
+2024-04-23 14:19:57,389 - INFO - Added alias 'Dala Energi AB' to 'Dala Energi' with match score 100
+2024-04-23 14:19:57,502 - INFO - Added alias 'Duearity AB' to 'Duearity' with match score 100
+2024-04-23 14:19:57,613 - INFO - Added alias 'Duearity AB' to 'Duearity AB TO1' with match score 100
+2024-04-23 14:19:57,712 - INFO - Added alias 'Diagonal Bio AB' to 'Diagonal Bio' with match score 100
+2024-04-23 14:19:57,815 - INFO - Added alias 'Diadrom Holding AB' to 'Diadrom Holding' with match score 100
+2024-04-23 14:19:57,906 - INFO - Added alias 'Dignitana AB' to 'Dignitana' with match score 100
+2024-04-23 14:19:58,033 - INFO - Added alias 'Dignitana AB' to 'Dignitana AB BTA 1' with match score 100
+2024-04-23 14:19:58,129 - INFO - Added alias 'Bioservo Technologies AB' to 'Divio Technologies B' with match score 82
+2024-04-23 14:19:58,143 - INFO - Added alias 'Divio Technologies AB' to 'Divio Technologies B' with match score 100
+2024-04-23 14:19:58,241 - INFO - Added alias 'Dlaboratory Sweden AB' to 'Dlaboratory Sweden' with match score 100
+2024-04-23 14:19:58,338 - INFO - Added alias 'Diamyd Medical AB (publ)' to 'Diamyd Medical B' with match score 93
+2024-04-23 14:19:58,446 - INFO - Added alias 'Diamyd Medical AB (publ)' to 'Diamyd Medical AB TO 3 B' with match score 84
+2024-04-23 14:19:58,560 - INFO - Added alias 'Diamyd Medical AB (publ)' to 'Diamyd Medical AB TO 4 B' with match score 84
+2024-04-23 14:19:58,677 - INFO - Added alias 'Doxa AB' to 'Doxa' with match score 100
+2024-04-23 14:19:58,768 - INFO - Added alias 'Desenio Group AB' to 'Desenio Group' with match score 100
+2024-04-23 14:19:58,866 - INFO - Added alias 'Effnetplattformen Holding AB' to 'Effnetplattformen Holding' with match score 100
+2024-04-23 14:19:58,973 - INFO - Added alias 'Enad Global 7 AB' to 'Enad Global 7' with match score 100
+2024-04-23 14:19:59,065 - INFO - Added alias 'Ekobot AB' to 'Ekobot' with match score 100
+2024-04-23 14:19:59,168 - INFO - Added alias 'Elicera Therapeutics AB' to 'Elicera Therapeutics' with match score 100
+2024-04-23 14:19:59,269 - INFO - Added alias 'ELLWEE AB' to 'ELLWEE' with match score 100
+2024-04-23 14:19:59,374 - INFO - Added alias 'Ellen AB' to 'Ellen' with match score 100
+2024-04-23 14:19:59,374 - INFO - Added alias 'Embellence Group AB' to 'Ellen' with match score 100
+2024-04-23 14:19:59,417 - INFO - Added alias 'Rebelle AB' to 'Ellen' with match score 89
+2024-04-23 14:19:59,477 - INFO - Added alias 'Enersize Oyj' to 'Enersize' with match score 100
+2024-04-23 14:19:59,618 - INFO - Added alias 'Enzymatica AB' to 'Enzymatica' with match score 100
+2024-04-23 14:19:59,715 - INFO - Added alias 'Enzymatica AB' to 'Enzymatica AB BTA' with match score 100
+2024-04-23 14:19:59,812 - INFO - Added alias 'Enorama Pharma AB' to 'Enorama Pharma' with match score 100
+2024-04-23 14:19:59,848 - INFO - Added alias 'Pharmiva AB' to 'Enorama Pharma' with match score 86
+2024-04-23 14:19:59,909 - INFO - Added alias 'Enorama Pharma AB' to 'Enorama Pharma AB BTA' with match score 100
+2024-04-23 14:20:00,010 - INFO - Added alias 'ES Energy Save Holding AB' to 'ES Energy Save Holding B' with match score 100
+2024-04-23 14:20:00,105 - INFO - Added alias 'Euroafrica Digital Ventures AB' to 'Euroafrica Digital Ventures' with match score 100
+2024-04-23 14:20:00,219 - INFO - Added alias 'ExpreS2ion Biotech Holding AB' to 'ExpreS2ion Biotech Holding' with match score 100
+2024-04-23 14:20:00,314 - INFO - Added alias 'Exsitec Holding AB' to 'Exsitec Holding' with match score 100
+2024-04-23 14:20:00,419 - INFO - Added alias 'Fantasma Games AB' to 'Fantasma Games' with match score 100
+2024-04-23 14:20:00,546 - INFO - Added alias 'Ferroamp AB' to 'Ferroamp' with match score 100
+2024-04-23 14:20:00,662 - INFO - Added alias 'Filo Corp.' to 'Filo' with match score 100
+2024-04-23 14:20:00,773 - INFO - Added alias 'Firefly AB' to 'Firefly' with match score 100
+2024-04-23 14:20:00,878 - INFO - Added alias 'First Venture Sweden AB' to 'First Venture Sweden B' with match score 100
+2024-04-23 14:20:00,977 - INFO - Added alias 'Flat Capital AB' to 'Flat Capital B' with match score 100
+2024-04-23 14:20:01,089 - INFO - Added alias 'Flexion Mobile Plc' to 'Flexion Mobile' with match score 100
+2024-04-23 14:20:01,194 - INFO - Added alias 'FlexQube AB' to 'FlexQube' with match score 100
+2024-04-23 14:20:01,338 - INFO - Added alias 'Flowscape Technology AB' to 'Flowscape Technology' with match score 100
+2024-04-23 14:20:01,486 - INFO - Added alias 'Fluicell AB' to 'Fluicell' with match score 100
+2024-04-23 14:20:01,590 - INFO - Added alias 'Fluicell AB' to 'Fluicell AB TO5' with match score 100
+2024-04-23 14:20:01,685 - INFO - Added alias 'Fluicell AB' to 'Fluicell AB TO6' with match score 100
+2024-04-23 14:20:01,784 - INFO - Added alias 'FluoGuide A/S' to 'FluoGuide' with match score 100
+2024-04-23 14:20:01,907 - INFO - Added alias 'Footway Group AB' to 'Footway Group B' with match score 100
+2024-04-23 14:20:02,018 - INFO - Added alias 'Footway Group AB' to 'Footway Group AB BTA B' with match score 100
+2024-04-23 14:20:02,120 - INFO - Added alias 'Footway Group AB' to 'Footway Group Pref' with match score 100
+2024-04-23 14:20:02,213 - INFO - Added alias 'Fragbite Group AB' to 'Fragbite Group' with match score 100
+2024-04-23 14:20:02,313 - INFO - Added alias 'Fram Skandinavien AB' to 'Fram Skandinavien B' with match score 100
+2024-04-23 14:20:02,367 - INFO - Added alias 'Trygga Hem Skandinavien AB' to 'Fram Skandinavien B' with match score 85
+2024-04-23 14:20:02,409 - INFO - Added alias 'Freemelt Holding AB' to 'Freemelt Holding' with match score 100
+2024-04-23 14:20:02,554 - INFO - Added alias 'FSport AB' to 'FSport' with match score 100
+2024-04-23 14:20:02,607 - INFO - Added alias 'USWE Sports AB' to 'FSport' with match score 83
+2024-04-23 14:20:02,648 - INFO - Added alias 'Gabather AB' to 'Gabather' with match score 100
+2024-04-23 14:20:02,754 - INFO - Added alias 'Gabather AB' to 'Gabather AB TO 5' with match score 100
+2024-04-23 14:20:02,858 - INFO - Added alias 'Gapwaves AB' to 'Gapwaves B' with match score 100
+2024-04-23 14:20:02,957 - INFO - Added alias 'Goodbye Kansas Group AB' to 'Goodbye Kansas Group' with match score 100
+2024-04-23 14:20:03,054 - INFO - Added alias 'Goodbye Kansas Group AB' to 'Goodbye Kansas Group AB TO3' with match score 100
+2024-04-23 14:20:03,162 - INFO - Added alias 'Gaming Corps AB' to 'Gaming Corps' with match score 100
+2024-04-23 14:20:03,255 - INFO - Added alias 'Generic AB' to 'Generic Sweden' with match score 100
+2024-04-23 14:20:03,363 - INFO - Added alias 'Genovis AB' to 'Genovis' with match score 100
+2024-04-23 14:20:03,484 - INFO - Added alias 'Guideline Geo AB' to 'Guideline Geo' with match score 100
+2024-04-23 14:20:03,586 - INFO - Added alias 'Godsinlösen Nordic AB' to 'Godsinlösen Nordic' with match score 100
+2024-04-23 14:20:03,685 - INFO - Added alias 'Gigasun AB' to 'Gigasun' with match score 100
+2024-04-23 14:20:03,845 - INFO - Added alias 'Rederiaktiebolaget Gotlandsbolaget' to 'Gotlandsbolaget A' with match score 97
+2024-04-23 14:20:03,940 - INFO - Added alias 'Rederiaktiebolaget Gotlandsbolaget' to 'Gotlandsbolaget B' with match score 97
+2024-04-23 14:20:03,996 - INFO - Added alias 'Gasporox AB' to 'Gasporox' with match score 100
+2024-04-23 14:20:04,090 - INFO - Added alias 'Greater Than AB' to 'Greater Than' with match score 100
+2024-04-23 14:20:04,181 - INFO - Added alias 'Guard Therapeutics International AB' to 'Guard Therapeutics Intl.' with match score 100
+2024-04-23 14:20:04,271 - INFO - Added alias 'Haypp Group AB' to 'Haypp Group' with match score 100
+2024-04-23 14:20:04,449 - INFO - Added alias 'H&D Wireless Sweden Holding AB' to 'H&D Wireless Sweden Holding B' with match score 100
+2024-04-23 14:20:04,786 - INFO - Added alias 'Scandinavian Real Heart AB' to 'Scandinavian Real Heart' with match score 100
+2024-04-23 14:20:04,877 - INFO - Added alias 'Scandinavian Real Heart AB' to 'Scandinavian Real Heart AB TO2' with match score 100
+2024-04-23 14:20:04,932 - INFO - Added alias 'Hedera Group AB' to 'Hedera Group' with match score 100
+2024-04-23 14:20:05,135 - INFO - Added alias 'Heliospectra AB' to 'Heliospectra' with match score 100
+2024-04-23 14:20:05,225 - INFO - Added alias 'Hifab Group AB' to 'Hifab Group B' with match score 100
+2024-04-23 14:20:05,316 - INFO - Added alias 'High Coast Distillery AB' to 'High Coast Distillery B' with match score 100
+2024-04-23 14:20:05,409 - INFO - Added alias 'Hilbert Group AB' to 'Hilbert Group ser. B' with match score 100
+2024-04-23 14:20:05,499 - INFO - Added alias 'Hilbert Group AB' to 'Hilbert Group AB TO1 B' with match score 100
+2024-04-23 14:20:05,610 - INFO - Added alias 'First Hotels AB' to 'First Hotels' with match score 100
+2024-04-23 14:20:05,754 - INFO - Added alias 'Hoylu AB' to 'Hoylu' with match score 100
+2024-04-23 14:20:05,860 - INFO - Added alias 'Humble Group AB' to 'Humble Group' with match score 100
+2024-04-23 14:20:05,963 - INFO - Added alias 'Iconovo AB' to 'Iconovo' with match score 100
+2024-04-23 14:20:05,967 - INFO - Added alias 'Isconova AB' to 'Iconovo' with match score 86
+2024-04-23 14:20:06,059 - INFO - Added alias 'Idun Industrier AB' to 'Idun Industrier B' with match score 100
+2024-04-23 14:20:06,152 - INFO - Added alias 'Impact Coatings AB' to 'Impact Coatings' with match score 100
+2024-04-23 14:20:06,252 - INFO - Added alias 'InCoax Networks AB' to 'InCoax Networks' with match score 100
+2024-04-23 14:20:06,262 - INFO - Added alias 'M.O.B.A. Network AB' to 'InCoax Networks' with match score 82
+2024-04-23 14:20:06,313 - INFO - Added alias 'Annexin Pharmaceuticals AB' to 'InDex Pharmaceuticals Holding' with match score 82
+2024-04-23 14:20:06,345 - INFO - Added alias 'Immune Pharmaceuticals Inc' to 'InDex Pharmaceuticals Holding' with match score 86
+2024-04-23 14:20:06,346 - INFO - Added alias 'InDex Pharmaceutical Holding AB' to 'InDex Pharmaceuticals Holding' with match score 96
+2024-04-23 14:20:06,374 - INFO - Added alias 'QuiaPEG Pharmaceuticals Holding AB' to 'InDex Pharmaceuticals Holding' with match score 89
+2024-04-23 14:20:06,449 - INFO - Added alias 'Inission AB' to 'Inission B' with match score 100
+2024-04-23 14:20:06,556 - INFO - Added alias 'Initiator Pharma A/S' to 'Initiator Pharma' with match score 100
+2024-04-23 14:20:06,571 - INFO - Added alias 'NATTO PHARMA' to 'Initiator Pharma' with match score 82
+2024-04-23 14:20:06,580 - INFO - Added alias 'Pharmiva AB' to 'Initiator Pharma' with match score 86
+2024-04-23 14:20:06,648 - INFO - Added alias 'Insplorion AB' to 'Insplorion' with match score 100
+2024-04-23 14:20:06,740 - INFO - Added alias 'Intellego Technologies AB' to 'Intellego Technologies' with match score 100
+2024-04-23 14:20:06,848 - INFO - Added alias 'Integrum AB' to 'Integrum B' with match score 100
+2024-04-23 14:20:06,941 - INFO - Added alias 'Irisity AB' to 'Irisity' with match score 100
+2024-04-23 14:20:07,054 - INFO - Added alias 'I-Tech AB' to 'I-Tech' with match score 100
+2024-04-23 14:20:07,073 - INFO - Added alias 'MoxieTech Group AB' to 'I-Tech' with match score 83
+2024-04-23 14:20:07,158 - INFO - Added alias 'Intervacc AB' to 'Intervacc' with match score 100
+2024-04-23 14:20:07,250 - INFO - Added alias 'iZafe Group AB' to 'iZafe Group B' with match score 100
+2024-04-23 14:20:07,339 - INFO - Added alias 'JonDeTech Sensors AB' to 'JonDeTech Sensors' with match score 100
+2024-04-23 14:20:07,381 - INFO - Added alias 'Sensori AB.' to 'JonDeTech Sensors' with match score 86
+2024-04-23 14:20:07,461 - INFO - Added alias 'JonDeTech Sensors AB' to 'JonDeTech Sensors AB TO3' with match score 100
+2024-04-23 14:20:07,555 - INFO - Added alias 'JLT Mobile Computers AB' to 'JLT Mobile Computers' with match score 100
+2024-04-23 14:20:07,650 - INFO - Added alias 'Job Solution Sweden Holding AB' to 'Job Solution Sweden Holding' with match score 100
+2024-04-23 14:20:07,699 - INFO - Added alias 'W5 Solutions AB' to 'Job Solution Sweden Holding' with match score 82
+2024-04-23 14:20:07,747 - INFO - Added alias 'Kakel Max AB' to 'Kakel Max' with match score 100
+2024-04-23 14:20:07,840 - INFO - Added alias 'Kambi Group Plc' to 'Kambi Group Plc' with match score 100
+2024-04-23 14:20:07,942 - INFO - Added alias 'Kallebäck Property Invest AB' to 'Kallebäck Property Invest' with match score 100
+2024-04-23 14:20:08,034 - INFO - Added alias 'KebNi AB' to 'KebNi B' with match score 100
+2024-04-23 14:20:08,124 - INFO - Added alias 'Kentima Holding AB' to 'Kentima Holding' with match score 100
+2024-04-23 14:20:08,215 - INFO - Added alias 'Kjell Group AB' to 'Kjell Group' with match score 100
+2024-04-23 14:20:08,311 - INFO - Added alias 'Klaria Pharma Holding AB' to 'Klaria Pharma Holding' with match score 100
+2024-04-23 14:20:08,407 - INFO - Added alias 'Klimator AB' to 'Klimator' with match score 100
+2024-04-23 14:20:08,574 - INFO - Added alias 'Kollect on Demand Holding AB' to 'Kollect on Demand Holding' with match score 100
+2024-04-23 14:20:08,668 - INFO - Added alias 'Kontigo Care AB' to 'Kontigo Care' with match score 100
+2024-04-23 14:20:08,762 - INFO - Added alias 'Kopy Goldfields' to 'Kopy Goldfields' with match score 100
+2024-04-23 14:20:08,855 - INFO - Added alias 'LL Lucky Games AB' to 'LL Lucky Games' with match score 100
+2024-04-23 14:20:08,942 - INFO - Added alias 'Lifeclean International AB' to 'Lifeclean International' with match score 100
+2024-04-23 14:20:09,031 - INFO - Added alias 'Leading Edge Materials Corp.' to 'Leading Edge Materials Corp.' with match score 100
+2024-04-23 14:20:09,155 - INFO - Added alias 'Nordic LEVEL Group AB' to 'Nordic LEVEL Group' with match score 100
+2024-04-23 14:20:09,245 - INFO - Added alias 'Nordic LEVEL Group AB' to 'Nordic LEVEL Group AB TO5B' with match score 100
+2024-04-23 14:20:09,335 - INFO - Added alias 'Nordic LEVEL Group AB' to 'Nordic LEVEL Group AB TO6B' with match score 100
+2024-04-23 14:20:09,418 - INFO - Added alias 'LIDDS AB' to 'LIDDS' with match score 100
+2024-04-23 14:20:09,527 - INFO - Added alias 'Link Prop Investment AB' to 'Link Prop Investment' with match score 100
+2024-04-23 14:20:09,635 - INFO - Added alias 'Lipidor AB' to 'Lipidor' with match score 100
+2024-04-23 14:20:09,726 - INFO - Added alias 'Lipum AB' to 'Lipum' with match score 100
+2024-04-23 14:20:09,817 - INFO - Added alias 'Litium AB' to 'Litium' with match score 100
+2024-04-23 14:20:09,908 - INFO - Added alias 'Lohilo Foods AB' to 'Lohilo Foods' with match score 100
+2024-04-23 14:20:10,010 - INFO - Added alias 'Loyal Solutions A/S' to 'Loyal Solutions' with match score 100
+2024-04-23 14:20:10,060 - INFO - Added alias 'W5 Solutions AB' to 'Loyal Solutions' with match score 82
+2024-04-23 14:20:10,122 - INFO - Added alias 'Immune Pharmaceuticals Inc' to 'Lipigon Pharmaceuticals' with match score 83
+2024-04-23 14:20:10,138 - INFO - Added alias 'Lipigon Pharmaceuticals AB' to 'Lipigon Pharmaceuticals' with match score 100
+2024-04-23 14:20:10,172 - INFO - Added alias 'QuiaPEG Pharmaceuticals Holding AB' to 'Lipigon Pharmaceuticals' with match score 82
+2024-04-23 14:20:10,235 - INFO - Added alias 'Immune Pharmaceuticals Inc' to 'Lipigon Pharmaceuticals AB TO3' with match score 81
+2024-04-23 14:20:10,244 - INFO - Added alias 'Lipigon Pharmaceuticals AB' to 'Lipigon Pharmaceuticals AB TO3' with match score 100
+2024-04-23 14:20:10,343 - INFO - Added alias 'LumenRadio AB' to 'LumenRadio' with match score 100
+2024-04-23 14:20:10,401 - INFO - Added alias 'Brighter AB' to 'Luxbright' with match score 86
+2024-04-23 14:20:10,437 - INFO - Added alias 'Luxbright AB' to 'Luxbright' with match score 100
+2024-04-23 14:20:10,530 - INFO - Added alias 'Lyckegård Group AB' to 'Lyckegård Group' with match score 100
+2024-04-23 14:20:10,621 - INFO - Added alias 'Mackmyra Svensk Whisky AB' to 'Mackmyra Svensk Whisky B' with match score 100
+2024-04-23 14:20:10,709 - INFO - Added alias 'Mackmyra Svensk Whisky AB' to 'Mackmyra Svensk Whiskey AB TO 1 B' with match score 95
+2024-04-23 14:20:10,808 - INFO - Added alias 'Magle Chemoswed Holding AB' to 'Magle Chemoswed Holding' with match score 100
+2024-04-23 14:20:10,900 - INFO - Added alias 'Mantex AB' to 'Mantex' with match score 100
+2024-04-23 14:20:10,992 - INFO - Added alias 'Mantex AB' to 'Mantex AB TO7' with match score 100
+2024-04-23 14:20:10,997 - INFO - Added alias 'Nanexa AB' to 'Mantex AB TO7' with match score 83
+2024-04-23 14:20:11,082 - INFO - Added alias 'Mavshack AB' to 'Mavshack' with match score 100
+2024-04-23 14:20:11,171 - INFO - Added alias 'Maven Wireless Sweden AB' to 'Maven Wireless Sweden' with match score 100
+2024-04-23 14:20:11,260 - INFO - Added alias 'Maximum Entertainment AB' to 'Maximum Entertainment B' with match score 100
+2024-04-23 14:20:11,396 - INFO - Added alias 'Medhelp Care AB' to 'Medhelp Care' with match score 100
+2024-04-23 14:20:11,508 - INFO - Added alias 'Meriaura Group Oyj' to 'Meriaura Group Oyj' with match score 100
+2024-04-23 14:20:11,601 - INFO - Added alias 'Mestro AB' to 'Mestro' with match score 100
+2024-04-23 14:20:11,659 - INFO - Added alias 'CDON AB' to 'Metacon' with match score 86
+2024-04-23 14:20:11,693 - INFO - Added alias 'Metacon AB' to 'Metacon' with match score 100
+2024-04-23 14:20:11,785 - INFO - Added alias 'Metacon AB' to 'Metacon AB TO 1' with match score 100
+2024-04-23 14:20:11,881 - INFO - Added alias 'Minesto AB' to 'Minesto' with match score 100
+2024-04-23 14:20:11,894 - INFO - Added alias 'Patriam Invest AB' to 'Minesto' with match score 86
+2024-04-23 14:20:11,976 - INFO - Added alias 'Minesto AB' to 'Minesto AB BTU' with match score 100
+2024-04-23 14:20:12,064 - INFO - Added alias 'Misen Energy AB (publ.)' to 'Misen Energy' with match score 100
+2024-04-23 14:20:12,232 - INFO - Added alias 'InCoax Networks AB' to 'M.O.B.A. Network' with match score 82
+2024-04-23 14:20:12,241 - INFO - Added alias 'M.O.B.A. Network AB' to 'M.O.B.A. Network' with match score 100
+2024-04-23 14:20:12,352 - INFO - Added alias 'Modelon AB' to 'Modelon B' with match score 100
+2024-04-23 14:20:12,466 - INFO - Added alias 'Modus Therapeutics Holding AB' to 'Modus Therapeutics Holding' with match score 100
+2024-04-23 14:20:12,579 - INFO - Added alias 'Move About Group AB' to 'Move About Group' with match score 100
+2024-04-23 14:20:12,672 - INFO - Added alias 'MTI Investment SE' to 'MTI Investment' with match score 100
+2024-04-23 14:20:12,677 - INFO - Added alias 'Nordic Asia Investment Group 1987 AB' to 'MTI Investment' with match score 85
+2024-04-23 14:20:12,678 - INFO - Added alias 'North Investment Group AB' to 'MTI Investment' with match score 85
+2024-04-23 14:20:12,701 - INFO - Added alias 'Torslanda Property Investment AB' to 'MTI Investment' with match score 85
+2024-04-23 14:20:12,703 - INFO - Added alias 'Tre Kronor Property Investment AB' to 'MTI Investment' with match score 85
+2024-04-23 14:20:12,764 - INFO - Added alias 'MTI Investment SE' to 'MTI Investment SE TO2' with match score 100
+2024-04-23 14:20:12,948 - INFO - Added alias 'Nanexa AB' to 'Nanexa' with match score 100
+2024-04-23 14:20:13,058 - INFO - Added alias 'Hancap AB' to 'NanoCap Group B' with match score 83
+2024-04-23 14:20:13,079 - INFO - Added alias 'NanoCap Group AB' to 'NanoCap Group B' with match score 100
+2024-04-23 14:20:13,173 - INFO - Added alias 'Northbaze Group AB' to 'Northbaze Group' with match score 100
+2024-04-23 14:20:13,259 - INFO - Added alias 'NeoDynamics AB' to 'NeoDynamics' with match score 100
+2024-04-23 14:20:13,349 - INFO - Added alias 'NeoDynamics AB' to 'NeoDynamics AB BTA' with match score 100
+2024-04-23 14:20:13,410 - INFO - Added alias 'Corline Biomedical AB' to 'Neola Medical' with match score 83
+2024-04-23 14:20:13,454 - INFO - Added alias 'Neola Medical AB' to 'Neola Medical' with match score 100
+2024-04-23 14:20:13,559 - INFO - Added alias 'Nepa AB' to 'Nepa' with match score 100
+2024-04-23 14:20:13,663 - INFO - Added alias 'Newbury Pharmaceuticals AB' to 'Newbury Pharmaceuticals' with match score 100
+2024-04-23 14:20:13,756 - INFO - Added alias 'Nordic Flanges Group AB' to 'Nordic Flanges Group' with match score 100
+2024-04-23 14:20:13,848 - INFO - Added alias 'Northgold AB' to 'Northgold' with match score 100
+2024-04-23 14:20:13,898 - INFO - Added alias 'ChromoGenics AB' to 'Ngenic' with match score 83
+2024-04-23 14:20:13,935 - INFO - Added alias 'Ngenic AB' to 'Ngenic' with match score 100
+2024-04-23 14:20:14,025 - INFO - Added alias 'Nicoccino AB' to 'Nicoccino Holding' with match score 100
+2024-04-23 14:20:14,128 - INFO - Added alias 'Nilsson Special Vehicles AB' to 'Nilsson Special Vehicles' with match score 100
+2024-04-23 14:20:14,222 - INFO - Added alias 'Nordic Iron Ore AB' to 'Nordic Iron Ore' with match score 100
+2024-04-23 14:20:14,309 - INFO - Added alias 'Nitro Games Oyj' to 'Nitro Games' with match score 100
+2024-04-23 14:20:14,402 - INFO - Added alias 'NetJobs Group AB' to 'NetJobs Group' with match score 100
+2024-04-23 14:20:14,511 - INFO - Added alias 'New Nordic Healthbrands AB' to 'New Nordic Healthbrands' with match score 100
+2024-04-23 14:20:14,606 - INFO - Added alias 'Nosa Plugs AB' to 'Nosa Plugs' with match score 100
+2024-04-23 14:20:14,710 - INFO - Added alias 'Norditek Group AB' to 'Norditek Group' with match score 100
+2024-04-23 14:20:14,804 - INFO - Added alias 'NextCell Pharma AB' to 'NextCell Pharma' with match score 100
+2024-04-23 14:20:14,811 - INFO - Added alias 'Pharmiva AB' to 'NextCell Pharma' with match score 86
+2024-04-23 14:20:14,921 - INFO - Added alias 'Svenska Nyttobostäder AB' to 'Svenska Nyttobostäder' with match score 100
+2024-04-23 14:20:15,014 - INFO - Added alias 'Svenska Nyttobostäder AB' to 'Svenska Nyttobostäder Pref' with match score 100
+2024-04-23 14:20:15,085 - INFO - Added alias 'Online Brands Nordic AB' to 'Online Brands Nordic' with match score 100
+2024-04-23 14:20:15,175 - INFO - Added alias 'Observit AB' to 'Observit' with match score 100
+2024-04-23 14:20:15,268 - INFO - Added alias 'Ogunsen AB' to 'Ogunsen B' with match score 100
+2024-04-23 14:20:15,366 - INFO - Added alias 'OncoZenge AB' to 'OncoZenge' with match score 100
+2024-04-23 14:20:15,490 - INFO - Added alias 'oodash Group AB' to 'oodash Group' with match score 100
+2024-04-23 14:20:15,597 - INFO - Added alias 'Opter AB' to 'Opter' with match score 100
+2024-04-23 14:20:15,689 - INFO - Added alias 'OptiCept Technologies AB' to 'OptiCept Technologies' with match score 100
+2024-04-23 14:20:15,785 - INFO - Added alias 'OrganoClick AB' to 'OrganoClick' with match score 100
+2024-04-23 14:20:15,875 - INFO - Added alias 'Ortoma AB' to 'Ortoma B' with match score 100
+2024-04-23 14:20:15,971 - INFO - Added alias 'OssDsign AB' to 'OssDsign' with match score 100
+2024-04-23 14:20:16,091 - INFO - Added alias 'OXE Marine AB' to 'OXE Marine' with match score 100
+2024-04-23 14:20:16,188 - INFO - Added alias 'Paxman AB' to 'Paxman' with match score 100
+2024-04-23 14:20:16,278 - INFO - Added alias 'Photocat A/S' to 'Photocat' with match score 100
+2024-04-23 14:20:16,371 - INFO - Added alias 'Precomp Solutions AB' to 'Precomp Solutions B' with match score 100
+2024-04-23 14:20:16,394 - INFO - Added alias 'W5 Solutions AB' to 'Precomp Solutions B' with match score 82
+2024-04-23 14:20:16,491 - INFO - Added alias 'Pharmacolog i Uppsala AB' to 'Pharmacolog i Uppsala B' with match score 100
+2024-04-23 14:20:16,599 - INFO - Added alias 'Pharmiva AB' to 'PILA PHARMA' with match score 86
+2024-04-23 14:20:16,600 - INFO - Added alias 'Pila Pharma AB' to 'PILA PHARMA' with match score 100
+2024-04-23 14:20:16,691 - INFO - Added alias 'Plexian AB' to 'Plexian' with match score 100
+2024-04-23 14:20:16,784 - INFO - Added alias 'ProstaLund AB' to 'ProstaLund' with match score 100
+2024-04-23 14:20:16,790 - INFO - Added alias 'Saxlund Group AB' to 'ProstaLund' with match score 86
+2024-04-23 14:20:16,873 - INFO - Added alias 'PMD Device Solutions AB' to 'PMD Device Solutions' with match score 100
+2024-04-23 14:20:16,895 - INFO - Added alias 'W5 Solutions AB' to 'PMD Device Solutions' with match score 82
+2024-04-23 14:20:16,964 - INFO - Added alias 'Polyplank AB' to 'Polyplank' with match score 100
+2024-04-23 14:20:17,063 - INFO - Added alias 'Polygiene Group AB' to 'Polygiene Group' with match score 100
+2024-04-23 14:20:17,155 - INFO - Added alias 'Promimic AB' to 'Promimic' with match score 100
+2024-04-23 14:20:17,248 - INFO - Added alias 'Prostatype Genomics AB' to 'Prostatype Genomics' with match score 100
+2024-04-23 14:20:17,338 - INFO - Added alias 'Prostatype Genomics AB' to 'Prostatype Genomics AB TO3' with match score 100
+2024-04-23 14:20:17,438 - INFO - Added alias 'Purefun Group AB' to 'Purefun Group' with match score 100
+2024-04-23 14:20:17,550 - INFO - Added alias 'Qlucore AB' to 'Qlucore' with match score 100
+2024-04-23 14:20:17,645 - INFO - Added alias 'Qiiwi Games AB' to 'Qiiwi Games' with match score 100
+2024-04-23 14:20:17,754 - INFO - Added alias 'QLife Holding AB' to 'QLife Holding' with match score 100
+2024-04-23 14:20:17,847 - INFO - Added alias 'QLife Holding AB' to 'Qlife Holding AB BTU' with match score 100
+2024-04-23 14:20:17,936 - INFO - Added alias 'Qlosr Group AB' to 'Qlosr Group B' with match score 100
+2024-04-23 14:20:18,024 - INFO - Added alias 'Quartiers Properties AB' to 'Quartiers Properties' with match score 100
+2024-04-23 14:20:18,114 - INFO - Added alias 'Quartiers Properties AB' to 'Quartiers Properties Pref' with match score 100
+2024-04-23 14:20:18,177 - INFO - Added alias 'Immune Pharmaceuticals Inc' to 'QuiaPEG Pharmaceuticals Hold' with match score 81
+2024-04-23 14:20:18,186 - INFO - Added alias 'Lipigon Pharmaceuticals AB' to 'QuiaPEG Pharmaceuticals Hold' with match score 82
+2024-04-23 14:20:18,206 - INFO - Added alias 'QuiaPEG Pharmaceuticals Holding AB' to 'QuiaPEG Pharmaceuticals Hold' with match score 100
+2024-04-23 14:20:18,306 - INFO - Added alias 'Readly International AB' to 'Readly International' with match score 100
+2024-04-23 14:20:18,355 - INFO - Added alias 'Entraction Holding AB' to 'Realfiction Holding' with match score 82
+2024-04-23 14:20:18,399 - INFO - Added alias 'Realfiction Holding AB' to 'Realfiction Holding' with match score 100
+2024-04-23 14:20:18,511 - INFO - Added alias 'Pharmiva AB' to 'Redwood Pharma' with match score 86
+2024-04-23 14:20:18,519 - INFO - Added alias 'Redwood Pharma AB' to 'Redwood Pharma' with match score 100
+2024-04-23 14:20:18,629 - INFO - Added alias 'Redwood Pharma AB' to 'Redwood Pharma AB TO5' with match score 100
+2024-04-23 14:20:18,723 - INFO - Added alias 'Refine Group AB' to 'Refine Group' with match score 100
+2024-04-23 14:20:18,823 - INFO - Added alias 'Resqunit AB' to 'Resqunit' with match score 100
+2024-04-23 14:20:18,925 - INFO - Added alias 'RightBridge Ventures Group AB' to 'RightBridge Ventures Group' with match score 100
+2024-04-23 14:20:19,017 - INFO - Added alias 'RightBridge Ventures Group AB' to 'RightBridge Ventures Group AB TO2' with match score 100
+2024-04-23 14:20:19,105 - INFO - Added alias 'RanLOS AB' to 'RanLOS B' with match score 100
+2024-04-23 14:20:19,200 - INFO - Added alias 'Rolling Optics Holding AB' to 'Rolling Optics Holding' with match score 100
+2024-04-23 14:20:19,286 - INFO - Added alias 'Ranplan Group AB' to 'Ranplan Group' with match score 100
+2024-04-23 14:20:19,395 - INFO - Added alias 'Redsense Medical AB' to 'S2Medical B' with match score 84
+2024-04-23 14:20:19,398 - INFO - Added alias 'S2Medical AB' to 'S2Medical B' with match score 100
+2024-04-23 14:20:19,505 - INFO - Added alias 'S2Medical AB' to 'S2Medical AB TO 3B' with match score 100
+2024-04-23 14:20:19,601 - INFO - Added alias 'S2Medical AB' to 'S2Medical AB TO 4B' with match score 100
+2024-04-23 14:20:19,708 - INFO - Added alias 'ProstaLund AB' to 'Saxlund Group' with match score 86
+2024-04-23 14:20:19,715 - INFO - Added alias 'Saxlund Group AB' to 'Saxlund Group' with match score 100
+2024-04-23 14:20:19,799 - INFO - Added alias 'Permascand Top Holding AB' to 'ScandBook Holding' with match score 84
+2024-04-23 14:20:19,807 - INFO - Added alias 'ScandBook Holding AB' to 'ScandBook Holding' with match score 100
+2024-04-23 14:20:19,834 - INFO - Added alias 'Aqeri Holding AB' to 'Scibase Holding' with match score 82
+2024-04-23 14:20:19,879 - INFO - Added alias 'Matse Holding AB' to 'Scibase Holding' with match score 87
+2024-04-23 14:20:19,903 - INFO - Added alias 'Scibase Holding AB' to 'Scibase Holding' with match score 100
+2024-04-23 14:20:19,996 - INFO - Added alias 'Scandion Oncology A/S' to 'Scandion Oncology' with match score 100
+2024-04-23 14:20:20,095 - INFO - Added alias 'Scout Gaming Group AB' to 'Scout Gaming Group' with match score 100
+2024-04-23 14:20:20,185 - INFO - Added alias 'ScandiDos AB' to 'ScandiDos' with match score 100
+2024-04-23 14:20:20,285 - INFO - Added alias 'Swedencare AB (publ)' to 'Swedencare' with match score 100
+2024-04-23 14:20:20,371 - INFO - Added alias 'SECITS Holding AB' to 'SECITS Holding' with match score 100
+2024-04-23 14:20:20,486 - INFO - Added alias 'SenzaGen AB' to 'SenzaGen' with match score 100
+2024-04-23 14:20:20,592 - INFO - Added alias 'Serstech AB' to 'Serstech' with match score 100
+2024-04-23 14:20:20,687 - INFO - Added alias 'Scandinavian Enviro Systems AB' to 'Scandinavian Enviro Systems' with match score 100
+2024-04-23 14:20:20,786 - INFO - Added alias 'Smart Eye AB' to 'Smart Eye' with match score 100
+2024-04-23 14:20:20,870 - INFO - Added alias 'Safello Group AB' to 'Safello Group' with match score 100
+2024-04-23 14:20:20,960 - INFO - Added alias 'Safeture AB' to 'Safeture' with match score 100
+2024-04-23 14:20:21,053 - INFO - Added alias 'SIBEK AB' to 'SIBEK' with match score 100
+2024-04-23 14:20:21,157 - INFO - Added alias 'Sileon AB' to 'Sileon' with match score 100
+2024-04-23 14:20:21,246 - INFO - Added alias 'Simris Group AB' to 'Simris Group B' with match score 100
+2024-04-23 14:20:21,337 - INFO - Added alias 'Skåne-möllan AB' to 'Skåne-möllan' with match score 100
+2024-04-23 14:20:21,439 - INFO - Added alias 'Skolon AB' to 'Skolon' with match score 100
+2024-04-23 14:20:21,561 - INFO - Added alias 'SMART VALOR AG' to 'SMART VALOR SDB' with match score 83
+2024-04-23 14:20:21,633 - INFO - Added alias 'Matra Petroleum AB' to 'ShaMaran Petroleum Corp' with match score 93
+2024-04-23 14:20:21,659 - INFO - Added alias 'ShaMaran Petroleum Corp' to 'ShaMaran Petroleum Corp' with match score 100
+2024-04-23 14:20:21,753 - INFO - Added alias 'Premium Snacks Nordic AB' to 'Premium Snacks Nordic' with match score 100
+2024-04-23 14:20:21,862 - INFO - Added alias 'Söder Sportfiske AB' to 'Söder Sportfiske' with match score 100
+2024-04-23 14:20:21,949 - INFO - Added alias 'Solnaberg Property AB' to 'Solnaberg Property' with match score 100
+2024-04-23 14:20:22,044 - INFO - Added alias 'SolTech Energy Sweden AB' to 'SolTech Energy Sweden' with match score 100
+2024-04-23 14:20:22,136 - INFO - Added alias 'Sonetel AB' to 'Sonetel' with match score 100
+2024-04-23 14:20:22,233 - INFO - Added alias 'Sozap AB' to 'SOZAP' with match score 100
+2024-04-23 14:20:22,326 - INFO - Added alias 'Spago Nanomedical AB' to 'Spago Nanomedical' with match score 100
+2024-04-23 14:20:22,430 - INFO - Added alias 'Spago Nanomedical AB' to 'Spago Nanomedical AB TO 12' with match score 100
+2024-04-23 14:20:22,569 - INFO - Added alias 'SpectrumOne AB' to 'SpectrumOne' with match score 100
+2024-04-23 14:20:22,662 - INFO - Added alias 'Stayble Therapeutics AB' to 'Stayble Therapeutics' with match score 100
+2024-04-23 14:20:22,760 - INFO - Added alias 'Stille AB' to 'Stille' with match score 100
+2024-04-23 14:20:22,866 - INFO - Added alias 'Storytel AB' to 'Storytel B' with match score 100
+2024-04-23 14:20:22,957 - INFO - Added alias 'Swedish Stirling AB' to 'Swedish Stirling' with match score 100
+2024-04-23 14:20:23,041 - INFO - Added alias 'SeaTwirl AB' to 'SeaTwirl' with match score 100
+2024-04-23 14:20:23,139 - INFO - Added alias 'Surgical Science Sweden AB' to 'Surgical Science Sweden' with match score 100
+2024-04-23 14:20:23,233 - INFO - Added alias 'TalkPool AG' to 'TalkPool' with match score 100
+2024-04-23 14:20:23,328 - INFO - Added alias 'Tangiamo Touch Technology AB' to 'Tangiamo Touch Technology' with match score 100
+2024-04-23 14:20:23,470 - INFO - Added alias 'Tellusgruppen AB' to 'Tellusgruppen' with match score 100
+2024-04-23 14:20:23,604 - INFO - Added alias 'Tellusgruppen AB' to 'Tellusgruppen AB TO2' with match score 100
+2024-04-23 14:20:23,705 - INFO - Added alias 'Teqnion AB' to 'Teqnion' with match score 100
+2024-04-23 14:20:23,809 - INFO - Added alias 'Tessin Nordic Holding AB' to 'Tessin Nordic Holding' with match score 100
+2024-04-23 14:20:23,903 - INFO - Added alias 'TH1NG AB' to 'TH1NG' with match score 100
+2024-04-23 14:20:23,999 - INFO - Added alias 'Titania Holding AB' to 'Titania Holding B' with match score 100
+2024-04-23 14:20:24,105 - INFO - Added alias 'Toleranzia AB' to 'Toleranzia' with match score 100
+2024-04-23 14:20:24,196 - INFO - Added alias 'Toleranzia AB' to 'Toleranzia AB TO4' with match score 100
+2024-04-23 14:20:24,286 - INFO - Added alias 'Tourn International AB' to 'Tourn International' with match score 100
+2024-04-23 14:20:24,393 - INFO - Added alias 'Train Alliance Sweden AB' to 'Train Alliance Sweden B' with match score 100
+2024-04-23 14:20:24,510 - INFO - Added alias 'Triboron International AB' to 'Triboron International B' with match score 100
+2024-04-23 14:20:24,722 - INFO - Added alias 'Twiik AB' to 'Twiik' with match score 100
+2024-04-23 14:20:24,818 - INFO - Added alias 'Unibap AB' to 'Unibap' with match score 100
+2024-04-23 14:20:24,917 - INFO - Added alias 'Unibap AB' to 'Unibap AB TO 3' with match score 100
+2024-04-23 14:20:25,030 - INFO - Added alias 'Upsales Technology AB' to 'Upsales Technology' with match score 100
+2024-04-23 14:20:25,033 - INFO - Added alias 'White Pearl Technology Group AB' to 'Upsales Technology' with match score 81
+2024-04-23 14:20:25,087 - INFO - Added alias 'FSport AB' to 'USWE Sports' with match score 83
+2024-04-23 14:20:25,153 - INFO - Added alias 'USWE Sports AB' to 'USWE Sports' with match score 100
+2024-04-23 14:20:25,261 - INFO - Added alias 'Unlimited Travel Group AB' to 'Unlimited Travel Group' with match score 100
+2024-04-23 14:20:25,360 - INFO - Added alias 'Vertiseit AB' to 'Vertiseit B' with match score 100
+2024-04-23 14:20:25,558 - INFO - Added alias 'Vimab Group AB' to 'Vimab Group' with match score 100
+2024-04-23 14:20:25,558 - INFO - Added alias 'Vimian Group AB' to 'Vimab Group' with match score 100
+2024-04-23 14:20:25,671 - INFO - Added alias 'Vimian Group AB' to 'Vimian Group' with match score 100
+2024-04-23 14:20:25,778 - INFO - Added alias 'Vimian Group AB' to 'Vimian Group AB BTA' with match score 100
+2024-04-23 14:20:25,884 - INFO - Added alias 'VO2 Cap Holding AB' to 'VO2 Cap Holding' with match score 100
+2024-04-23 14:20:25,978 - INFO - Added alias 'Veg of Lund AB' to 'Veg of Lund' with match score 100
+2024-04-23 14:20:26,074 - INFO - Added alias 'Viking Supply Ships AB' to 'Viking Supply Ships B' with match score 100
+2024-04-23 14:20:26,087 - INFO - Added alias 'Artificial Solutions International AB' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,089 - INFO - Added alias 'Axolot Solutions Holding AB' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,106 - INFO - Added alias 'EnergyO Solutions Invest AB' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,122 - INFO - Added alias 'Job Solution Sweden Holding AB' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,127 - INFO - Added alias 'Loyal Solutions A/S' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,144 - INFO - Added alias 'PMD Device Solutions AB' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,145 - INFO - Added alias 'Precomp Solutions AB' to 'W5 Solutions' with match score 82
+2024-04-23 14:20:26,166 - INFO - Added alias 'W5 Solutions AB' to 'W5 Solutions' with match score 100
+2024-04-23 14:20:26,258 - INFO - Added alias 'Waystream Holding AB' to 'Waystream Group' with match score 100
+2024-04-23 14:20:26,352 - INFO - Added alias 'Westpay AB' to 'Westpay' with match score 100
+2024-04-23 14:20:26,479 - INFO - Added alias 'White Pearl Technology Group AB' to 'White Pearl Technology Group B' with match score 100
+2024-04-23 14:20:26,578 - INFO - Added alias 'Webrock Ventures AB' to 'WebRock Ventures' with match score 100
+2024-04-23 14:20:26,877 - INFO - Added alias 'Wyld Networks AB' to 'Wyld Networks' with match score 100
+2024-04-23 14:20:26,998 - INFO - Added alias 'Wyld Networks AB' to 'Wyld Networks AB TO4' with match score 100
+2024-04-23 14:20:27,090 - INFO - Added alias 'Wyld Networks AB' to 'Wyld Networks AB TO5' with match score 100
+2024-04-23 14:20:27,275 - INFO - Added alias 'Xintela AB' to 'Xintela' with match score 100
+2024-04-23 14:20:27,369 - INFO - Added alias 'Xintela AB' to 'Xintela AB TO3' with match score 100
+2024-04-23 14:20:27,503 - INFO - Added alias 'XMReality AB' to 'XMReality' with match score 100
+2024-04-23 14:20:27,631 - INFO - Added alias 'XP Chemistries AB' to 'XP Chemistries' with match score 100
+2024-04-23 14:20:27,726 - INFO - Added alias 'XP Chemistries AB' to 'XP Chemistries AB TO2' with match score 100
+2024-04-23 14:20:27,824 - INFO - Added alias 'XP Chemistries AB' to 'XP Chemistries AB TO3' with match score 100
+2024-04-23 14:20:27,915 - INFO - Added alias 'SaveLend Group AB' to 'SaveLend Group' with match score 100
+2024-04-23 14:20:28,043 - INFO - Added alias 'Yubico AB' to 'Yubico' with match score 100
+2024-04-23 14:20:28,181 - INFO - Added alias 'Zaplox AB' to 'Zaplox' with match score 100
+2024-04-23 14:20:28,272 - INFO - Added alias 'Zaplox AB' to 'Zaplox AB TO3' with match score 100
+2024-04-23 14:20:28,369 - INFO - Added alias 'Zazz Energy of Sweden AB' to 'Zazz Energy of Sweden B' with match score 100
+2024-04-23 14:20:28,481 - INFO - Added alias 'Ziccum AB' to 'Ziccum' with match score 100
+2024-04-23 14:20:28,578 - INFO - Added alias 'Ziccum AB' to 'Ziccum AB TO5' with match score 100
+2024-04-23 14:20:28,679 - INFO - Added alias 'ZignSec AB' to 'ZignSec' with match score 100
+2024-04-23 14:20:28,780 - INFO - Added alias 'Zwipe AS' to 'Zwipe' with match score 100
+2024-04-23 14:20:28,869 - INFO - Added alias 'Zwipe AS' to 'Zwipe AS TO 1' with match score 100
+2024-04-23 14:20:28,873 - INFO - Added alias 'DecideAct A/S' to 'DecideAct' with match score 100
+2024-04-23 14:20:28,885 - INFO - Added alias 'AGILLIC A/S' to 'Agillic' with match score 100
+2024-04-23 14:20:28,901 - INFO - Added alias 'Alefarm Brewing A/S' to 'Alefarm Brewing' with match score 100
+2024-04-23 14:20:28,918 - INFO - Added alias 'BactiQuant A/S' to 'BactiQuant' with match score 100
+2024-04-23 14:20:28,933 - INFO - Added alias 'Brain+ A/S' to 'Brain+' with match score 100
+2024-04-23 14:20:28,951 - INFO - Added alias 'Conferize A/S' to 'Conferize' with match score 100
+2024-04-23 14:20:28,971 - INFO - Added alias 'Danish Aerospace Company A/S' to 'Danish Aerospace Company' with match score 100
+2024-04-23 14:20:28,988 - INFO - Added alias 'Dataproces Group A/S' to 'Dataproces Group' with match score 100
+2024-04-23 14:20:29,004 - INFO - Added alias 'DonkeyRepublic Holding A/S' to 'DonkeyRepublic Holding' with match score 100
+2024-04-23 14:20:29,020 - INFO - Added alias 'EgnsINVEST Ejd. Tyskland' to 'EgnsINVEST Ejd., Tyskland' with match score 100
+2024-04-23 14:20:29,037 - INFO - Added alias 'Erria A/S' to 'Erria' with match score 100
+2024-04-23 14:20:29,053 - INFO - Added alias 'FastPassCorp A/S' to 'FastPassCorp' with match score 100
+2024-04-23 14:20:29,070 - INFO - Added alias 'FOM Technologies A/S' to 'FOM Technologies' with match score 100
+2024-04-23 14:20:29,088 - INFO - Added alias 'Hove A/S' to 'Hove' with match score 100
+2024-04-23 14:20:29,105 - INFO - Added alias 'HRC World Plc' to 'HRC World Plc' with match score 100
+2024-04-23 14:20:29,123 - INFO - Added alias 'Hydract A/S' to 'Hydract' with match score 100
+2024-04-23 14:20:29,141 - INFO - Added alias 'Hypefactors A/S' to 'Hypefactors' with match score 100
+2024-04-23 14:20:29,158 - INFO - Added alias 'Impero A/S' to 'Impero' with match score 100
+2024-04-23 14:20:29,176 - INFO - Added alias 'Konsolidator A/S' to 'Konsolidator' with match score 100
+2024-04-23 14:20:29,193 - INFO - Added alias 'LED iBond International A/S' to 'LED iBond International' with match score 100
+2024-04-23 14:20:29,213 - INFO - Added alias 'Mdundo.com' to 'Mdundo.com' with match score 100
+2024-04-23 14:20:29,233 - INFO - Added alias 'Monsenso A/S' to 'Monsenso' with match score 100
+2024-04-23 14:20:29,252 - INFO - Added alias 'Movinn A/S' to 'Movinn' with match score 100
+2024-04-23 14:20:29,270 - INFO - Added alias 'Nexcom A/S' to 'Nexcom' with match score 100
+2024-04-23 14:20:29,288 - INFO - Added alias 'Q-Interline A/S' to 'Q-Interline' with match score 100
+2024-04-23 14:20:29,317 - INFO - Added alias 'RISMA Systems A/S' to 'RISMA Systems' with match score 100
+2024-04-23 14:20:29,345 - INFO - Added alias 'Scape Technologies A/S' to 'Scape Technologies' with match score 100
+2024-04-23 14:20:29,364 - INFO - Added alias 'Seluxit A/S' to 'Seluxit' with match score 100
+2024-04-23 14:20:29,382 - INFO - Added alias 'Scandinavian Medical Solutions A/S' to 'Scandinavian Medical Solutions' with match score 100
+2024-04-23 14:20:29,424 - INFO - Added alias 'Stenocare A/S' to 'STENOCARE' with match score 100
+2024-04-23 14:20:29,446 - INFO - Added alias 'Stenocare A/S' to 'Stenocare A/S TO 2' with match score 100
+2024-04-23 14:20:29,470 - INFO - Added alias 'Swiss Properties Invest A/S' to 'Swiss Properties Invest' with match score 100
+2024-04-23 14:20:29,491 - INFO - Added alias 'TROPHY GAMES Development A/S' to 'TROPHY GAMES Development' with match score 100
+2024-04-23 14:20:29,510 - INFO - Added alias 'ViroGates A/S' to 'ViroGates' with match score 100
+2024-04-23 14:20:29,528 - INFO - Added alias 'Wirtek A/S' to 'WIRTEK' with match score 100
+2024-04-23 14:20:29,544 - INFO - Added alias 'WindowMaster International A/S' to 'WindowMaster International' with match score 100
+2024-04-23 14:20:29,556 - INFO - Added alias 'OrderYOYO A/S' to 'OrderYOYO' with match score 100
+2024-04-23 14:20:29,561 - INFO - Added alias 'Aallon Group Oyj' to 'Aallon Group Oyj' with match score 100
+2024-04-23 14:20:29,573 - INFO - Added alias 'Admicom Oyj' to 'Admicom Oyj' with match score 100
+2024-04-23 14:20:29,585 - INFO - Added alias 'Administer Oyj' to 'Administer Oyj' with match score 100
+2024-04-23 14:20:29,597 - INFO - Added alias 'Aiforia Technologies Oyj' to 'Aiforia Technologies Oyj' with match score 100
+2024-04-23 14:20:29,609 - INFO - Added alias 'Alexandria Group Oyj' to 'Alexandria Group Oyj' with match score 100
+2024-04-23 14:20:29,621 - INFO - Added alias 'Asuntosalkku Oyj' to 'Asuntosalkku Oyj' with match score 100
+2024-04-23 14:20:29,633 - INFO - Added alias 'Betolar Oyj' to 'Betolar Oyj' with match score 100
+2024-04-23 14:20:29,645 - INFO - Added alias 'BBS-Bioactive Bone Substitutes Oyj' to 'BBS-Bioactive Bone Substitutes' with match score 100
+2024-04-23 14:20:29,658 - INFO - Added alias 'Bioretec Oy' to 'Bioretec Oy' with match score 100
+2024-04-23 14:20:29,660 - INFO - Added alias 'FIT Biotech Oy' to 'Bioretec Oy' with match score 84
+2024-04-23 14:20:29,670 - INFO - Added alias 'Detection Technology Oyj' to 'Detection Technology Oyj' with match score 100
+2024-04-23 14:20:29,682 - INFO - Added alias 'Duell Oyj' to 'Duell Oyj' with match score 100
+2024-04-23 14:20:29,694 - INFO - Added alias 'Digital Workforce Services Oyj' to 'Digital Workforce Services Oyj' with match score 100
+2024-04-23 14:20:29,706 - INFO - Added alias 'Eagle Filters Group Oyj' to 'Eagle Filters Group Oyj' with match score 100
+2024-04-23 14:20:29,718 - INFO - Added alias 'Ecoup Oyj' to 'EcoUp Oyj' with match score 100
+2024-04-23 14:20:29,729 - INFO - Added alias 'Efecte Oyj' to 'Efecte Oyj' with match score 100
+2024-04-23 14:20:29,742 - INFO - Added alias 'Faron Pharmaceuticals Oy' to 'Faron Pharmaceuticals Oy' with match score 100
+2024-04-23 14:20:29,755 - INFO - Added alias 'Fifax Abp' to 'Fifax Abp' with match score 100
+2024-04-23 14:20:29,768 - INFO - Added alias 'Fodelia Oyj' to 'Fodelia Oyj' with match score 100
+2024-04-23 14:20:29,779 - INFO - Added alias 'Fondia Oyj' to 'Fondia Oyj' with match score 100
+2024-04-23 14:20:29,794 - INFO - Added alias 'Nightingale Health Oyj' to 'Nightingale Health Oyj B' with match score 100
+2024-04-23 14:20:29,803 - INFO - Added alias 'Heeros Oyj' to 'Heeros Oyj' with match score 100
+2024-04-23 14:20:29,815 - INFO - Added alias 'Herantis Pharma Oyj' to 'Herantis Pharma Oyj' with match score 100
+2024-04-23 14:20:29,826 - INFO - Added alias 'Inderes Oyj' to 'Inderes Oyj' with match score 100
+2024-04-23 14:20:29,838 - INFO - Added alias 'Kempower Oyj' to 'Kempower Oyj' with match score 100
+2024-04-23 14:20:29,850 - INFO - Added alias 'LapWall Oyj' to 'LapWall Oyj' with match score 100
+2024-04-23 14:20:29,862 - INFO - Added alias 'LeadDesk Oyj' to 'LeadDesk Oyj' with match score 100
+2024-04-23 14:20:29,873 - INFO - Added alias 'Lemonsoft Oyj' to 'Lemonsoft Oyj' with match score 100
+2024-04-23 14:20:29,885 - INFO - Added alias 'Loihde Oyj' to 'Loihde Oyj' with match score 100
+2024-04-23 14:20:29,897 - INFO - Added alias 'Meriaura Group Oyj' to 'Meriaura Group Oyj' with match score 100
+2024-04-23 14:20:29,909 - INFO - Added alias 'Merus Power Oyj' to 'Merus Power Oyj' with match score 100
+2024-04-23 14:20:29,921 - INFO - Added alias 'Modulight Oyj' to 'Modulight Oyj' with match score 100
+2024-04-23 14:20:29,934 - INFO - Added alias 'Netum Group Oyj' to 'Netum Group Oyj' with match score 100
+2024-04-23 14:20:29,947 - INFO - Added alias 'Norrhydro Group Oyj' to 'Norrhydro Group Oyj' with match score 100
+2024-04-23 14:20:29,964 - INFO - Added alias 'Nexstim Oyj' to 'Nexstim Oyj' with match score 100
+2024-04-23 14:20:29,986 - INFO - Added alias 'NYAB Oyj' to 'NYAB Oyj' with match score 100
+2024-04-23 14:20:30,002 - INFO - Added alias 'Pallas Air Plc' to 'Pallas Air Oyj' with match score 100
+2024-04-23 14:20:30,015 - INFO - Added alias 'Partnera Oyj' to 'Partnera Oyj' with match score 100
+2024-04-23 14:20:30,027 - INFO - Added alias 'Piippo Oyj' to 'Piippo Oyj' with match score 100
+2024-04-23 14:20:30,041 - INFO - Added alias 'Rush Factory Oyj' to 'Rush Factory Oyj' with match score 100
+2024-04-23 14:20:30,055 - INFO - Added alias 'Solwers Oyj' to 'Solwers Oyj' with match score 100
+2024-04-23 14:20:30,069 - INFO - Added alias 'Spinnova Oyj' to 'Spinnova Oyj' with match score 100
+2024-04-23 14:20:30,081 - INFO - Added alias 'Springvest Oyj' to 'Springvest Oyj' with match score 100
+2024-04-23 14:20:30,094 - INFO - Added alias 'Tamtron Group Oyj' to 'Tamtron Group Oyj' with match score 100
+2024-04-23 14:20:30,107 - INFO - Added alias 'Titanium Oyj' to 'Titanium Oyj' with match score 100
+2024-04-23 14:20:30,120 - INFO - Added alias 'Toivo Group Oyj' to 'Toivo Group Oyj' with match score 100
+2024-04-23 14:20:30,134 - INFO - Added alias 'Viafin Service Oyj' to 'Viafin Service Oyj' with match score 100
+2024-04-23 14:20:30,146 - INFO - Added alias 'Vincit Oyj' to 'Vincit Oyj' with match score 100
+2024-04-23 14:20:30,159 - INFO - Added alias 'Witted Megacorp Oyj' to 'Witted Megacorp Oyj' with match score 100
+2024-04-23 14:20:30,168 - INFO - Added alias 'Akelius Residential Property AB' to 'Akelius Residential Prop. D' with match score 96
+2024-04-23 14:20:30,276 - INFO - Added alias 'Cyber Security 1 AB' to 'Cyber Security 1' with match score 100
+2024-04-23 14:20:30,383 - INFO - Added alias 'ALK-Abelló' to 'ALK-Abelló B' with match score 100
+2024-04-23 14:20:30,499 - INFO - Added alias 'Alm. Brand A/S' to 'Alm. Brand' with match score 100
+2024-04-23 14:20:30,499 - INFO - Added alias 'Alm. Brand Formue A/S' to 'Alm. Brand' with match score 100
+2024-04-23 14:20:30,500 - INFO - Added alias 'Alm. Brand Invest' to 'Alm. Brand' with match score 100
+2024-04-23 14:20:30,500 - INFO - Added alias 'Alm. Brand Pantebreve A/S' to 'Alm. Brand' with match score 100
+2024-04-23 14:20:30,587 - INFO - Added alias 'Ambu A/S' to 'Ambu' with match score 100
+2024-04-23 14:20:30,688 - INFO - Added alias 'Bavarian Nordic A/S' to 'Bavarian Nordic' with match score 100
+2024-04-23 14:20:30,775 - INFO - Added alias 'Better Collective A/S' to 'Better Collective' with match score 100
+2024-04-23 14:20:30,862 - INFO - Added alias 'Carlsberg A/S' to 'Carlsberg A' with match score 100
+2024-04-23 14:20:30,862 - INFO - Added alias 'Carlsberg Breweries A/S' to 'Carlsberg A' with match score 90
+2024-04-23 14:20:30,863 - INFO - Added alias 'Carlsberg Finans A/S' to 'Carlsberg A' with match score 90
+2024-04-23 14:20:30,969 - INFO - Added alias 'Carlsberg A/S' to 'Carlsberg B' with match score 100
+2024-04-23 14:20:30,969 - INFO - Added alias 'Carlsberg Breweries A/S' to 'Carlsberg B' with match score 100
+2024-04-23 14:20:30,970 - INFO - Added alias 'Carlsberg Finans A/S' to 'Carlsberg B' with match score 90
+2024-04-23 14:20:31,075 - INFO - Added alias 'ChemoMetec' to 'ChemoMetec' with match score 100
+2024-04-23 14:20:31,165 - INFO - Added alias 'Coloplast A/S' to 'Coloplast B' with match score 100
+2024-04-23 14:20:31,166 - INFO - Added alias 'Coloplast Finance B.V.' to 'Coloplast B' with match score 90
+2024-04-23 14:20:31,212 - INFO - Added alias 'Lastas A/S' to 'Coloplast B' with match score 100
+2024-04-23 14:20:31,275 - INFO - Added alias 'Danske Bank A/S' to 'Danske Bank' with match score 100
+2024-04-23 14:20:31,335 - INFO - Added alias 'Skjern Bank A/S' to 'Danske Bank' with match score 82
+2024-04-23 14:20:31,376 - INFO - Added alias 'Demant A/S' to 'Demant' with match score 100
+2024-04-23 14:20:31,500 - INFO - Added alias 'DFDS A/S' to 'DFDS' with match score 100
+2024-04-23 14:20:31,645 - INFO - Added alias 'NORDEN' to 'D/S Norden' with match score 100
+2024-04-23 14:20:31,700 - INFO - Added alias 'DSV A/S' to 'DSV' with match score 100
+2024-04-23 14:20:31,802 - INFO - Added alias 'FLSmidth & Co. A/S' to 'FLSmidth & Co.' with match score 100
+2024-04-23 14:20:31,890 - INFO - Added alias 'Genmab A/S' to 'Genmab' with match score 100
+2024-04-23 14:20:31,986 - INFO - Added alias 'GN Store Nord A/S' to 'GN Store Nord' with match score 100
+2024-04-23 14:20:32,094 - INFO - Added alias 'H. Lundbeck A/S' to 'H. Lundbeck A' with match score 100
+2024-04-23 14:20:32,185 - INFO - Added alias 'H. Lundbeck A/S' to 'H. Lundbeck B' with match score 100
+2024-04-23 14:20:32,309 - INFO - Added alias 'ISS' to 'ISS' with match score 100
+2024-04-23 14:20:32,309 - INFO - Added alias 'ISS A/S' to 'ISS' with match score 100
+2024-04-23 14:20:32,427 - INFO - Added alias 'Jeudan A/S' to 'Jeudan' with match score 100
+2024-04-23 14:20:32,506 - INFO - Added alias 'Fynske Bank A/S' to 'Jyske Bank' with match score 89
+2024-04-23 14:20:32,527 - INFO - Added alias 'Jyske Bank A/S' to 'Jyske Bank' with match score 100
+2024-04-23 14:20:32,544 - INFO - Added alias 'Nordjyske Bank' to 'Jyske Bank' with match score 100
+2024-04-23 14:20:32,569 - INFO - Added alias 'Vestjysk Bank A/S' to 'Jyske Bank' with match score 94
+2024-04-23 14:20:32,572 - INFO - Added alias 'Østjydsk Bank A/S' to 'Jyske Bank' with match score 89
+2024-04-23 14:20:32,625 - INFO - Added alias 'Københavns Lufthavne A/S' to 'Københavns Lufthavne' with match score 100
+2024-04-23 14:20:32,667 - INFO - Added alias 'A.P. Møller - Mærsk A/S' to 'A.P. Møller - Mærsk A' with match score 100
+2024-04-23 14:20:32,756 - INFO - Added alias 'A.P. Møller - Mærsk A/S' to 'A.P. Møller - Mærsk B' with match score 100
+2024-04-23 14:20:32,900 - INFO - Added alias 'Nordea Bank AB' to 'Nordea Bank Abp' with match score 100
+2024-04-23 14:20:32,900 - INFO - Added alias 'Nordea Bank Abp' to 'Nordea Bank Abp' with match score 100
+2024-04-23 14:20:32,901 - INFO - Added alias 'NORDEN' to 'Nordea Bank Abp' with match score 83
+2024-04-23 14:20:32,944 - INFO - Added alias 'Company' to 'Netcompany Group' with match score 100
+2024-04-23 14:20:32,978 - INFO - Added alias 'Kompan' to 'Netcompany Group' with match score 83
+2024-04-23 14:20:32,985 - INFO - Added alias 'Netcompany Group A/S' to 'Netcompany Group' with match score 100
+2024-04-23 14:20:33,083 - INFO - Added alias 'NKT A/S' to 'NKT' with match score 100
+2024-04-23 14:20:33,170 - INFO - Added alias 'Noble Corporation plc' to 'Noble Corporation' with match score 100
+2024-04-23 14:20:33,261 - INFO - Added alias 'Novo Nordisk A/S' to 'Novo Nordisk B' with match score 100
+2024-04-23 14:20:33,364 - INFO - Added alias 'Novonesis (Novozymes) A/S' to 'Novonesis (Novozymes) B' with match score 100
+2024-04-23 14:20:33,503 - INFO - Added alias 'Ørsted A/S' to 'Ørsted' with match score 100
+2024-04-23 14:20:33,704 - INFO - Added alias 'Pandora A/S' to 'Pandora' with match score 100
+2024-04-23 14:20:33,809 - INFO - Added alias 'Royal UNIBREW A/S' to 'Royal UNIBREW' with match score 100
+2024-04-23 14:20:33,895 - INFO - Added alias 'Ringkjøbing Bank A/S' to 'Ringkjøbing Landbobank' with match score 87
+2024-04-23 14:20:33,895 - INFO - Added alias 'Ringkjøbing Landbobank A/S' to 'Ringkjøbing Landbobank' with match score 100
+2024-04-23 14:20:33,983 - INFO - Added alias 'Rockwool A/S' to 'Rockwool A' with match score 100
+2024-04-23 14:20:34,087 - INFO - Added alias 'Rockwool A/S' to 'Rockwool B' with match score 100
+2024-04-23 14:20:34,115 - INFO - Added alias 'Aktieselskabet Schouw & Co.' to 'Schouw & Co.' with match score 100
+2024-04-23 14:20:34,284 - INFO - Added alias 'Nordea Bank AB' to 'Spar Nord Bank' with match score 89
+2024-04-23 14:20:34,302 - INFO - Added alias 'Spar Nord Bank A/S' to 'Spar Nord Bank' with match score 100
+2024-04-23 14:20:34,390 - INFO - Added alias 'Scandinavian Tobacco Group A/S' to 'Scandinavian Tobacco Group' with match score 100
+2024-04-23 14:20:34,542 - INFO - Added alias 'Sydbank A/S' to 'Sydbank' with match score 100
+2024-04-23 14:20:34,646 - INFO - Added alias 'Topdanmark A/S' to 'Topdanmark' with match score 100
+2024-04-23 14:20:34,756 - INFO - Added alias 'TORM A/S' to 'TORM A' with match score 100
+2024-04-23 14:20:34,757 - INFO - Added alias 'Torm plc' to 'TORM A' with match score 100
+2024-04-23 14:20:34,871 - INFO - Added alias 'Tryg A/S' to 'Tryg' with match score 100
+2024-04-23 14:20:34,965 - INFO - Added alias 'Vestas Wind Systems A/S' to 'Vestas Wind Systems' with match score 100
+2024-04-23 14:20:35,060 - INFO - Added alias 'Zealand Pharma A/S' to 'Zealand Pharma' with match score 100
+2024-04-23 14:20:35,176 - INFO - Added alias 'BankNordik P/F' to 'BankNordik' with match score 100
+2024-04-23 14:20:35,263 - INFO - Added alias 'Bang & Olufsen A/S' to 'Bang & Olufsen' with match score 100
+2024-04-23 14:20:35,369 - INFO - Added alias 'Boozt AB' to 'Boozt' with match score 100
+2024-04-23 14:20:35,507 - INFO - Added alias 'cBrain A/S' to 'CBRAIN' with match score 100
+2024-04-23 14:20:35,644 - INFO - Added alias 'Danske Andelskassers Bank' to 'Danske Andelskassers Bank' with match score 100
+2024-04-23 14:20:35,760 - INFO - Added alias 'Flügger group A/S' to 'Flügger group B' with match score 100
+2024-04-23 14:20:35,856 - INFO - Added alias 'Green Hydrogen Systems A/S' to 'Green Hydrogen Systems' with match score 100
+2024-04-23 14:20:35,959 - INFO - Added alias 'Gubra A/S' to 'Gubra' with match score 100
+2024-04-23 14:20:36,048 - INFO - Added alias 'Gyldendal A/S' to 'Gyldendal A' with match score 100
+2024-04-23 14:20:36,139 - INFO - Added alias 'Gyldendal A/S' to 'Gyldendal B' with match score 100
+2024-04-23 14:20:36,226 - INFO - Added alias 'H+H International A/S' to 'H+H International' with match score 100
+2024-04-23 14:20:36,338 - INFO - Added alias 'Lån & Spar Bank A/S' to 'Lån og Spar Bank' with match score 82
+2024-04-23 14:20:36,360 - INFO - Added alias 'SPARBANK A/S' to 'Lån og Spar Bank' with match score 100
+2024-04-23 14:20:36,392 - INFO - Added alias 'Cemat A/S' to 'Matas' with match score 100
+2024-04-23 14:20:36,452 - INFO - Added alias 'Matas A/S' to 'Matas' with match score 100
+2024-04-23 14:20:36,500 - INFO - Added alias 'Arkil Holding A/S' to 'MT Højgaard Holding' with match score 82
+2024-04-23 14:20:36,594 - INFO - Added alias 'MT Højgaard Holding A/S' to 'MT Højgaard Holding' with match score 100
+2024-04-23 14:20:36,705 - INFO - Added alias 'Nilfisk Holding A/S' to 'Nilfisk Holding' with match score 100
+2024-04-23 14:20:36,800 - INFO - Added alias 'NNIT A/S' to 'NNIT' with match score 100
+2024-04-23 14:20:36,890 - INFO - Added alias 'North Media A/S' to 'North Media' with match score 100
+2024-04-23 14:20:36,986 - INFO - Added alias 'NTG Nordic Transport Group A/S' to 'NTG Nordic Transport Group' with match score 100
+2024-04-23 14:20:37,092 - INFO - Added alias 'Per Aarsleff Holding A/S' to 'Per Aarsleff Holding B' with match score 100
+2024-04-23 14:20:37,186 - INFO - Added alias 'RTX' to 'RTX' with match score 100
+2024-04-23 14:20:37,226 - INFO - Added alias 'Ennogie Solar Group A/S' to 'Solar B' with match score 91
+2024-04-23 14:20:37,280 - INFO - Added alias 'Solar A/S' to 'Solar B' with match score 100
+2024-04-23 14:20:37,406 - INFO - Added alias 'SP Group A/S' to 'SP Group' with match score 100
+2024-04-23 14:20:37,526 - INFO - Added alias 'Sparekassen Lolland A/S' to 'Sparekassen Sjælland-Fyn' with match score 83
+2024-04-23 14:20:37,526 - INFO - Added alias 'Sparekassen Sjælland-Fyn A/S' to 'Sparekassen Sjælland-Fyn' with match score 100
+2024-04-23 14:20:37,625 - INFO - Added alias 'Tivoli A/S' to 'Tivoli A/S' with match score 100
+2024-04-23 14:20:37,662 - INFO - Added alias 'FORAS Holding' to 'Trifork Holding' with match score 87
+2024-04-23 14:20:37,728 - INFO - Added alias 'Trifork A/S' to 'Trifork Holding' with match score 100
+2024-04-23 14:20:37,728 - INFO - Added alias 'Trifork Holding AG' to 'Trifork Holding' with match score 100
+2024-04-23 14:20:37,824 - INFO - Added alias 'UIE Plc' to 'UIE Plc' with match score 100
+2024-04-23 14:20:37,876 - INFO - Added alias 'Jyske Bank A/S' to 'Vestjysk Bank' with match score 94
+2024-04-23 14:20:37,917 - INFO - Added alias 'Vestfyns Bank A/S' to 'Vestjysk Bank' with match score 83
+2024-04-23 14:20:37,918 - INFO - Added alias 'Vestjysk Bank A/S' to 'Vestjysk Bank' with match score 100
+2024-04-23 14:20:37,921 - INFO - Added alias 'Østjydsk Bank A/S' to 'Vestjysk Bank' with match score 87
+2024-04-23 14:20:38,010 - INFO - Added alias 'Agat Ejendomme A/S' to 'Agat Ejendomme' with match score 100
+2024-04-23 14:20:38,097 - INFO - Added alias 'AGF A/S' to 'AGF B' with match score 100
+2024-04-23 14:20:38,188 - INFO - Added alias 'Aquaporin A/S' to 'Aquaporin' with match score 100
+2024-04-23 14:20:38,274 - INFO - Added alias 'Asetek A/S' to 'Asetek' with match score 100
+2024-04-23 14:20:38,362 - INFO - Added alias 'Atlantic Petroleum P/F' to 'Atlantic Petroleum' with match score 100
+2024-04-23 14:20:38,439 - INFO - Added alias 'P/F Atlantic Petroleum' to 'Atlantic Petroleum' with match score 100
+2024-04-23 14:20:38,615 - INFO - Added alias 'BioPorto A/S' to 'BioPorto' with match score 100
+2024-04-23 14:20:38,710 - INFO - Added alias 'Cemat A/S' to 'Cemat' with match score 100
+2024-04-23 14:20:38,753 - INFO - Added alias 'Matas A/S' to 'Cemat' with match score 100
+2024-04-23 14:20:38,804 - INFO - Added alias 'Columbus A/S' to 'Columbus' with match score 100
+2024-04-23 14:20:38,992 - INFO - Added alias 'Copenhagen Capital A/S' to 'Copenhagen Capital Stam' with match score 100
+2024-04-23 14:20:39,085 - INFO - Added alias 'Dantax A/S' to 'Dantax' with match score 100
+2024-04-23 14:20:39,181 - INFO - Added alias 'Djurslands Bank A/S' to 'Djurslands Bank' with match score 100
+2024-04-23 14:20:39,271 - INFO - Added alias 'Athena Investments A/S' to 'EAC Invest' with match score 89
+2024-04-23 14:20:39,289 - INFO - Added alias 'EAC Invest' to 'EAC Invest' with match score 100
+2024-04-23 14:20:39,292 - INFO - Added alias 'European Investment Bank' to 'EAC Invest' with match score 89
+2024-04-23 14:20:39,336 - INFO - Added alias 'Nordea Invest' to 'EAC Invest' with match score 94
+2024-04-23 14:20:39,337 - INFO - Added alias 'Nordea Invest Special' to 'EAC Invest' with match score 89
+2024-04-23 14:20:39,396 - INFO - Added alias 'Ennogie Solar Group A/S' to 'Ennogie Solar Group' with match score 100
+2024-04-23 14:20:39,452 - INFO - Added alias 'Solar A/S' to 'Ennogie Solar Group' with match score 100
+2024-04-23 14:20:39,499 - INFO - Added alias 'Fast Ejendom, Dansk Ejendomsportefølje' to 'Fast Ejendom Danmark' with match score 83
+2024-04-23 14:20:39,499 - INFO - Added alias 'Fast Ejendom Danmark' to 'Fast Ejendom Danmark' with match score 100
+2024-04-23 14:20:39,639 - INFO - Added alias 'FirstFarms' to 'FirstFarms' with match score 100
+2024-04-23 14:20:39,770 - INFO - Added alias 'Fynske Bank A/S' to 'Fynske Bank' with match score 100
+2024-04-23 14:20:39,790 - INFO - Added alias 'Jyske Bank A/S' to 'Fynske Bank' with match score 89
+2024-04-23 14:20:39,808 - INFO - Added alias 'Nordfyns Bank A/S' to 'Fynske Bank' with match score 89
+2024-04-23 14:20:39,809 - INFO - Added alias 'Nordjyske Bank' to 'Fynske Bank' with match score 84
+2024-04-23 14:20:39,824 - INFO - Added alias 'Skjern Bank A/S' to 'Fynske Bank' with match score 82
+2024-04-23 14:20:39,840 - INFO - Added alias 'Vestfyns Bank A/S' to 'Fynske Bank' with match score 89
+2024-04-23 14:20:39,849 - INFO - Added alias 'Arkil Holding A/S' to 'Gabriel Holding' with match score 83
+2024-04-23 14:20:39,881 - INFO - Added alias 'Gabriel Holding A/S' to 'Gabriel Holding' with match score 100
+2024-04-23 14:20:39,918 - INFO - Added alias 'Rella Holding A/S' to 'Gabriel Holding' with match score 87
+2024-04-23 14:20:39,972 - INFO - Added alias 'German High Street Properties A/S' to 'German High Street Properties' with match score 100
+2024-04-23 14:20:40,070 - INFO - Added alias 'Glunz & Jensen Holding A/S' to 'Glunz & Jensen Holding' with match score 100
+2024-04-23 14:20:40,197 - INFO - Added alias 'GreenMobility A/S' to 'GreenMobility' with match score 100
+2024-04-23 14:20:40,318 - INFO - Added alias 'Grønlandsbanken A/S' to 'Grønlandsbanken' with match score 100
+2024-04-23 14:20:40,416 - INFO - Added alias 'Harboes Bryggeri A/S' to 'Harboes Bryggeri B' with match score 100
+2024-04-23 14:20:40,504 - INFO - Added alias 'Company' to 'HusCompagniet' with match score 86
+2024-04-23 14:20:40,526 - INFO - Added alias 'HusCompagniet A/S' to 'HusCompagniet' with match score 100
+2024-04-23 14:20:40,542 - INFO - Added alias 'Kompan' to 'HusCompagniet' with match score 83
+2024-04-23 14:20:40,623 - INFO - Added alias 'Hvidbjerg Bank A/S' to 'Hvidbjerg Bank' with match score 100
+2024-04-23 14:20:40,751 - INFO - Added alias 'InterMail A/S' to 'InterMail' with match score 100
+2024-04-23 14:20:40,826 - INFO - Added alias 'Brd. Klee A/S' to 'Brd. Klee B' with match score 100
+2024-04-23 14:20:40,964 - INFO - Added alias 'Kreditbanken A/S' to 'Kreditbanken' with match score 100
+2024-04-23 14:20:40,975 - INFO - Added alias 'Nykredit Bank A/S' to 'Kreditbanken' with match score 83
+2024-04-23 14:20:41,053 - INFO - Added alias 'Lollands Bank A/S' to 'Lollands Bank' with match score 100
+2024-04-23 14:20:41,230 - INFO - Added alias 'Møns Bank A/S' to 'Møns Bank' with match score 100
+2024-04-23 14:20:41,336 - INFO - Added alias 'Newcap Holding' to 'Newcap Holding' with match score 100
+2024-04-23 14:20:41,415 - INFO - Added alias 'Fynske Bank A/S' to 'Nordfyns Bank' with match score 89
+2024-04-23 14:20:41,463 - INFO - Added alias 'Nordfyns Bank A/S' to 'Nordfyns Bank' with match score 100
+2024-04-23 14:20:41,526 - INFO - Added alias 'Consenta Holding' to 'NTR Holding B' with match score 86
+2024-04-23 14:20:41,562 - INFO - Added alias 'I. R. E. German Property Holding B. V.' to 'NTR Holding B' with match score 82
+2024-04-23 14:20:41,590 - INFO - Added alias 'NTR Holding A/S' to 'NTR Holding B' with match score 100
+2024-04-23 14:20:41,612 - INFO - Added alias 'Tresu Investment Holding A/S' to 'NTR Holding B' with match score 86
+2024-04-23 14:20:41,686 - INFO - Added alias 'Orphazyme A/S' to 'Orphazyme' with match score 100
+2024-04-23 14:20:41,780 - INFO - Added alias 'PARKEN Sport & Entertainment' to 'PARKEN Sport & Entertainment' with match score 100
+2024-04-23 14:20:41,868 - INFO - Added alias 'Park Street A/S' to 'Park Street A' with match score 100
+2024-04-23 14:20:41,964 - INFO - Added alias 'Pharma Equity Group A/S' to 'Pharma Equity Group' with match score 100
+2024-04-23 14:20:42,064 - INFO - Added alias 'Penneo A/S' to 'Penneo' with match score 100
+2024-04-23 14:20:42,176 - INFO - Added alias 'Prime Office A/S' to 'Prime Office' with match score 100
+2024-04-23 14:20:42,275 - INFO - Added alias 'Roblon A/S' to 'Roblon B' with match score 100
+2024-04-23 14:20:42,397 - INFO - Added alias 'Rias A/S' to 'Rias B' with match score 100
+2024-04-23 14:20:42,401 - INFO - Added alias 'SBAB' to 'Rias B' with match score 100
+2024-04-23 14:20:42,493 - INFO - Added alias 'Rovsing A/S' to 'Rovsing' with match score 100
+2024-04-23 14:20:42,598 - INFO - Added alias 'SBAB' to 'SAS' with match score 100
+2024-04-23 14:20:42,606 - INFO - Added alias 'SP Group A/S' to 'SAS' with match score 100
+2024-04-23 14:20:42,697 - INFO - Added alias 'Scandinavian Brake Systems A/S' to 'Scandinavian Brake Systems' with match score 100
+2024-04-23 14:20:42,796 - INFO - Added alias 'Shape Robotics A/S' to 'Shape Robotics' with match score 100
+2024-04-23 14:20:42,882 - INFO - Added alias 'PFA Invest' to 'Silkeborg IF Invest' with match score 82
+2024-04-23 14:20:42,892 - INFO - Added alias 'Silkeborg IF Invest A/S' to 'Silkeborg IF Invest' with match score 100
+2024-04-23 14:20:42,993 - INFO - Added alias 'Scandinavian Investment Group A/S' to 'Scandinavian Investment Group' with match score 100
+2024-04-23 14:20:43,108 - INFO - Added alias 'SKAKO' to 'SKAKO' with match score 100
+2024-04-23 14:20:43,208 - INFO - Added alias 'Skjern Bank A/S' to 'Skjern Bank' with match score 100
+2024-04-23 14:20:43,231 - INFO - Added alias 'Athena Investments A/S' to 'Strategic Investments' with match score 82
+2024-04-23 14:20:43,332 - INFO - Added alias 'Strategic Investments A/S' to 'Strategic Investments' with match score 100
+2024-04-23 14:20:43,333 - INFO - Added alias 'Strategi Invest' to 'Strategic Investments' with match score 93
+2024-04-23 14:20:43,432 - INFO - Added alias 'TCM Group A/S' to 'TCM Group' with match score 100
+2024-04-23 14:20:43,450 - INFO - Added alias 'Cargotec' to 'Cargotec Oyj' with match score 100
+2024-04-23 14:20:43,479 - INFO - Added alias 'OTE' to 'Cargotec Oyj' with match score 100
+2024-04-23 14:20:43,507 - INFO - Added alias 'Citycon Oyj' to 'Citycon Oyj' with match score 100
+2024-04-23 14:20:43,556 - INFO - Added alias 'Elisa' to 'Elisa Oyj' with match score 100
+2024-04-23 14:20:43,607 - INFO - Added alias 'Fortum' to 'Fortum Oyj' with match score 100
+2024-04-23 14:20:43,652 - INFO - Added alias 'Fiskars' to 'Fiskars Oyj Abp' with match score 100
+2024-04-23 14:20:43,701 - INFO - Added alias 'Huhtamäki Oyj' to 'Huhtamäki Oyj' with match score 100
+2024-04-23 14:20:43,750 - INFO - Added alias 'Konecranes Oyj' to 'Konecranes Oyj' with match score 100
+2024-04-23 14:20:43,751 - INFO - Added alias 'KONE Oyj' to 'Konecranes Oyj' with match score 100
+2024-04-23 14:20:43,770 - INFO - Added alias 'Sonera Oyj' to 'Konecranes Oyj' with match score 83
+2024-04-23 14:20:43,795 - INFO - Added alias 'Kemira GrowHow Oyj' to 'Kemira Oyj' with match score 100
+2024-04-23 14:20:43,795 - INFO - Added alias 'Kemira Oyj' to 'Kemira Oyj' with match score 100
+2024-04-23 14:20:43,851 - INFO - Added alias 'Kesko Oyj' to 'Kesko Oyj A' with match score 100
+2024-04-23 14:20:43,895 - INFO - Added alias 'Kesko Oyj' to 'Kesko Oyj B' with match score 100
+2024-04-23 14:20:43,940 - INFO - Added alias 'Konecranes Oyj' to 'KONE Oyj' with match score 100
+2024-04-23 14:20:43,940 - INFO - Added alias 'KONE Oyj' to 'KONE Oyj' with match score 100
+2024-04-23 14:20:43,984 - INFO - Added alias 'Kojamo Oyj' to 'Kojamo Oyj' with match score 100
+2024-04-23 14:20:44,032 - INFO - Added alias 'Mandatum Oyj' to 'Mandatum' with match score 100
+2024-04-23 14:20:44,078 - INFO - Added alias 'Metsä Board Oyj' to 'Metsä Board Oyj A' with match score 100
+2024-04-23 14:20:44,127 - INFO - Added alias 'Metsä Board Oyj' to 'Metsä Board Oyj B' with match score 100
+2024-04-23 14:20:44,230 - INFO - Added alias 'Nordea Bank AB (publ.)' to 'Nordea Bank Abp' with match score 100
+2024-04-23 14:20:44,230 - INFO - Added alias 'Nordea Bank Abp' to 'Nordea Bank Abp' with match score 100
+2024-04-23 14:20:44,286 - INFO - Added alias 'Neste Oyj' to 'Neste Oyj' with match score 100
+2024-04-23 14:20:44,345 - INFO - Added alias 'Nokia' to 'Nokia Oyj' with match score 100
+2024-04-23 14:20:44,346 - INFO - Added alias 'Nokian Tyres plc' to 'Nokia Oyj' with match score 100
+2024-04-23 14:20:44,441 - INFO - Added alias 'Orion' to 'Orion Oyj A' with match score 100
+2024-04-23 14:20:44,512 - INFO - Added alias 'Orion' to 'Orion Oyj B' with match score 100
+2024-04-23 14:20:44,574 - INFO - Added alias 'Outokumpu Oyj' to 'Outokumpu Oyj' with match score 100
+2024-04-23 14:20:44,627 - INFO - Added alias 'Qt Group Oyj' to 'Qt Group Oyj' with match score 100
+2024-04-23 14:20:44,676 - INFO - Added alias 'Revenio Group Oyj' to 'Revenio Group Oyj' with match score 100
+2024-04-23 14:20:44,724 - INFO - Added alias 'Sampo' to 'Sampo Oyj A' with match score 100
+2024-04-23 14:20:44,771 - INFO - Added alias 'Sanoma Oyj' to 'Sanoma Oyj' with match score 100
+2024-04-23 14:20:44,821 - INFO - Added alias 'SSAB AB' to 'SSAB A' with match score 100
+2024-04-23 14:20:44,868 - INFO - Added alias 'SSAB AB' to 'SSAB B' with match score 100
+2024-04-23 14:20:44,913 - INFO - Added alias 'Stora Enso Oyj' to 'Stora Enso Oyj A' with match score 100
+2024-04-23 14:20:44,959 - INFO - Added alias 'Stora Enso Oyj' to 'Stora Enso Oyj R' with match score 100
+2024-04-23 14:20:45,010 - INFO - Added alias 'Telia Company AB' to 'Telia Company' with match score 100
+2024-04-23 14:20:45,058 - INFO - Added alias 'TietoEVRY Oyj' to 'TietoEVRY Oyj' with match score 100
+2024-04-23 14:20:45,103 - INFO - Added alias 'Nokia' to 'Nokian Renkaat Oyj' with match score 100
+2024-04-23 14:20:45,174 - INFO - Added alias 'UPM-Kymmene Oyj' to 'UPM-Kymmene Oyj' with match score 100
+2024-04-23 14:20:45,220 - INFO - Added alias 'Uponor Oyj' to 'Uponor Oyj' with match score 100
+2024-04-23 14:20:45,265 - INFO - Added alias 'Vaisala' to 'Vaisala Oyj A' with match score 100
+2024-04-23 14:20:45,310 - INFO - Added alias 'Valmet Automotive Oyj' to 'Valmet Oyj' with match score 100
+2024-04-23 14:20:45,310 - INFO - Added alias 'Valmet Corporation' to 'Valmet Oyj' with match score 100
+2024-04-23 14:20:45,367 - INFO - Added alias 'Wärtsilä' to 'Wärtsilä Oyj Abp' with match score 100
+2024-04-23 14:20:45,370 - INFO - Added alias 'Aktia Bank Oyj' to 'Aktia Bank Abp' with match score 100
+2024-04-23 14:20:45,504 - INFO - Added alias 'Ålandsbanken' to 'Ålandsbanken Abp A' with match score 100
+2024-04-23 14:20:45,551 - INFO - Added alias 'Svenska Handelsbanken AB, Branch Oper' to 'Ålandsbanken Abp B' with match score 81
+2024-04-23 14:20:45,558 - INFO - Added alias 'Ålandsbanken' to 'Ålandsbanken Abp B' with match score 100
+2024-04-23 14:20:45,561 - INFO - Added alias 'Alma Media' to 'Alma Media Oyj' with match score 100
+2024-04-23 14:20:45,612 - INFO - Added alias 'Anora Group Oyj' to 'Anora Group Oyj' with match score 100
+2024-04-23 14:20:45,670 - INFO - Added alias 'Aspo' to 'Aspo Oyj' with match score 100
+2024-04-23 14:20:45,670 - INFO - Added alias 'Aspocomp Group Oyj' to 'Aspo Oyj' with match score 100
+2024-04-23 14:20:45,718 - INFO - Added alias 'Atria Oyj' to 'Atria Oyj A' with match score 100
+2024-04-23 14:20:45,766 - INFO - Added alias 'Bittium Oyj' to 'Bittium Oyj' with match score 100
+2024-04-23 14:20:45,813 - INFO - Added alias 'CapMan' to 'CapMan Oyj' with match score 100
+2024-04-23 14:20:45,858 - INFO - Added alias 'Caverion Oyj' to 'Caverion Oyj' with match score 100
+2024-04-23 14:20:45,904 - INFO - Added alias 'Digia Oyj' to 'Digia Oyj' with match score 100
+2024-04-23 14:20:45,952 - INFO - Added alias 'Enento Group Oyj' to 'Enento Group Oyj' with match score 100
+2024-04-23 14:20:46,001 - INFO - Added alias 'eQ Oyj' to 'eQ Oyj' with match score 100
+2024-04-23 14:20:46,048 - INFO - Added alias 'Etteplan Oyj' to 'Etteplan Oyj' with match score 100
+2024-04-23 14:20:46,108 - INFO - Added alias 'Evli Bank Abp' to 'Evli Oyj' with match score 100
+2024-04-23 14:20:46,109 - INFO - Added alias 'Evli Oyj' to 'Evli Oyj' with match score 100
+2024-04-23 14:20:46,163 - INFO - Added alias 'Finnair Oyj' to 'Finnair Oyj' with match score 100
+2024-04-23 14:20:46,222 - INFO - Added alias 'F-Secure Oyj' to 'F-Secure Oyj' with match score 100
+2024-04-23 14:20:46,267 - INFO - Added alias 'Gofore Oyj' to 'Gofore Oyj' with match score 100
+2024-04-23 14:20:46,311 - INFO - Added alias 'Harvia Oyj' to 'Harvia Oyj' with match score 100
+2024-04-23 14:20:46,357 - INFO - Added alias 'Incap Oyj' to 'Incap Oyj' with match score 100
+2024-04-23 14:20:46,405 - INFO - Added alias 'Kamux Oyj' to 'Kamux Oyj' with match score 100
+2024-04-23 14:20:46,457 - INFO - Added alias 'Lassila & Tikanoja Oyj' to 'Lassila & Tikanoja Oyj' with match score 100
+2024-04-23 14:20:46,505 - INFO - Added alias 'Lindex Group Oyj' to 'Lindex Group Oyj' with match score 100
+2024-04-23 14:20:46,551 - INFO - Added alias 'Marimekko Oyj' to 'Marimekko Oyj' with match score 100
+2024-04-23 14:20:46,596 - INFO - Added alias 'Musti Group Oyj' to 'Musti Group Oyj' with match score 100
+2024-04-23 14:20:46,642 - INFO - Added alias 'NoHo Partners Oyj' to 'NoHo Partners Oyj' with match score 100
+2024-04-23 14:20:46,690 - INFO - Added alias 'Oriola Oyj' to 'Oriola Oyj A' with match score 100
+2024-04-23 14:20:46,772 - INFO - Added alias 'Oriola Oyj' to 'Oriola Oyj B' with match score 100
+2024-04-23 14:20:46,816 - INFO - Added alias 'Olvi Oyj' to 'Olvi Oyj A' with match score 100
+2024-04-23 14:20:46,861 - INFO - Added alias 'Oma Säästöpankki Oyj' to 'Oma Säästöpankki Oyj' with match score 100
+2024-04-23 14:20:46,909 - INFO - Added alias 'Pihlajalinna Oyj' to 'Pihlajalinna Oyj' with match score 100
+2024-04-23 14:20:46,957 - INFO - Added alias 'Ponsse Oyj' to 'Ponsse Oyj 1' with match score 100
+2024-04-23 14:20:47,002 - INFO - Added alias 'Purmo Group Oyj' to 'Purmo Group Oyj C' with match score 100
+2024-04-23 14:20:47,046 - INFO - Added alias 'Puuilo Oyj' to 'Puuilo Oyj' with match score 100
+2024-04-23 14:20:47,136 - INFO - Added alias 'Rapala VMC' to 'Rapala VMC Oyj' with match score 100
+2024-04-23 14:20:47,181 - INFO - Added alias 'Relais Group Oyj' to 'Relais Group Oyj' with match score 100
+2024-04-23 14:20:47,227 - INFO - Added alias 'Remedy Entertainment Oyj' to 'Remedy Entertainment Oyj' with match score 100
+2024-04-23 14:20:47,276 - INFO - Added alias 'Scanfil Oyj' to 'Scanfil Oyj' with match score 100
+2024-04-23 14:20:47,338 - INFO - Added alias 'Sitowise Group Plc' to 'Sitowise Group Oyj' with match score 100
+2024-04-23 14:20:47,391 - INFO - Added alias 'Suominen Oyj' to 'Suominen Oyj' with match score 100
+2024-04-23 14:20:47,456 - INFO - Added alias 'Taaleri Oyj' to 'Taaleri Oyj' with match score 100
+2024-04-23 14:20:47,522 - INFO - Added alias 'Tallink Grupp' to 'AS Tallink Grupp FDR' with match score 100
+2024-04-23 14:20:47,572 - INFO - Added alias 'Tecnotree Oyj' to 'Tecnotree Oyj' with match score 100
+2024-04-23 14:20:47,626 - INFO - Added alias 'Talenom Oyj' to 'Talenom Oyj' with match score 100
+2024-04-23 14:20:47,681 - INFO - Added alias 'Tokmanni Group Oyj' to 'Tokmanni Group Oyj' with match score 100
+2024-04-23 14:20:47,727 - INFO - Added alias 'Terveystalo Healthcare Oyj' to 'Terveystalo Oyj' with match score 100
+2024-04-23 14:20:47,727 - INFO - Added alias 'Terveystalo Oyj' to 'Terveystalo Oyj' with match score 100
+2024-04-23 14:20:47,779 - INFO - Added alias 'Viking Line' to 'Viking Line Abp' with match score 100
+2024-04-23 14:20:47,824 - INFO - Added alias 'WithSecure Oyj' to 'WithSecure Oyj' with match score 100
+2024-04-23 14:20:47,880 - INFO - Added alias 'YIT' to 'YIT Oyj' with match score 100
+2024-04-23 14:20:47,885 - INFO - Added alias 'Aspo' to 'Aspocomp Group Oyj' with match score 100
+2024-04-23 14:20:47,885 - INFO - Added alias 'Aspocomp Group Oyj' to 'Aspocomp Group Oyj' with match score 100
+2024-04-23 14:20:47,931 - INFO - Added alias 'Afarak Group SE' to 'Afarak Group' with match score 100
+2024-04-23 14:20:47,977 - INFO - Added alias 'Aktia Pankki' to 'Alisa Pankki Oyj' with match score 82
+2024-04-23 14:20:47,978 - INFO - Added alias 'Alisa Bank Plc' to 'Alisa Pankki Oyj' with match score 89
+2024-04-23 14:20:48,026 - INFO - Added alias 'Apetit Oyj' to 'Apetit Oyj' with match score 100
+2024-04-23 14:20:48,075 - INFO - Added alias 'Biohit Oyj' to 'Biohit Oyj B' with match score 100
+2024-04-23 14:20:48,125 - INFO - Added alias 'Boreo Oyj' to 'Boreo Oyj' with match score 100
+2024-04-23 14:20:48,177 - INFO - Added alias 'Consti Oyj' to 'Consti Oyj' with match score 100
+2024-04-23 14:20:48,224 - INFO - Added alias 'Componenta Oyj' to 'Componenta Oyj' with match score 100
+2024-04-23 14:20:48,274 - INFO - Added alias 'Digitalist Group Plc' to 'Digitalist Group Oyj' with match score 100
+2024-04-23 14:20:48,327 - INFO - Added alias 'Dovre Group Oyj' to 'Dovre Group Oyj' with match score 100
+2024-04-23 14:20:48,377 - INFO - Added alias 'Eezy Oyj' to 'Eezy Oyj' with match score 100
+2024-04-23 14:20:48,449 - INFO - Added alias 'Elecster Oyj' to 'Elecster Oyj A' with match score 100
+2024-04-23 14:20:48,494 - INFO - Added alias 'Teleste Oyj' to 'Elecster Oyj A' with match score 86
+2024-04-23 14:20:48,518 - INFO - Added alias 'Enersense International Oyj' to 'Enersense International Oyj' with match score 100
+2024-04-23 14:20:48,581 - INFO - Added alias 'Exel Composites Oyj' to 'Exel Composites Oyj' with match score 100
+2024-04-23 14:20:48,639 - INFO - Added alias 'Glaston Oyj Abp' to 'Glaston Oyj Abp' with match score 100
+2024-04-23 14:20:48,690 - INFO - Added alias 'HKScan Oyj' to 'HKScan Oyj A' with match score 100
+2024-04-23 14:20:48,737 - INFO - Added alias 'Honkarakenne Oyj' to 'Honkarakenne Oyj B' with match score 100
+2024-04-23 14:20:48,785 - INFO - Added alias 'Innofactor Oyj' to 'Innofactor Plc' with match score 100
+2024-04-23 14:20:48,830 - INFO - Added alias 'Ilkka Oyj' to 'Ilkka Oyj 2' with match score 100
+2024-04-23 14:20:48,875 - INFO - Added alias 'Investors House Oyj' to 'Investors House Oyj' with match score 100
+2024-04-23 14:20:48,923 - INFO - Added alias 'Kesla Oyj' to 'Kesla Oyj A' with match score 100
+2024-04-23 14:20:48,981 - INFO - Added alias 'KH Group Plc' to 'KH Group Oyj' with match score 100
+2024-04-23 14:20:49,033 - INFO - Added alias 'Koskisen Oyj' to 'Koskisen Oyj' with match score 100
+2024-04-23 14:20:49,094 - INFO - Added alias 'Kreate Group Oyj' to 'Kreate Group Oyj' with match score 100
+2024-04-23 14:20:49,150 - INFO - Added alias 'Keskisuomalainen Oyj' to 'Keskisuomalainen Oyj A' with match score 100
+2024-04-23 14:20:49,197 - INFO - Added alias 'Lamor Corporation Oyj' to 'Lamor Corporation Oyj' with match score 100
+2024-04-23 14:20:49,200 - INFO - Added alias 'Metso Corporation' to 'Lamor Corporation Oyj' with match score 81
+2024-04-23 14:20:49,221 - INFO - Added alias 'Valmet Corporation' to 'Lamor Corporation Oyj' with match score 81
+2024-04-23 14:20:49,244 - INFO - Added alias 'Lehto Group Oyj' to 'Lehto Group Oyj' with match score 100
+2024-04-23 14:20:49,291 - INFO - Added alias 'Martela Oyj' to 'Martela Oyj A' with match score 100
+2024-04-23 14:20:49,352 - INFO - Added alias 'Nurminen Logistics Oyj' to 'Nurminen Logistics Oyj' with match score 100
+2024-04-23 14:20:49,408 - INFO - Added alias 'Optomed Oyj' to 'Optomed Oyj' with match score 100
+2024-04-23 14:20:49,455 - INFO - Added alias 'Orthex Oyj' to 'Orthex Oyj' with match score 100
+2024-04-23 14:20:49,504 - INFO - Added alias 'Ovaro Kiinteistösijoitus Oyj' to 'Ovaro Kiinteistösijoitus Oyj' with match score 100
+2024-04-23 14:20:49,506 - INFO - Added alias 'Polar Kiinteistöt Oyj' to 'Ovaro Kiinteistösijoitus Oyj' with match score 81
+2024-04-23 14:20:49,539 - INFO - Added alias 'Endomines AB' to 'Endomines Finland Oyj' with match score 100
+2024-04-23 14:20:49,539 - INFO - Added alias 'Endomines Finland Oyj' to 'Endomines Finland Oyj' with match score 100
+2024-04-23 14:20:49,606 - INFO - Added alias 'Panostaja Oyj' to 'Panostaja Oyj' with match score 100
+2024-04-23 14:20:49,655 - INFO - Added alias 'PunaMusta Media Oyj' to 'PunaMusta Media Oyj' with match score 100
+2024-04-23 14:20:49,700 - INFO - Added alias 'QPR Software' to 'QPR Software Oyj' with match score 100
+2024-04-23 14:20:49,745 - INFO - Added alias 'Raute Oyj' to 'Raute Oyj' with match score 100
+2024-04-23 14:20:49,792 - INFO - Added alias 'Reka Industrial Oyj' to 'Reka Industrial Oyj' with match score 100
+2024-04-23 14:20:49,837 - INFO - Added alias 'Robit Oyj' to 'Robit Oyj' with match score 100
+2024-04-23 14:20:49,884 - INFO - Added alias 'Saga Furs Oyj' to 'Saga Furs Oyj C' with match score 100
+2024-04-23 14:20:49,930 - INFO - Added alias 'Siili Solutions Oyj' to 'Siili Solutions Oyj' with match score 100
+2024-04-23 14:20:49,975 - INFO - Added alias 'Solteq Oyj' to 'Solteq Oyj' with match score 100
+2024-04-23 14:20:50,020 - INFO - Added alias 'Sotkamo Silver AB' to 'Sotkamo Silver AB' with match score 100
+2024-04-23 14:20:50,075 - INFO - Added alias 'SRV Yhtiöt Oyj' to 'SRV Yhtiöt Oyj' with match score 100
+2024-04-23 14:20:50,124 - INFO - Added alias 'SSH Communications Security Oyj' to 'SSH Communications Security' with match score 100
+2024-04-23 14:20:50,142 - INFO - Added alias 'Delete Group Oyj' to 'Teleste Oyj' with match score 83
+2024-04-23 14:20:50,143 - INFO - Added alias 'Elecster Oyj' to 'Teleste Oyj' with match score 86
+2024-04-23 14:20:50,174 - INFO - Added alias 'Teleste Oyj' to 'Teleste Oyj' with match score 100
+2024-04-23 14:20:50,221 - INFO - Added alias 'Trainers' House Oyj' to 'Trainers´ House Oyj' with match score 92
+2024-04-23 14:20:50,266 - INFO - Added alias 'Tulikivi Oyj' to 'Tulikivi Oyj A' with match score 100
+2024-04-23 14:20:50,321 - INFO - Added alias 'United Bankers Oyj' to 'United Bankers Oyj' with match score 100
+2024-04-23 14:20:50,379 - INFO - Added alias 'Valoe Oyj' to 'Valoe Oyj' with match score 100
+2024-04-23 14:20:50,453 - INFO - Added alias 'Verkkokauppa.com Oyj' to 'Verkkokauppa.com Oyj' with match score 100
+2024-04-23 14:20:50,520 - INFO - Added alias 'Wetteri Plc' to 'Wetteri Oyj' with match score 100
+2024-04-23 14:20:50,579 - INFO - Added alias 'Wulff-Yhtiöt Oyj' to 'Wulff-Yhtiöt Oyj' with match score 100
+2024-04-23 14:20:50,583 - INFO - Added alias 'Alvotech S.A.' to 'Alvotech' with match score 100
+2024-04-23 14:20:50,653 - INFO - Added alias 'Arion banki hf.' to 'Arion banki' with match score 100
+2024-04-23 14:20:50,710 - INFO - Added alias 'Brim hf.' to 'Brim' with match score 100
+2024-04-23 14:20:50,784 - INFO - Added alias 'Íslandsbanki hf.' to 'Íslandsbanki' with match score 100
+2024-04-23 14:20:50,791 - INFO - Added alias 'Landsbanki Íslands hf.' to 'Íslandsbanki' with match score 83
+2024-04-23 14:20:50,792 - INFO - Added alias 'Landsbankinn hf.' to 'Íslandsbanki' with match score 83
+2024-04-23 14:20:50,792 - INFO - Added alias 'Landsbanki Private Equity I' to 'Íslandsbanki' with match score 83
+2024-04-23 14:20:50,847 - INFO - Added alias 'Marel hf.' to 'Marel' with match score 100
+2024-04-23 14:20:50,906 - INFO - Added alias 'Síldarvinnslan hf' to 'Síldarvinnslan' with match score 100
+2024-04-23 14:20:50,906 - INFO - Added alias 'Síldarvinnslan hf.' to 'Síldarvinnslan' with match score 100
+2024-04-23 14:20:50,922 - INFO - Added alias 'Amaroq Minerals Ltd.' to 'Amaroq Minerals Ltd.' with match score 100
+2024-04-23 14:20:50,975 - INFO - Added alias 'Eik fasteignafélag hf.' to 'Eik fasteignafélag' with match score 100
+2024-04-23 14:20:50,980 - INFO - Added alias 'FÍ Fasteignafélag slhf.' to 'Eik fasteignafélag' with match score 82
+2024-04-23 14:20:50,982 - INFO - Added alias 'Foss Fasteignafélag slhf.' to 'Eik fasteignafélag' with match score 82
+2024-04-23 14:20:51,003 - INFO - Added alias 'Reitir fasteignafélag hf.' to 'Eik fasteignafélag' with match score 88
+2024-04-23 14:20:51,024 - INFO - Added alias 'Eimskipafélag Íslands ehf.' to 'Eimskipafélag Íslands' with match score 100
+2024-04-23 14:20:51,025 - INFO - Added alias 'Eimskipafélag Íslands hf.' to 'Eimskipafélag Íslands' with match score 100
+2024-04-23 14:20:51,036 - INFO - Added alias 'Hf. Eimskipafélag Íslands' to 'Eimskipafélag Íslands' with match score 100
+2024-04-23 14:20:51,079 - INFO - Added alias 'Festi hf.' to 'Festi' with match score 100
+2024-04-23 14:20:51,079 - INFO - Added alias 'Festing ehf.' to 'Festi' with match score 100
+2024-04-23 14:20:51,126 - INFO - Added alias 'Hagar hf.' to 'Hagar' with match score 100
+2024-04-23 14:20:51,171 - INFO - Added alias 'Hampiðjan hf.' to 'Hampiðjan' with match score 100
+2024-04-23 14:20:51,174 - INFO - Added alias 'Húsasmiðjan' to 'Hampiðjan' with match score 82
+2024-04-23 14:20:51,232 - INFO - Added alias 'Icelandair Group hf.' to 'Icelandair Group' with match score 100
+2024-04-23 14:20:51,284 - INFO - Added alias 'Ísfélag hf.' to 'Ísfélag' with match score 100
+2024-04-23 14:20:51,333 - INFO - Added alias 'Kvika banki hf' to 'Kvika banki' with match score 100
+2024-04-23 14:20:51,334 - INFO - Added alias 'Kvika banki hf.' to 'Kvika banki' with match score 100
+2024-04-23 14:20:51,407 - INFO - Added alias 'Ölgerðin Egill Skallagrímsson hf.' to 'Ölgerðin Egill Skallagrímsson' with match score 100
+2024-04-23 14:20:51,447 - INFO - Added alias 'Reginn hf.' to 'Reginn' with match score 100
+2024-04-23 14:20:51,477 - INFO - Added alias 'Eik fasteignafélag hf.' to 'Reitir fasteignafélag' with match score 84
+2024-04-23 14:20:51,516 - INFO - Added alias 'Reitir fasteignafélag hf.' to 'Reitir fasteignafélag' with match score 100
+2024-04-23 14:20:51,581 - INFO - Added alias 'Síminn hf.' to 'Síminn' with match score 100
+2024-04-23 14:20:51,634 - INFO - Added alias 'Sjóvá-Almennar tryggingar hf.' to 'Sjóvá-Almennar tryggingar' with match score 100
+2024-04-23 14:20:51,692 - INFO - Added alias 'Vátryggingafélag Íslands hf.' to 'Vátryggingafélag Íslands' with match score 100
+2024-04-23 14:20:51,696 - INFO - Added alias 'AFL fjárfestingarfélag hf.' to 'Skel fjárfestingafélag' with match score 86
+2024-04-23 14:20:51,732 - INFO - Added alias 'Skel fjárfestingafélag hf.' to 'Skel fjárfestingafélag' with match score 100
+2024-04-23 14:20:51,775 - INFO - Added alias 'Iceland Seafood International hf.' to 'Iceland Seafood International' with match score 100
+2024-04-23 14:20:51,844 - INFO - Added alias 'Kaldalón hf.' to 'Kaldalón' with match score 100
+2024-04-23 14:20:51,927 - INFO - Added alias 'Nova Klúbburinn hf.' to 'Nova Klúbburinn' with match score 100
+2024-04-23 14:20:51,982 - INFO - Added alias 'Sýn hf.' to 'Sýn' with match score 100
+2024-04-23 14:20:52,024 - INFO - Added alias 'Etrion Corporation' to 'TRATON' with match score 83
+2024-04-23 14:20:52,103 - INFO - Added alias 'TRATON SE' to 'TRATON' with match score 100
+2024-04-23 14:20:52,115 - INFO - Added alias 'AAK AB' to 'AAK' with match score 100
+2024-04-23 14:20:52,272 - INFO - Added alias 'ABB Ltd' to 'ABB Ltd' with match score 100
+2024-04-23 14:20:52,421 - INFO - Added alias 'Addtech AB' to 'Addtech B' with match score 100
+2024-04-23 14:20:52,574 - INFO - Added alias 'AFRY AB' to 'AFRY' with match score 100
+2024-04-23 14:20:52,722 - INFO - Added alias 'Alfa Laval AB' to 'Alfa Laval' with match score 100
+2024-04-23 14:20:52,847 - INFO - Added alias 'AddLife AB' to 'AddLife B' with match score 100
+2024-04-23 14:20:52,975 - INFO - Added alias 'Autoliv Inc.' to 'Autoliv SDB' with match score 100
+2024-04-23 14:20:53,096 - INFO - Added alias 'Alleima AB' to 'Alleima' with match score 100
+2024-04-23 14:20:53,221 - INFO - Added alias 'Addnode Group AB' to 'Addnode Group B' with match score 100
+2024-04-23 14:20:53,368 - INFO - Added alias 'Arion Banki' to 'Arion Banki SDB' with match score 100
+2024-04-23 14:20:53,368 - INFO - Added alias 'Arion banki hf.' to 'Arion Banki SDB' with match score 83
+2024-04-23 14:20:53,529 - INFO - Added alias 'Arjo AB' to 'Arjo B' with match score 100
+2024-04-23 14:20:53,672 - INFO - Added alias 'ASSA ABLOY AB' to 'ASSA ABLOY B' with match score 100
+2024-04-23 14:20:53,832 - INFO - Added alias 'Atlas Copco AB' to 'Atlas Copco A' with match score 100
+2024-04-23 14:20:53,973 - INFO - Added alias 'Atlas Copco AB' to 'Atlas Copco B' with match score 100
+2024-04-23 14:20:54,125 - INFO - Added alias 'Atrium Ljungberg AB' to 'Atrium Ljungberg B' with match score 100
+2024-04-23 14:20:54,285 - INFO - Added alias 'Axfood AB' to 'Axfood' with match score 100
+2024-04-23 14:20:54,427 - INFO - Added alias 'Avanza AB' to 'Avanza Bank Holding' with match score 100
+2024-04-23 14:20:54,428 - INFO - Added alias 'Avanza Bank Holding AB' to 'Avanza Bank Holding' with match score 100
+2024-04-23 14:20:54,579 - INFO - Added alias 'AstraZeneca PLC' to 'AstraZeneca' with match score 100
+2024-04-23 14:20:54,903 - INFO - Added alias 'Beijer Ref AB' to 'Beijer Ref B' with match score 100
+2024-04-23 14:20:55,033 - INFO - Added alias 'Better Collective A/S' to 'Better Collective' with match score 100
+2024-04-23 14:20:55,170 - INFO - Added alias 'Betsson AB' to 'Betsson B' with match score 100
+2024-04-23 14:20:55,308 - INFO - Added alias 'Bilia AB' to 'Bilia A' with match score 100
+2024-04-23 14:20:55,446 - INFO - Added alias 'Billerud Aktiebolag' to 'Billerud' with match score 100
+2024-04-23 14:20:55,601 - INFO - Added alias 'BioArctic AB' to 'BioArctic B' with match score 100
+2024-04-23 14:20:55,729 - INFO - Added alias 'Biotage AB' to 'Biotage' with match score 100
+2024-04-23 14:20:55,854 - INFO - Added alias 'Boliden AB' to 'Boliden' with match score 100
+2024-04-23 14:20:55,981 - INFO - Added alias 'Bravida Holding AB' to 'Bravida Holding' with match score 100
+2024-04-23 14:20:56,086 - INFO - Added alias 'YA Holding AB' to 'Bravida Holding' with match score 89
+2024-04-23 14:20:56,107 - INFO - Added alias 'Bure Equity AB' to 'Bure Equity' with match score 100
+2024-04-23 14:20:56,241 - INFO - Added alias 'Camurus AB' to 'Camurus' with match score 100
+2024-04-23 14:20:56,373 - INFO - Added alias 'Castellum AB' to 'Castellum' with match score 100
+2024-04-23 14:20:56,373 - INFO - Added alias 'Catella AB' to 'Castellum' with match score 86
+2024-04-23 14:20:56,545 - INFO - Added alias 'Catena AB' to 'Catena' with match score 100
+2024-04-23 14:20:56,545 - INFO - Added alias 'Catena Media P.L.C' to 'Catena' with match score 100
+2024-04-23 14:20:56,559 - INFO - Added alias 'Enea AB' to 'Catena' with match score 86
+2024-04-23 14:20:56,696 - INFO - Added alias 'Corem Property Group AB' to 'Corem Property Group A' with match score 100
+2024-04-23 14:20:56,848 - INFO - Added alias 'Corem Property Group AB' to 'Corem Property Group B' with match score 100
+2024-04-23 14:20:56,986 - INFO - Added alias 'Corem Property Group AB' to 'Corem Property Group D' with match score 100
+2024-04-23 14:20:57,124 - INFO - Added alias 'Corem Property Group AB' to 'Corem Property Group Pref' with match score 100
+2024-04-23 14:20:57,258 - INFO - Added alias 'Creades AB' to 'Creades A' with match score 100
+2024-04-23 14:20:57,426 - INFO - Added alias 'Diös Fastigheter AB' to 'Diös Fastigheter' with match score 100
+2024-04-23 14:20:57,465 - INFO - Added alias 'LSTH Svenska Handelsfastigheter AB' to 'Diös Fastigheter' with match score 87
+2024-04-23 14:20:57,579 - INFO - Added alias 'Dometic Group AB' to 'Dometic Group' with match score 100
+2024-04-23 14:20:57,725 - INFO - Added alias 'Elekta AB' to 'Elekta B' with match score 100
+2024-04-23 14:20:57,867 - INFO - Added alias 'Electrolux, AB' to 'Electrolux A' with match score 100
+2024-04-23 14:20:57,867 - INFO - Added alias 'Electrolux Professional AB' to 'Electrolux A' with match score 91
+2024-04-23 14:20:58,039 - INFO - Added alias 'Electrolux, AB' to 'Electrolux B' with match score 100
+2024-04-23 14:20:58,040 - INFO - Added alias 'Electrolux Professional AB' to 'Electrolux B' with match score 91
+2024-04-23 14:20:58,290 - INFO - Added alias 'Embracer Group AB' to 'Embracer Group B' with match score 100
+2024-04-23 14:20:58,460 - INFO - Added alias 'Epiroc Aktiebolag' to 'Epiroc A' with match score 100
+2024-04-23 14:20:58,616 - INFO - Added alias 'Epiroc Aktiebolag' to 'Epiroc B' with match score 86
+2024-04-23 14:20:58,765 - INFO - Added alias 'Electrolux, AB' to 'Electrolux Professional B' with match score 100
+2024-04-23 14:20:58,765 - INFO - Added alias 'Electrolux Professional AB' to 'Electrolux Professional B' with match score 100
+2024-04-23 14:20:58,951 - INFO - Added alias 'EQT AB' to 'EQT' with match score 100
+2024-04-23 14:20:59,068 - INFO - Added alias 'Ericsson, Telefonab. L M' to 'Ericsson A' with match score 89
+2024-04-23 14:20:59,195 - INFO - Added alias 'Ericsson, Telefonab. L M' to 'Ericsson B' with match score 89
+2024-04-23 14:20:59,320 - INFO - Added alias 'Essity AB' to 'Essity A' with match score 100
+2024-04-23 14:20:59,481 - INFO - Added alias 'Essity AB' to 'Essity B' with match score 100
+2024-04-23 14:20:59,623 - INFO - Added alias 'Evolution AB' to 'Evolution' with match score 100
+2024-04-23 14:20:59,664 - INFO - Added alias 'Nuevolution AB' to 'Evolution' with match score 100
+2024-04-23 14:20:59,703 - INFO - Added alias 'Volati AB' to 'Evolution' with match score 83
+2024-04-23 14:20:59,742 - INFO - Added alias 'Fabege AB' to 'Fabege' with match score 100
+2024-04-23 14:20:59,864 - INFO - Added alias 'Fortnox AB' to 'Fortnox' with match score 100
+2024-04-23 14:20:59,981 - INFO - Added alias 'Fenix Outdoor International AG' to 'Fenix Outdoor International B' with match score 96
+2024-04-23 14:21:00,122 - INFO - Added alias 'Fastpartner AB' to 'Fastpartner A' with match score 100
+2024-04-23 14:21:00,248 - INFO - Added alias 'Fastpartner AB' to 'Fastpartner D' with match score 100
+2024-04-23 14:21:00,378 - INFO - Added alias 'Getinge AB' to 'Getinge B' with match score 100
+2024-04-23 14:21:00,521 - INFO - Added alias 'Hemnet Group AB' to 'Hemnet Group' with match score 100
+2024-04-23 14:21:00,524 - INFO - Added alias 'HMS Networks AB' to 'Hemnet Group' with match score 83
+2024-04-23 14:21:00,667 - INFO - Added alias 'Hexagon AB' to 'Hexagon B' with match score 100
+2024-04-23 14:21:00,787 - INFO - Added alias 'Hennes & Mauritz AB, H & M' to 'Hennes & Mauritz B' with match score 93
+2024-04-23 14:21:00,908 - INFO - Added alias 'Hemnet Group AB' to 'HMS Networks' with match score 83
+2024-04-23 14:21:00,910 - INFO - Added alias 'HMS Networks AB' to 'HMS Networks' with match score 100
+2024-04-23 14:21:01,020 - INFO - Added alias 'Enea AB' to 'Holmen A' with match score 86
+2024-04-23 14:21:01,035 - INFO - Added alias 'Holmen AB' to 'Holmen A' with match score 100
+2024-04-23 14:21:01,202 - INFO - Added alias 'Holmen AB' to 'Holmen B' with match score 100
+2024-04-23 14:21:01,327 - INFO - Added alias 'HEXPOL AB' to 'HEXPOL B' with match score 100
+2024-04-23 14:21:01,454 - INFO - Added alias 'Hufvudstaden AB' to 'Hufvudstaden A' with match score 100
+2024-04-23 14:21:01,592 - INFO - Added alias 'Husqvarna AB' to 'Husqvarna A' with match score 100
+2024-04-23 14:21:01,750 - INFO - Added alias 'Husqvarna AB' to 'Husqvarna B' with match score 100
+2024-04-23 14:21:01,941 - INFO - Added alias 'Indutrade AB' to 'Indutrade' with match score 100
+2024-04-23 14:21:02,057 - INFO - Added alias 'Dustin Group AB' to 'Industrivärden A' with match score 83
+2024-04-23 14:21:02,082 - INFO - Added alias 'Industrivärden, AB' to 'Industrivärden A' with match score 100
+2024-04-23 14:21:02,223 - INFO - Added alias 'Dustin Group AB' to 'Industrivärden C' with match score 83
+2024-04-23 14:21:02,254 - INFO - Added alias 'Industrivärden, AB' to 'Industrivärden C' with match score 100
+2024-04-23 14:21:02,407 - INFO - Added alias 'Instalco AB' to 'Instalco' with match score 100
+2024-04-23 14:21:02,549 - INFO - Added alias 'Intrum' to 'Intrum' with match score 100
+2024-04-23 14:21:02,679 - INFO - Added alias 'Investor AB' to 'Investor A' with match score 100
+2024-04-23 14:21:02,742 - INFO - Added alias 'Vivesto AB' to 'Investor A' with match score 86
+2024-04-23 14:21:02,812 - INFO - Added alias 'Investor AB' to 'Investor B' with match score 100
+2024-04-23 14:21:02,875 - INFO - Added alias 'Vivesto AB' to 'Investor B' with match score 86
+2024-04-23 14:21:02,932 - INFO - Added alias 'International Petroleum Corporation' to 'International Petroleum Corp.' with match score 100
+2024-04-23 14:21:03,069 - INFO - Added alias 'JM AB' to 'JM' with match score 100
+2024-04-23 14:21:03,190 - INFO - Added alias 'Kindred Group plc' to 'Kindred Group' with match score 100
+2024-04-23 14:21:03,308 - INFO - Added alias 'Kinnevik, Investment AB' to 'Kinnevik A' with match score 89
+2024-04-23 14:21:03,450 - INFO - Added alias 'Kinnevik, Investment AB' to 'Kinnevik B' with match score 89
+2024-04-23 14:21:03,620 - INFO - Added alias 'Lagercrantz Group AB' to 'Lagercrantz Group B' with match score 100
+2024-04-23 14:21:03,754 - INFO - Added alias 'Latour, Investmentab.' to 'Latour B' with match score 86
+2024-04-23 14:21:03,881 - INFO - Added alias 'Lindab AB' to 'Lindab International' with match score 100
+2024-04-23 14:21:03,881 - INFO - Added alias 'Lindex, AB' to 'Lindab International' with match score 100
+2024-04-23 14:21:04,001 - INFO - Added alias 'Lifco AB' to 'Lifco B' with match score 100
+2024-04-23 14:21:04,157 - INFO - Added alias 'Loomis AB' to 'Loomis' with match score 100
+2024-04-23 14:21:04,162 - INFO - Added alias 'Mips AB' to 'Loomis' with match score 86
+2024-04-23 14:21:04,274 - INFO - Added alias 'Lundin Gold Inc.' to 'Lundin Gold' with match score 100
+2024-04-23 14:21:04,403 - INFO - Added alias 'Lundin Mining Corporation' to 'Lundin Mining Corporation' with match score 100
+2024-04-23 14:21:04,525 - INFO - Added alias 'Lundbergföretagen AB, L E' to 'Lundbergföretagen B' with match score 94
+2024-04-23 14:21:04,667 - INFO - Added alias 'Medicover AB' to 'Medicover B' with match score 100
+2024-04-23 14:21:04,667 - INFO - Added alias 'MEDICOVER Holding S.A.' to 'Medicover B' with match score 90
+2024-04-23 14:21:04,790 - INFO - Added alias 'Loomis AB' to 'Mips' with match score 86
+2024-04-23 14:21:04,796 - INFO - Added alias 'Mips AB' to 'Mips' with match score 100
+2024-04-23 14:21:04,944 - INFO - Added alias 'Modern Times Group MTG AB' to 'Modern Times Group A' with match score 94
+2024-04-23 14:21:05,060 - INFO - Added alias 'Modern Times Group MTG AB' to 'Modern Times Group B' with match score 94
+2024-04-23 14:21:05,181 - INFO - Added alias 'Munters AB' to 'Munters Group' with match score 100
+2024-04-23 14:21:05,181 - INFO - Added alias 'Munters Group AB' to 'Munters Group' with match score 100
+2024-04-23 14:21:05,310 - INFO - Added alias 'Mycronic AB' to 'Mycronic' with match score 100
+2024-04-23 14:21:05,477 - INFO - Added alias 'NCAB Group AB' to 'NCAB Group' with match score 100
+2024-04-23 14:21:05,477 - INFO - Added alias 'NCC AB' to 'NCAB Group' with match score 100
+2024-04-23 14:21:05,505 - INFO - Added alias 'Sinch AB' to 'NCAB Group' with match score 100
+2024-04-23 14:21:05,598 - INFO - Added alias 'NCC AB' to 'NCC A' with match score 100
+2024-04-23 14:21:05,740 - INFO - Added alias 'NCC AB' to 'NCC B' with match score 100
+2024-04-23 14:21:05,872 - INFO - Added alias 'Nordax Group AB' to 'Nordea Bank Abp' with match score 83
+2024-04-23 14:21:05,873 - INFO - Added alias 'Nordea Bank AB (publ)' to 'Nordea Bank Abp' with match score 100
+2024-04-23 14:21:05,873 - INFO - Added alias 'Nordea Bank Abp' to 'Nordea Bank Abp' with match score 100
+2024-04-23 14:21:06,012 - INFO - Added alias 'New Wave Group AB' to 'New Wave B' with match score 100
+2024-04-23 14:21:06,131 - INFO - Added alias 'Gunnebo Industrier AB' to 'NIBE Industrier B' with match score 83
+2024-04-23 14:21:06,163 - INFO - Added alias 'NIBE Industrier AB' to 'NIBE Industrier B' with match score 100
+2024-04-23 14:21:06,284 - INFO - Added alias 'Nolato AB' to 'Nolato B' with match score 100
+2024-04-23 14:21:06,376 - INFO - Added alias 'Humlegården Fastigheter AB (publ)' to 'NP3 Fastigheter' with match score 86
+2024-04-23 14:21:06,383 - INFO - Added alias 'K2A Knaust & Andersson Fastigheter AB' to 'NP3 Fastigheter' with match score 86
+2024-04-23 14:21:06,406 - INFO - Added alias 'NP3 Fastigheter AB' to 'NP3 Fastigheter' with match score 100
+2024-04-23 14:21:06,428 - INFO - Added alias 'Stendörren Fastigheter AB' to 'NP3 Fastigheter' with match score 86
+2024-04-23 14:21:06,526 - INFO - Added alias 'NP3 Fastigheter AB' to 'NP3 Fastigheter Pref' with match score 100
+2024-04-23 14:21:06,651 - INFO - Added alias 'Nyfosa AB' to 'Nyfosa' with match score 100
+2024-04-23 14:21:06,782 - INFO - Added alias 'OX2 AB' to 'OX2' with match score 100
+2024-04-23 14:21:06,821 - INFO - Added alias 'ABB Ltd' to 'Peab B' with match score 100
+2024-04-23 14:21:06,918 - INFO - Added alias 'Peab AB' to 'Peab B' with match score 100
+2024-04-23 14:21:07,034 - INFO - Added alias 'Pandox AB' to 'Pandox B' with match score 100
+2024-04-23 14:21:07,157 - INFO - Added alias 'Ratos AB' to 'Ratos A' with match score 100
+2024-04-23 14:21:07,179 - INFO - Added alias 'TRATON SE' to 'Ratos A' with match score 83
+2024-04-23 14:21:07,273 - INFO - Added alias 'Ratos AB' to 'Ratos B' with match score 100
+2024-04-23 14:21:07,301 - INFO - Added alias 'TRATON SE' to 'Ratos B' with match score 83
+2024-04-23 14:21:07,314 - INFO - Added alias 'ABB Ltd' to 'SAAB B' with match score 100
+2024-04-23 14:21:07,402 - INFO - Added alias 'SAAB AB' to 'SAAB B' with match score 100
+2024-04-23 14:21:07,539 - INFO - Added alias 'Sagax AB' to 'Sagax A' with match score 100
+2024-04-23 14:21:07,663 - INFO - Added alias 'Sagax AB' to 'Sagax B' with match score 100
+2024-04-23 14:21:07,804 - INFO - Added alias 'Sagax AB' to 'Sagax D' with match score 100
+2024-04-23 14:21:07,938 - INFO - Added alias 'Sampo' to 'Sampo Oyj SDB' with match score 100
+2024-04-23 14:21:08,055 - INFO - Added alias 'Sandvik AB' to 'Sandvik' with match score 100
+2024-04-23 14:21:08,158 - INFO - Added alias 'Nordnet AB' to 'Nordnet' with match score 100
+2024-04-23 14:21:08,158 - INFO - Added alias 'Nordnet AB (publ)' to 'Nordnet' with match score 100
+2024-04-23 14:21:08,288 - INFO - Added alias 'Samhällsbyggnadsbolaget i Norden AB' to 'Samhällsbyggnadsbo. i Norden B' with match score 81
+2024-04-23 14:21:08,290 - INFO - Added alias 'SBB i Norden AB' to 'Samhällsbyggnadsbo. i Norden B' with match score 90
+2024-04-23 14:21:08,408 - INFO - Added alias 'Samhällsbyggnadsbolaget i Norden AB' to 'Samhällsbyggnadsbo. i Norden D' with match score 81
+2024-04-23 14:21:08,410 - INFO - Added alias 'SBB i Norden AB' to 'Samhällsbyggnadsbo. i Norden D' with match score 90
+2024-04-23 14:21:08,700 - INFO - Added alias 'SAS AB' to 'SCA B' with match score 100
+2024-04-23 14:21:09,055 - INFO - Added alias 'SECTRA AB' to 'SECTRA B' with match score 100
+2024-04-23 14:21:09,181 - INFO - Added alias 'Securitas AB' to 'Securitas B' with match score 100
+2024-04-23 14:21:09,182 - INFO - Added alias 'Securitas Direct AB' to 'Securitas B' with match score 90
+2024-04-23 14:21:09,249 - INFO - Added alias 'Handelsbanken Fonder AB' to 'Sv. Handelsbanken A' with match score 81
+2024-04-23 14:21:09,310 - INFO - Added alias 'Svenska Handelsbanken AB' to 'Sv. Handelsbanken A' with match score 88
+2024-04-23 14:21:09,367 - INFO - Added alias 'Handelsbanken Fonder AB' to 'Sv. Handelsbanken B' with match score 81
+2024-04-23 14:21:09,430 - INFO - Added alias 'Svenska Handelsbanken AB' to 'Sv. Handelsbanken B' with match score 88
+2024-04-23 14:21:09,540 - INFO - Added alias 'Sinch AB' to 'Sinch' with match score 100
+2024-04-23 14:21:09,675 - INFO - Added alias 'Skanska AB' to 'Skanska B' with match score 100
+2024-04-23 14:21:09,807 - INFO - Added alias 'SKF, AB' to 'SKF A' with match score 100
+2024-04-23 14:21:09,923 - INFO - Added alias 'SKF, AB' to 'SKF B' with match score 100
+2024-04-23 14:21:10,060 - INFO - Added alias 'Swedish Orphan Biovitrum AB' to 'Swedish Orphan Biovitrum' with match score 100
+2024-04-23 14:21:10,196 - INFO - Added alias 'SSAB AB' to 'SSAB A' with match score 100
+2024-04-23 14:21:10,225 - INFO - Added alias 'ABB Ltd' to 'SSAB B' with match score 100
+2024-04-23 14:21:10,317 - INFO - Added alias 'SAAB AB' to 'SSAB B' with match score 100
+2024-04-23 14:21:10,327 - INFO - Added alias 'SSAB AB' to 'SSAB B' with match score 100
+2024-04-23 14:21:10,446 - INFO - Added alias 'Stora Enso Oyj' to 'Stora Enso A' with match score 100
+2024-04-23 14:21:10,447 - INFO - Added alias 'Stora Enso Oyj (Obl.)' to 'Stora Enso A' with match score 90
+2024-04-23 14:21:10,606 - INFO - Added alias 'Stora Enso Oyj' to 'Stora Enso R' with match score 100
+2024-04-23 14:21:10,607 - INFO - Added alias 'Stora Enso Oyj (Obl.)' to 'Stora Enso R' with match score 90
+2024-04-23 14:21:10,739 - INFO - Added alias 'Storskogen Group AB' to 'Storskogen Group B' with match score 100
+2024-04-23 14:21:10,870 - INFO - Added alias 'SWECO AB' to 'SWECO A' with match score 100
+2024-04-23 14:21:10,987 - INFO - Added alias 'SWECO AB' to 'SWECO B' with match score 100
+2024-04-23 14:21:11,111 - INFO - Added alias 'Swedbank AB' to 'Swedbank A' with match score 100
+2024-04-23 14:21:11,112 - INFO - Added alias 'Swedbank Hypotek AB' to 'Swedbank A' with match score 89
+2024-04-23 14:21:11,194 - INFO - Added alias 'Micro Systemation AB' to 'Systemair' with match score 89
+2024-04-23 14:21:11,232 - INFO - Added alias 'Systemair AB' to 'Systemair' with match score 100
+2024-04-23 14:21:11,368 - INFO - Added alias 'Tele2 AB' to 'Tele2 A' with match score 100
+2024-04-23 14:21:11,368 - INFO - Added alias 'Teleca AB' to 'Tele2 A' with match score 83
+2024-04-23 14:21:11,497 - INFO - Added alias 'Tele2 AB' to 'Tele2 B' with match score 100
+2024-04-23 14:21:11,635 - INFO - Added alias 'Telia Company AB' to 'Telia Company' with match score 100
+2024-04-23 14:21:11,761 - INFO - Added alias 'Thule Group AB' to 'Thule Group' with match score 100
+2024-04-23 14:21:11,886 - INFO - Added alias 'TietoEVRY Oyj' to 'TietoEVRY Oyj' with match score 100
+2024-04-23 14:21:12,133 - INFO - Added alias 'Trelleborg AB' to 'Trelleborg B' with match score 100
+2024-04-23 14:21:12,251 - INFO - Added alias 'Troax Group AB' to 'Troax Group' with match score 100
+2024-04-23 14:21:12,365 - INFO - Added alias 'Truecaller AB' to 'Truecaller B' with match score 100
+2024-04-23 14:21:12,512 - INFO - Added alias 'Vitec Software Group AB' to 'Vitec Software Group B' with match score 100
+2024-04-23 14:21:12,645 - INFO - Added alias 'Vitrolife AB' to 'Vitrolife' with match score 100
+2024-04-23 14:21:12,802 - INFO - Added alias 'Volvo, AB' to 'Volvo Car B' with match score 100
+2024-04-23 14:21:12,802 - INFO - Added alias 'Volvo Car AB' to 'Volvo Car B' with match score 100
+2024-04-23 14:21:12,916 - INFO - Added alias 'Volvo, AB' to 'Volvo A' with match score 100
+2024-04-23 14:21:12,917 - INFO - Added alias 'Volvo Car AB' to 'Volvo A' with match score 83
+2024-04-23 14:21:12,917 - INFO - Added alias 'Volvo Treasury AB' to 'Volvo A' with match score 83
+2024-04-23 14:21:13,037 - INFO - Added alias 'Volvo, AB' to 'Volvo B' with match score 100
+2024-04-23 14:21:13,037 - INFO - Added alias 'Volvo Car AB' to 'Volvo B' with match score 83
+2024-04-23 14:21:13,037 - INFO - Added alias 'Volvo Treasury AB' to 'Volvo B' with match score 83
+2024-04-23 14:21:13,160 - INFO - Added alias 'Wallenstam AB' to 'Wallenstam B' with match score 100
+2024-04-23 14:21:13,280 - INFO - Added alias 'Wihlborgs Fastigheter AB' to 'Wihlborgs Fastigheter' with match score 100
+2024-04-23 14:21:13,287 - INFO - Added alias 'AcadeMedia AB' to 'AcadeMedia' with match score 100
+2024-04-23 14:21:13,420 - INFO - Added alias 'X_AcadeMedia AB' to 'AcadeMedia' with match score 100
+2024-04-23 14:21:13,428 - INFO - Added alias 'Alimak Group' to 'Alimak Group' with match score 100
+2024-04-23 14:21:13,549 - INFO - Added alias 'Alligo AB' to 'Alligo B' with match score 100
+2024-04-23 14:21:13,563 - INFO - Added alias 'Calligo (UK) Limited' to 'Alligo B' with match score 86
+2024-04-23 14:21:13,706 - INFO - Added alias 'Ambea AB' to 'Ambea' with match score 100
+2024-04-23 14:21:13,714 - INFO - Added alias 'BE Group AB' to 'Ambea' with match score 100
+2024-04-23 14:21:13,824 - INFO - Added alias 'Africa Oil Corp.' to 'Africa Oil' with match score 100
+2024-04-23 14:21:13,956 - INFO - Added alias 'AQ Group AB' to 'AQ Group' with match score 100
+2024-04-23 14:21:14,089 - INFO - Added alias 'Arise AB' to 'Arise' with match score 100
+2024-04-23 14:21:14,207 - INFO - Added alias 'Arctic Paper AB' to 'Arctic Paper' with match score 100
+2024-04-23 14:21:14,338 - INFO - Added alias 'Attendo AB' to 'Attendo' with match score 100
+2024-04-23 14:21:14,485 - INFO - Added alias 'Bactiguard Holding AB' to 'Bactiguard Holding B' with match score 100
+2024-04-23 14:21:14,624 - INFO - Added alias 'Beijer Alma AB' to 'Beijer Alma B' with match score 100
+2024-04-23 14:21:14,752 - INFO - Added alias 'Bergman & Beving' to 'Bergman & Beving B' with match score 100
+2024-04-23 14:21:14,752 - INFO - Added alias 'Bergman & Beving AB' to 'Bergman & Beving B' with match score 100
+2024-04-23 14:21:14,886 - INFO - Added alias 'Byggfakta Group Nordic HoldCo AB' to 'Byggfakta Group Nordic HoldCo' with match score 100
+2024-04-23 14:21:14,998 - INFO - Added alias 'BHG Group AB' to 'BHG Group' with match score 100
+2024-04-23 14:21:15,115 - INFO - Added alias 'BICO Group AB' to 'BICO Group' with match score 100
+2024-04-23 14:21:15,161 - INFO - Added alias 'LB Icon AB' to 'BICO Group' with match score 100
+2024-04-23 14:21:15,235 - INFO - Added alias 'BioInvent International AB' to 'BioInvent International' with match score 100
+2024-04-23 14:21:15,361 - INFO - Added alias 'BioGaia AB' to 'BioGaia B' with match score 100
+2024-04-23 14:21:15,507 - INFO - Added alias 'Byggmax Group AB' to 'Byggmax Group' with match score 100
+2024-04-23 14:21:15,628 - INFO - Added alias 'Bonava AB' to 'Bonava A' with match score 100
+2024-04-23 14:21:15,771 - INFO - Added alias 'Bonava AB' to 'Bonava B' with match score 100
+2024-04-23 14:21:15,862 - INFO - Added alias 'Tribona AB' to 'Bonava B' with match score 89
+2024-04-23 14:21:15,892 - INFO - Added alias 'Bonesupport Holding AB' to 'BONESUPPORT HOLDING' with match score 100
+2024-04-23 14:21:16,022 - INFO - Added alias 'Boozt AB' to 'Boozt' with match score 100
+2024-04-23 14:21:16,145 - INFO - Added alias 'Brinova Fastigheter AB' to 'Brinova Fastigheter B' with match score 100
+2024-04-23 14:21:16,199 - INFO - Added alias 'Nivika Fastigheter AB' to 'Brinova Fastigheter B' with match score 82
+2024-04-23 14:21:16,405 - INFO - Added alias 'Bufab AB' to 'Bufab' with match score 100
+2024-04-23 14:21:16,541 - INFO - Added alias 'Calliditas Therapeutics AB' to 'Calliditas Therapeutics' with match score 100
+2024-04-23 14:21:16,608 - INFO - Added alias 'IRLAB Therapeutics AB' to 'Calliditas Therapeutics' with match score 82
+2024-04-23 14:21:16,700 - INFO - Added alias 'Catella AB' to 'Catella A' with match score 100
+2024-04-23 14:21:16,820 - INFO - Added alias 'Castellum AB' to 'Catella B' with match score 83
+2024-04-23 14:21:16,821 - INFO - Added alias 'Catella AB' to 'Catella B' with match score 100
+2024-04-23 14:21:16,936 - INFO - Added alias 'Cavotec SA' to 'Cavotec' with match score 100
+2024-04-23 14:21:17,054 - INFO - Added alias 'CellaVision' to 'CellaVision' with match score 100
+2024-04-23 14:21:17,055 - INFO - Added alias 'Cision AB' to 'CellaVision' with match score 83
+2024-04-23 14:21:17,189 - INFO - Added alias 'Cibus Nordic Real Estate AB' to 'Cibus Nordic Real Estate' with match score 100
+2024-04-23 14:21:17,306 - INFO - Added alias 'Cint Group AB' to 'Cint Group' with match score 100
+2024-04-23 14:21:17,425 - INFO - Added alias 'Cloetta AB' to 'Cloetta B' with match score 100
+2024-04-23 14:21:17,425 - INFO - Added alias 'Cloetta Fazer AB' to 'Cloetta B' with match score 100
+2024-04-23 14:21:17,549 - INFO - Added alias 'Clas Ohlson AB' to 'Clas Ohlson B' with match score 100
+2024-04-23 14:21:17,694 - INFO - Added alias 'Concentric AB' to 'Concentric' with match score 100
+2024-04-23 14:21:17,816 - INFO - Added alias 'Coor Service Management Holding AB' to 'Coor Service Management Hold.' with match score 100
+2024-04-23 14:21:17,934 - INFO - Added alias 'Copperstone Resources AB' to 'Copperstone Resources' with match score 100
+2024-04-23 14:21:17,991 - INFO - Added alias 'PA Resources' to 'Copperstone Resources' with match score 82
+2024-04-23 14:21:18,064 - INFO - Added alias 'CoinShares International Ltd' to 'CoinShares International' with match score 100
+2024-04-23 14:21:18,200 - INFO - Added alias 'CTEK AB' to 'CTEK' with match score 100
+2024-04-23 14:21:18,328 - INFO - Added alias 'Catena AB' to 'Catena Media' with match score 100
+2024-04-23 14:21:18,329 - INFO - Added alias 'Catena Media P.L.C' to 'Catena Media' with match score 100
+2024-04-23 14:21:18,468 - INFO - Added alias 'CTT Systems AB' to 'CTT Systems' with match score 100
+2024-04-23 14:21:18,603 - INFO - Added alias 'DUNI AB' to 'Duni' with match score 100
+2024-04-23 14:21:18,765 - INFO - Added alias 'Dustin Group AB' to 'Dustin Group' with match score 100
+2024-04-23 14:21:18,798 - INFO - Added alias 'Industrivärden, AB' to 'Dustin Group' with match score 83
+2024-04-23 14:21:18,831 - INFO - Added alias 'Peab Industri AB' to 'Dustin Group' with match score 83
+2024-04-23 14:21:18,867 - INFO - Added alias 'XANO Industri AB' to 'Dustin Group' with match score 83
+2024-04-23 14:21:18,901 - INFO - Added alias 'Eastnine AB' to 'Eastnine' with match score 100
+2024-04-23 14:21:19,025 - INFO - Added alias 'Elanders AB' to 'Elanders B' with match score 100
+2024-04-23 14:21:19,154 - INFO - Added alias 'Fastighetsbolaget Emilshus AB (publ)' to 'Fastighetsbolaget Emilshus B' with match score 96
+2024-04-23 14:21:19,279 - INFO - Added alias 'Fastighetsbolaget Emilshus AB (publ)' to 'Fastighetsbolag. Emilshus Pref' with match score 85
+2024-04-23 14:21:19,392 - INFO - Added alias 'Catena AB' to 'Enea' with match score 86
+2024-04-23 14:21:19,406 - INFO - Added alias 'Enea AB' to 'Enea' with match score 100
+2024-04-23 14:21:19,474 - INFO - Added alias 'Oxigene, Inc.' to 'Enea' with match score 86
+2024-04-23 14:21:19,490 - INFO - Added alias 'Senea AB' to 'Enea' with match score 100
+2024-04-23 14:21:19,552 - INFO - Added alias 'engcon AB' to 'engcon B' with match score 100
+2024-04-23 14:21:19,691 - INFO - Added alias 'Eolus Vind AB' to 'Eolus Vind B' with match score 100
+2024-04-23 14:21:19,810 - INFO - Added alias 'Ependion AB' to 'Ependion' with match score 100
+2024-04-23 14:21:19,939 - INFO - Added alias 'Ework Group AB' to 'Ework Group' with match score 100
+2024-04-23 14:21:20,054 - INFO - Added alias 'Fagerhult Group AB' to 'Fagerhult Group' with match score 100
+2024-04-23 14:21:20,168 - INFO - Added alias 'Fasadgruppen Group AB' to 'Fasadgruppen Group' with match score 100
+2024-04-23 14:21:20,289 - INFO - Added alias 'FM Mattsson Mora Group AB' to 'FM Mattsson Mora Group B' with match score 100
+2024-04-23 14:21:20,426 - INFO - Added alias 'G5 Entertainment AB' to 'G5 Entertainment' with match score 100
+2024-04-23 14:21:20,530 - INFO - Added alias 'Arjo AB' to 'Garo' with match score 86
+2024-04-23 14:21:20,567 - INFO - Added alias 'Garo AB' to 'Garo' with match score 100
+2024-04-23 14:21:20,710 - INFO - Added alias 'Gaming Innovation Group Inc.' to 'Gaming Innovation Group' with match score 100
+2024-04-23 14:21:20,710 - INFO - Added alias 'Gaming Innovation Group plc' to 'Gaming Innovation Group' with match score 100
+2024-04-23 14:21:20,867 - INFO - Added alias 'Genova Property Group AB' to 'Genova Property Group' with match score 100
+2024-04-23 14:21:21,009 - INFO - Added alias 'Green Landscaping Group AB' to 'Green Landscaping Group' with match score 100
+2024-04-23 14:21:21,144 - INFO - Added alias 'Gränges' to 'Gränges' with match score 100
+2024-04-23 14:21:21,262 - INFO - Added alias 'HANZA AB' to 'HANZA' with match score 100
+2024-04-23 14:21:21,545 - INFO - Added alias 'Hansa Biopharma AB' to 'Hansa Biopharma' with match score 100
+2024-04-23 14:21:21,645 - INFO - Added alias 'Xbrane Biopharma AB' to 'Hansa Biopharma' with match score 81
+2024-04-23 14:21:21,707 - INFO - Added alias 'Hoist Finance AB' to 'Hoist Finance' with match score 100
+2024-04-23 14:21:21,833 - INFO - Added alias 'Hexatronic Group AB' to 'Hexatronic Group' with match score 100
+2024-04-23 14:21:21,955 - INFO - Added alias 'Humana AB' to 'Humana' with match score 100
+2024-04-23 14:21:21,955 - INFO - Added alias 'Human Care HC AB' to 'Humana' with match score 83
+2024-04-23 14:21:22,074 - INFO - Added alias 'I.A.R Systems Group AB' to 'I.A.R Systems Group' with match score 100
+2024-04-23 14:21:22,075 - INFO - Added alias 'IAR Systems' to 'I.A.R Systems Group' with match score 100
+2024-04-23 14:21:22,207 - INFO - Added alias 'Inwido AB' to 'Inwido' with match score 100
+2024-04-23 14:21:22,327 - INFO - Added alias 'ITAB Shop Concept AB' to 'ITAB Shop Concept' with match score 100
+2024-04-23 14:21:22,453 - INFO - Added alias 'INVISIO AB' to 'INVISIO' with match score 100
+2024-04-23 14:21:22,615 - INFO - Added alias 'John Mattson Fastighetsföretagen AB' to 'John Mattson Fastighetsföret.' with match score 100
+2024-04-23 14:21:22,762 - INFO - Added alias 'KABE Group AB' to 'KABE Group B' with match score 100
+2024-04-23 14:21:22,902 - INFO - Added alias 'Karnov Group AB' to 'Karnov Group' with match score 100
+2024-04-23 14:21:23,029 - INFO - Added alias 'Jefast Holding AB' to 'K-Fast Holding B' with match score 85
+2024-04-23 14:21:23,031 - INFO - Added alias 'K-Fast Holding AB' to 'K-Fast Holding B' with match score 100
+2024-04-23 14:21:23,166 - INFO - Added alias 'KlaraBo Sverige AB' to 'KlaraBo Sverige B' with match score 100
+2024-04-23 14:21:23,286 - INFO - Added alias 'Know IT AB' to 'Knowit' with match score 100
+2024-04-23 14:21:23,425 - INFO - Added alias 'Lime Technologies AB' to 'Lime Technologies' with match score 100
+2024-04-23 14:21:23,451 - INFO - Added alias 'Powerwave Technologies' to 'Lime Technologies' with match score 81
+2024-04-23 14:21:23,486 - INFO - Added alias 'Technology Nexus AB' to 'Lime Technologies' with match score 81
+2024-04-23 14:21:23,580 - INFO - Added alias 'Linc AB' to 'Linc' with match score 100
+2024-04-23 14:21:23,705 - INFO - Added alias 'Logistea AB' to 'Logistea A' with match score 100
+2024-04-23 14:21:23,807 - INFO - Added alias 'Estancia Logistik AB' to 'Logistea B' with match score 86
+2024-04-23 14:21:23,835 - INFO - Added alias 'Logistea AB' to 'Logistea B' with match score 100
+2024-04-23 14:21:23,976 - INFO - Added alias 'Lucara Diamond Corp' to 'Lucara Diamond Corp' with match score 100
+2024-04-23 14:21:24,095 - INFO - Added alias 'Mangold AB' to 'Mangold' with match score 100
+2024-04-23 14:21:24,103 - INFO - Added alias 'Nederman Holding AB' to 'Mangold' with match score 86
+2024-04-23 14:21:24,200 - INFO - Added alias 'Home Capital AB' to 'MedCap' with match score 83
+2024-04-23 14:21:24,206 - INFO - Added alias 'Isofol Medical AB' to 'MedCap' with match score 83
+2024-04-23 14:21:24,216 - INFO - Added alias 'MedCap AB' to 'MedCap' with match score 100
+2024-04-23 14:21:24,245 - INFO - Added alias 'Sedana Medical AB' to 'MedCap' with match score 83
+2024-04-23 14:21:24,339 - INFO - Added alias 'MEKO AB' to 'MEKO' with match score 100
+2024-04-23 14:21:24,539 - INFO - Added alias 'Mildef Group AB' to 'Mildef Group' with match score 100
+2024-04-23 14:21:24,705 - INFO - Added alias 'Moment Group AB' to 'Momentum Group B' with match score 100
+2024-04-23 14:21:24,705 - INFO - Added alias 'Momentum Group AB' to 'Momentum Group B' with match score 100
+2024-04-23 14:21:24,840 - INFO - Added alias 'Net Insight AB' to 'Net Insight B' with match score 100
+2024-04-23 14:21:24,959 - INFO - Added alias 'Nivika Fastigheter AB' to 'Nivika Fastigheter B' with match score 100
+2024-04-23 14:21:24,960 - INFO - Added alias 'Nivika Fastigheter AB (publ)' to 'Nivika Fastigheter B' with match score 94
+2024-04-23 14:21:25,083 - INFO - Added alias 'Mangold AB' to 'Nederman Holding' with match score 86
+2024-04-23 14:21:25,090 - INFO - Added alias 'Nederman Holding AB' to 'Nederman Holding' with match score 100
+2024-04-23 14:21:25,140 - INFO - Added alias 'YA Holding AB' to 'Nederman Holding' with match score 89
+2024-04-23 14:21:25,213 - INFO - Added alias 'Nobia AB' to 'Nobia' with match score 100
+2024-04-23 14:21:25,266 - INFO - Added alias 'Arion Banki' to 'Norion Bank' with match score 84
+2024-04-23 14:21:25,363 - INFO - Added alias 'Norion Bank AB' to 'Norion Bank' with match score 100
+2024-04-23 14:21:25,501 - INFO - Added alias 'Norva24 Group AB' to 'Norva24 Group' with match score 100
+2024-04-23 14:21:25,631 - INFO - Added alias 'NOTE AB' to 'NOTE' with match score 100
+2024-04-23 14:21:25,750 - INFO - Added alias 'Nordic Paper Holding AB' to 'Nordic Paper Holding' with match score 100
+2024-04-23 14:21:25,881 - INFO - Added alias 'Nordic Waterproofing Holding A/S' to 'Nordic Waterproofing Holding' with match score 100
+2024-04-23 14:21:25,882 - INFO - Added alias 'Nordic Waterproofing Holding AB' to 'Nordic Waterproofing Holding' with match score 100
+2024-04-23 14:21:25,970 - INFO - Added alias 'Fenix Outdoor International AG' to 'OEM International B' with match score 82
+2024-04-23 14:21:25,999 - INFO - Added alias 'Metro International S.A.' to 'OEM International B' with match score 82
+2024-04-23 14:21:26,000 - INFO - Added alias 'Millicom International Cellular S.A.' to 'OEM International B' with match score 88
+2024-04-23 14:21:26,202 - INFO - Added alias 'Öresund, Investment AB' to 'Öresund' with match score 100
+2024-04-23 14:21:26,283 - INFO - Added alias 'Orrön Energy AB' to 'Orrön Energy' with match score 100
+2024-04-23 14:21:26,408 - INFO - Added alias 'ProAct IT Group AB' to 'Proact IT Group' with match score 100
+2024-04-23 14:21:26,573 - INFO - Added alias 'PowerCell Sweden AB' to 'PowerCell Sweden' with match score 100
+2024-04-23 14:21:26,657 - INFO - Added alias 'Holmström Fastigheter Holding AB' to 'Platzer Fastigheter Holding B' with match score 82
+2024-04-23 14:21:26,683 - INFO - Added alias 'Netel Holding AB' to 'Platzer Fastigheter Holding B' with match score 83
+2024-04-23 14:21:26,695 - INFO - Added alias 'Platzer Fastigheter Holding AB' to 'Platzer Fastigheter Holding B' with match score 100
+2024-04-23 14:21:26,835 - INFO - Added alias 'Profoto Holding AB' to 'Profoto Holding' with match score 100
+2024-04-23 14:21:26,949 - INFO - Added alias 'Pricer AB' to 'Pricer B' with match score 100
+2024-04-23 14:21:27,064 - INFO - Added alias 'Probi AB' to 'Probi' with match score 100
+2024-04-23 14:21:27,182 - INFO - Added alias 'RaySearch Laboratories AB' to 'RaySearch Laboratories B' with match score 100
+2024-04-23 14:21:27,301 - INFO - Added alias 'Rejlers AB' to 'Rejlers B' with match score 100
+2024-04-23 14:21:27,416 - INFO - Added alias 'Nordic Service Partners Holding AB' to 'Resurs Holding' with match score 85
+2024-04-23 14:21:27,429 - INFO - Added alias 'Resurs Holding AB' to 'Resurs Holding' with match score 100
+2024-04-23 14:21:27,442 - INFO - Added alias 'SSM Holding AB' to 'Resurs Holding' with match score 84
+2024-04-23 14:21:27,570 - INFO - Added alias 'Rottneros AB' to 'Rottneros' with match score 100
+2024-04-23 14:21:27,689 - INFO - Added alias 'Rusta AB' to 'Rusta' with match score 100
+2024-04-23 14:21:27,765 - INFO - Added alias 'Gunnebo Industrier Holding AB' to 'RVRC Holding' with match score 82
+2024-04-23 14:21:27,786 - INFO - Added alias 'MEDICOVER Holding S.A.' to 'RVRC Holding' with match score 82
+2024-04-23 14:21:27,810 - INFO - Added alias 'RVRC Holding AB' to 'RVRC Holding' with match score 100
+2024-04-23 14:21:27,955 - INFO - Added alias 'Scandi Standard AB' to 'Scandi Standard' with match score 100
+2024-04-23 14:21:27,955 - INFO - Added alias 'SCANIA AB' to 'Scandi Standard' with match score 83
+2024-04-23 14:21:28,104 - INFO - Added alias 'Sdiptech AB (publ)' to 'Sdiptech B' with match score 89
+2024-04-23 14:21:28,328 - INFO - Added alias 'MedCap AB' to 'Sedana Medical' with match score 83
+2024-04-23 14:21:28,356 - INFO - Added alias 'Sedana Medical AB' to 'Sedana Medical' with match score 100
+2024-04-23 14:21:28,509 - INFO - Added alias 'StillFront AB' to 'Stillfront Group' with match score 100
+2024-04-23 14:21:28,635 - INFO - Added alias 'Scandic Hotels Group AB' to 'Scandic Hotels Group' with match score 100
+2024-04-23 14:21:28,637 - INFO - Added alias 'SCANIA AB' to 'Scandic Hotels Group' with match score 83
+2024-04-23 14:21:28,767 - INFO - Added alias 'SkiStar AB' to 'SkiStar B' with match score 100
+2024-04-23 14:21:28,890 - INFO - Added alias 'Swedish Logistic Property AB' to 'Swedish Logistic Property B' with match score 100
+2024-04-23 14:21:28,985 - INFO - Added alias 'NP3 Fastigheter AB' to 'Stendörren Fastigheter B' with match score 86
+2024-04-23 14:21:29,009 - INFO - Added alias 'Stendörren Fastigheter AB' to 'Stendörren Fastigheter B' with match score 100
+2024-04-23 14:21:29,130 - INFO - Added alias 'Svolder AB' to 'Svolder A' with match score 100
+2024-04-23 14:21:29,257 - INFO - Added alias 'Svolder AB' to 'Svolder B' with match score 100
+2024-04-23 14:21:29,398 - INFO - Added alias 'Synsam AB' to 'Synsam' with match score 100
+2024-04-23 14:21:29,540 - INFO - Added alias 'TOBII AB' to 'Tobii Dynavox' with match score 100
+2024-04-23 14:21:29,540 - INFO - Added alias 'Tobii Dynavox AB' to 'Tobii Dynavox' with match score 100
+2024-04-23 14:21:29,663 - INFO - Added alias 'Tethys Oil AB' to 'Tethys Oil' with match score 100
+2024-04-23 14:21:29,790 - INFO - Added alias 'TF Bank AB' to 'TF Bank' with match score 100
+2024-04-23 14:21:29,908 - INFO - Added alias 'Traction, AB' to 'Traction B' with match score 100
+2024-04-23 14:21:29,953 - INFO - Added alias 'Fastighets AB Trianon' to 'Trianon B' with match score 93
+2024-04-23 14:21:30,265 - INFO - Added alias 'VEF AB' to 'VEF' with match score 100
+2024-04-23 14:21:30,384 - INFO - Added alias 'Vestum AB' to 'Vestum' with match score 100
+2024-04-23 14:21:30,544 - INFO - Added alias 'VNV Global AB (publ)' to 'VNV Global' with match score 100
+2024-04-23 14:21:30,544 - INFO - Added alias 'VNV Global Ltd.' to 'VNV Global' with match score 100
+2024-04-23 14:21:30,587 - INFO - Added alias 'Evolution AB' to 'Volati' with match score 83
+2024-04-23 14:21:30,629 - INFO - Added alias 'Nuevolution AB' to 'Volati' with match score 83
+2024-04-23 14:21:30,665 - INFO - Added alias 'Volati AB' to 'Volati' with match score 100
+2024-04-23 14:21:30,784 - INFO - Added alias 'Volati AB' to 'Volati Pref' with match score 100
+2024-04-23 14:21:30,898 - INFO - Added alias 'Viaplay Group AB' to 'Viaplay Group A' with match score 100
+2024-04-23 14:21:31,026 - INFO - Added alias 'Viaplay Group AB' to 'Viaplay Group B' with match score 100
+2024-04-23 14:21:31,075 - INFO - Added alias 'Dustin Group AB' to 'XANO Industri B' with match score 83
+2024-04-23 14:21:31,173 - INFO - Added alias 'XANO Industri AB' to 'XANO Industri B' with match score 100
+2024-04-23 14:21:31,291 - INFO - Added alias 'Xvivo Perfusion AB' to 'Xvivo Perfusion' with match score 100
+2024-04-23 14:21:31,293 - INFO - Added alias 'Abliva AB' to 'Abliva' with match score 100
+2024-04-23 14:21:31,438 - INFO - Added alias 'Ascelia Pharma AB' to 'Ascelia Pharma' with match score 100
+2024-04-23 14:21:31,565 - INFO - Added alias 'Acrinova AB' to 'Acrinova A' with match score 100
+2024-04-23 14:21:31,689 - INFO - Added alias 'Acrinova AB' to 'Acrinova B' with match score 100
+2024-04-23 14:21:31,807 - INFO - Added alias 'Active Biotech AB' to 'Active Biotech' with match score 100
+2024-04-23 14:21:31,929 - INFO - Added alias 'Annehem Fastigheter AB (publ)' to 'Annehem Fastigheter B' with match score 95
+2024-04-23 14:21:32,050 - INFO - Added alias 'Anoto Group AB' to 'Anoto Group' with match score 100
+2024-04-23 14:21:32,179 - INFO - Added alias 'Arla Plast AB' to 'Arla Plast' with match score 100
+2024-04-23 14:21:32,299 - INFO - Added alias 'Actic Group AB' to 'Actic Group' with match score 100
+2024-04-23 14:21:32,433 - INFO - Added alias 'Alligator Bioscience AB' to 'Alligator Bioscience' with match score 100
+2024-04-23 14:21:32,590 - INFO - Added alias 'B3 Consulting Group AB' to 'B3 Consulting Group' with match score 100
+2024-04-23 14:21:32,710 - INFO - Added alias 'Balco Group AB' to 'Balco Group' with match score 100
+2024-04-23 14:21:32,838 - INFO - Added alias 'Ambea AB' to 'BE Group' with match score 100
+2024-04-23 14:21:32,844 - INFO - Added alias 'BE Group AB' to 'BE Group' with match score 100
+2024-04-23 14:21:32,845 - INFO - Added alias 'Besqab AB' to 'BE Group' with match score 100
+2024-04-23 14:21:32,888 - INFO - Added alias 'KABE Group AB' to 'BE Group' with match score 100
+2024-04-23 14:21:32,960 - INFO - Added alias 'BE Group AB' to 'Besqab' with match score 100
+2024-04-23 14:21:32,962 - INFO - Added alias 'Besqab AB' to 'Besqab' with match score 100
+2024-04-23 14:21:33,079 - INFO - Added alias 'Bong AB' to 'Bong' with match score 100
+2024-04-23 14:21:33,196 - INFO - Added alias 'Björn Borg AB' to 'Björn Borg' with match score 100
+2024-04-23 14:21:33,198 - INFO - Added alias 'Borgo AB' to 'Björn Borg' with match score 89
+2024-04-23 14:21:33,333 - INFO - Added alias 'Boule Diagnostics AB' to 'Boule Diagnostics' with match score 100
+2024-04-23 14:21:33,506 - INFO - Added alias 'Bulten AB' to 'Bulten' with match score 100
+2024-04-23 14:21:33,631 - INFO - Added alias 'Cantargia AB' to 'Cantargia' with match score 100
+2024-04-23 14:21:33,756 - INFO - Added alias 'Christian Berner Trade Tech' to 'Christian Berner Tech Trade B' with match score 83
+2024-04-23 14:21:33,887 - INFO - Added alias 'Concejo AB' to 'Concejo B' with match score 100
+2024-04-23 14:21:34,023 - INFO - Added alias 'C-Rad AB' to 'C-RAD B' with match score 100
+2024-04-23 14:21:34,162 - INFO - Added alias 'Dedicare Group AB' to 'Dedicare B' with match score 100
+2024-04-23 14:21:34,282 - INFO - Added alias 'Doro AB' to 'DORO' with match score 100
+2024-04-23 14:21:34,397 - INFO - Added alias 'Duroc AB' to 'Duroc B' with match score 100
+2024-04-23 14:21:34,561 - INFO - Added alias 'Egetis Therapeutics AB' to 'Egetis Therapeutics' with match score 100
+2024-04-23 14:21:34,684 - INFO - Added alias 'Elon AB' to 'Elon' with match score 100
+2024-04-23 14:21:34,801 - INFO - Added alias 'Eltel AB' to 'Eltel' with match score 100
+2024-04-23 14:21:34,914 - INFO - Added alias 'Desenio Group AB' to 'Eniro Group' with match score 89
+2024-04-23 14:21:34,919 - INFO - Added alias 'Eniro Group AB' to 'Eniro Group' with match score 100
+2024-04-23 14:21:35,046 - INFO - Added alias 'Episurf Medical AB' to 'Episurf B' with match score 88
+2024-04-23 14:21:35,294 - INFO - Added alias 'Fingerprint Cards AB' to 'Fingerprint Cards B' with match score 100
+2024-04-23 14:21:35,457 - INFO - Added alias 'Ferronordic AB' to 'Ferronordic' with match score 100
+2024-04-23 14:21:35,603 - INFO - Added alias 'Formpipe Software AB' to 'Formpipe Software' with match score 100
+2024-04-23 14:21:35,729 - INFO - Added alias 'HAKI Safety AB' to 'HAKI Safety A' with match score 100
+2024-04-23 14:21:35,850 - INFO - Added alias 'HAKI Safety AB' to 'HAKI Safety B' with match score 100
+2024-04-23 14:21:35,969 - INFO - Added alias 'Havsfrun Investment AB' to 'Havsfrun Investment B' with match score 100
+2024-04-23 14:21:36,100 - INFO - Added alias 'Infant Bacterial Therapeutics' to 'Infant Bacterial TherapeuticsB' with match score 100
+2024-04-23 14:21:36,104 - INFO - Added alias 'IRLAB Therapeutics AB' to 'Infant Bacterial TherapeuticsB' with match score 82
+2024-04-23 14:21:36,228 - INFO - Added alias 'Immunovia AB' to 'Immunovia' with match score 100
+2024-04-23 14:21:36,366 - INFO - Added alias 'Mendus AB' to 'Mendus' with match score 100
+2024-04-23 14:21:36,513 - INFO - Added alias 'Infrea AB' to 'Infrea' with match score 100
+2024-04-23 14:21:36,654 - INFO - Added alias 'IRLAB Therapeutics AB' to 'IRLAB Therapeutics A' with match score 100
+2024-04-23 14:21:36,783 - INFO - Added alias 'Image Systems AB' to 'Image Systems' with match score 100
+2024-04-23 14:21:36,912 - INFO - Added alias 'Isofol Medical AB' to 'Isofol Medical' with match score 100
+2024-04-23 14:21:36,923 - INFO - Added alias 'MedCap AB' to 'Isofol Medical' with match score 83
+2024-04-23 14:21:37,034 - INFO - Added alias 'K2A Knaust & Andersson Fastigheter AB' to 'K2A Knaust & Andersson B' with match score 95
+2024-04-23 14:21:37,158 - INFO - Added alias 'K2A Knaust & Andersson Fastigheter AB' to 'K2A Knaust & Andersson Pref' with match score 86
+2024-04-23 14:21:37,277 - INFO - Added alias 'Karnell Group AB' to 'Karnell Group B' with match score 100
+2024-04-23 14:21:37,482 - INFO - Added alias 'Karolinska Development AB' to 'Karolinska Development B' with match score 100
+2024-04-23 14:21:37,611 - INFO - Added alias 'Lammhults Design Group AB' to 'Lammhults Design Group B' with match score 100
+2024-04-23 14:21:37,739 - INFO - Added alias 'Maha Energy AB' to 'Maha Energy' with match score 100
+2024-04-23 14:21:37,858 - INFO - Added alias 'Malmbergs Elektriska AB' to 'Malmbergs Elektriska B' with match score 100
+2024-04-23 14:21:37,989 - INFO - Added alias 'Moberg Pharma AB' to 'Moberg Pharma' with match score 100
+2024-04-23 14:21:38,109 - INFO - Added alias 'Moment Group AB' to 'Moment Group' with match score 100
+2024-04-23 14:21:38,109 - INFO - Added alias 'Momentum Group AB' to 'Moment Group' with match score 100
+2024-04-23 14:21:38,224 - INFO - Added alias 'Micro Systemation AB' to 'Micro Systemation B' with match score 100
+2024-04-23 14:21:38,262 - INFO - Added alias 'Systemair AB' to 'Micro Systemation B' with match score 89
+2024-04-23 14:21:38,340 - INFO - Added alias 'Midsona AB' to 'Midsona A' with match score 100
+2024-04-23 14:21:38,513 - INFO - Added alias 'Midsona AB' to 'Midsona B' with match score 100
+2024-04-23 14:21:38,637 - INFO - Added alias 'Medivir AB' to 'Medivir' with match score 100
+2024-04-23 14:21:38,695 - INFO - Added alias 'Ainax' to 'NAXS' with match score 86
+2024-04-23 14:21:38,702 - INFO - Added alias 'Axis AB' to 'NAXS' with match score 86
+2024-04-23 14:21:38,764 - INFO - Added alias 'NAXS AB' to 'NAXS' with match score 100
+2024-04-23 14:21:38,867 - INFO - Added alias 'Karnell Group AB' to 'Nelly Group' with match score 89
+2024-04-23 14:21:38,882 - INFO - Added alias 'Nelly Group AB' to 'Nelly Group' with match score 100
+2024-04-23 14:21:38,932 - INFO - Added alias 'Akademibokhandeln Holding AB' to 'Netel Holding' with match score 83
+2024-04-23 14:21:38,980 - INFO - Added alias 'Holmström Fastigheter Holding AB' to 'Netel Holding' with match score 83
+2024-04-23 14:21:39,011 - INFO - Added alias 'Netel Holding AB' to 'Netel Holding' with match score 100
+2024-04-23 14:21:39,031 - INFO - Added alias 'Platzer Fastigheter Holding AB' to 'Netel Holding' with match score 83
+2024-04-23 14:21:39,261 - INFO - Added alias 'Nanologica AB' to 'Nanologica' with match score 100
+2024-04-23 14:21:39,382 - INFO - Added alias 'Nilörngruppen' to 'Nilörngruppen B' with match score 100
+2024-04-23 14:21:39,383 - INFO - Added alias 'Nilörngruppen AB' to 'Nilörngruppen B' with match score 100
+2024-04-23 14:21:39,553 - INFO - Added alias 'Nordisk Bergteknik AB' to 'Nordisk Bergteknik B' with match score 100
+2024-04-23 14:21:39,704 - INFO - Added alias 'NOVOTEK AB' to 'NOVOTEK B' with match score 100
+2024-04-23 14:21:39,831 - INFO - Added alias 'Oncopeptides AB' to 'Oncopeptides' with match score 100
+2024-04-23 14:21:39,954 - INFO - Added alias 'Oscar Properties Holding AB' to 'Oscar Properties Holding' with match score 100
+2024-04-23 14:21:39,973 - INFO - Added alias 'SSM Holding AB' to 'Oscar Properties Holding' with match score 84
+2024-04-23 14:21:40,079 - INFO - Added alias 'Oscar Properties Holding AB' to 'Oscar Properties Holding PREF' with match score 100
+2024-04-23 14:21:40,225 - INFO - Added alias 'Oscar Properties Holding AB' to 'Oscar Properties Holding PREFB' with match score 100
+2024-04-23 14:21:40,365 - INFO - Added alias 'Ortivus AB' to 'Ortivus A' with match score 100
+2024-04-23 14:21:40,541 - INFO - Added alias 'Ortivus AB' to 'Ortivus B' with match score 100
+2024-04-23 14:21:40,690 - INFO - Added alias 'Orexo AB' to 'Orexo' with match score 100
+2024-04-23 14:21:40,816 - INFO - Added alias 'Ovzon AB' to 'Ovzon' with match score 100
+2024-04-23 14:21:40,938 - INFO - Added alias 'Projektengagemang Sweden AB' to 'Projektengagemang Sweden B' with match score 100
+2024-04-23 14:21:41,055 - INFO - Added alias 'Pierce Group AB' to 'Pierce Group' with match score 100
+2024-04-23 14:21:41,171 - INFO - Added alias 'PION Group AB' to 'PION Group B' with match score 100
+2024-04-23 14:21:41,296 - INFO - Added alias 'Precise Biometrics AB' to 'Precise Biometrics' with match score 100
+2024-04-23 14:21:41,412 - INFO - Added alias 'Prevas AB' to 'Prevas B' with match score 100
+2024-04-23 14:21:41,552 - INFO - Added alias 'ProfilGruppen AB' to 'Profilgruppen B' with match score 100
+2024-04-23 14:21:41,675 - INFO - Added alias 'Q-Linea AB' to 'Q-Linea' with match score 100
+2024-04-23 14:21:41,805 - INFO - Added alias 'Qliro AB' to 'Qliro' with match score 100
+2024-04-23 14:21:41,921 - INFO - Added alias 'Railcare Group AB' to 'Railcare Group' with match score 100
+2024-04-23 14:21:42,038 - INFO - Added alias 'Rizzo Group AB' to 'Rizzo Group B' with match score 100
+2024-04-23 14:21:42,134 - INFO - Added alias 'mySafety Group AB' to 'mySafety Group B' with match score 100
+2024-04-23 14:21:42,274 - INFO - Added alias 'Saniona AB' to 'Saniona' with match score 100
+2024-04-23 14:21:42,396 - INFO - Added alias 'SAAB AB' to 'SAS' with match score 100
+2024-04-23 14:21:42,398 - INFO - Added alias 'SAS AB' to 'SAS' with match score 100
+2024-04-23 14:21:42,399 - INFO - Added alias 'SBAB' to 'SAS' with match score 100
+2024-04-23 14:21:42,412 - INFO - Added alias 'SSAB AB' to 'SAS' with match score 100
+2024-04-23 14:21:42,576 - INFO - Added alias 'Seafire AB' to 'Seafire' with match score 100
+2024-04-23 14:21:42,721 - INFO - Added alias 'Senzime AB' to 'Senzime' with match score 100
+2024-04-23 14:21:42,865 - INFO - Added alias 'Solid Försäkringsaktiebolag' to 'Solid Försäkringsaktiebolag' with match score 100
+2024-04-23 14:21:42,984 - INFO - Added alias 'Sensys Gatso Group AB' to 'Sensys Gatso Group' with match score 100
+2024-04-23 14:21:43,114 - INFO - Added alias 'SinterCast AB' to 'SinterCast' with match score 100
+2024-04-23 14:21:43,233 - INFO - Added alias 'Sivers Semiconductors AB' to 'Sivers Semiconductors' with match score 100
+2024-04-23 14:21:43,352 - INFO - Added alias 'Sleep Cycle AB' to 'Sleep Cycle' with match score 100
+2024-04-23 14:21:43,529 - INFO - Added alias 'Softronic AB' to 'Softronic B' with match score 100
+2024-04-23 14:21:43,662 - INFO - Added alias 'Starbreeze AB' to 'Starbreeze A' with match score 100
+2024-04-23 14:21:43,788 - INFO - Added alias 'Starbreeze AB' to 'Starbreeze B' with match score 100
+2024-04-23 14:21:43,905 - INFO - Added alias 'Strax AB' to 'Strax' with match score 100
+2024-04-23 14:21:43,913 - INFO - Added alias 'Troax Group AB' to 'Strax' with match score 89
+2024-04-23 14:21:44,031 - INFO - Added alias 'Stockwik Förvaltning AB' to 'Stockwik Förvaltning' with match score 100
+2024-04-23 14:21:44,149 - INFO - Added alias 'Svedbergs Group AB' to 'Svedbergs Group B' with match score 100
+2024-04-23 14:21:44,266 - INFO - Added alias 'Studsvik AB' to 'Studsvik' with match score 100
+2024-04-23 14:21:44,388 - INFO - Added alias 'SynAct Pharma AB' to 'SynAct Pharma' with match score 100
+2024-04-23 14:21:44,531 - INFO - Added alias 'TOBII AB' to 'Tobii' with match score 100
+2024-04-23 14:21:44,531 - INFO - Added alias 'Tobii Dynavox AB' to 'Tobii' with match score 100
+2024-04-23 14:21:44,661 - INFO - Added alias 'TradeDoubler AB' to 'TradeDoubler' with match score 100
+2024-04-23 14:21:44,780 - INFO - Added alias 'Transtema Group AB' to 'Transtema Group' with match score 100
+2024-04-23 14:21:44,858 - INFO - Added alias 'MQ Holding AB' to 'Vicore Pharma Holding' with match score 89
+2024-04-23 14:21:44,902 - INFO - Added alias 'Vicore Pharma Holding AB' to 'Vicore Pharma Holding' with match score 100
+2024-04-23 14:21:44,906 - INFO - Added alias 'YA Holding AB' to 'Vicore Pharma Holding' with match score 89
+2024-04-23 14:21:44,958 - INFO - Added alias 'Investor AB' to 'Vivesto' with match score 86
+2024-04-23 14:21:45,017 - INFO - Added alias 'Vivesto AB' to 'Vivesto' with match score 100
+2024-04-23 14:21:45,133 - INFO - Added alias 'Wästbygg Gruppen AB' to 'Wästbygg Gruppen B' with match score 100
+2024-04-23 14:21:45,270 - INFO - Added alias 'Wise Group AB' to 'Wise Group' with match score 100
+2024-04-23 14:21:45,426 - INFO - Added alias 'Wall to Wall Group AB' to 'Wall to Wall Group A' with match score 100
+2024-04-23 14:21:45,485 - INFO - Added alias 'Hansa Biopharma AB' to 'Xbrane Biopharma' with match score 81
+2024-04-23 14:21:45,559 - INFO - Added alias 'Xbrane Biopharma AB' to 'Xbrane Biopharma' with match score 100
+2024-04-23 14:21:45,679 - INFO - Added alias 'XSpray Pharma AB' to 'Xspray Pharma' with match score 100
+2024-04-23 14:21:45,712 - INFO - Dry run complete. Detected 0 updates but no changes made.

@@ -51,7 +51,8 @@ function FavoritesPage() {
       ))}
       </div>
       {favorites.length > 0 ? (
-        <NewsAndAnalysis favorites={favorites.map(stock => stock._id)} token={token} />
+        // <NewsAndAnalysis favorites={favorites.map(stock => stock._id)} token={token} />
+        <NewsAndAnalysis stockIds={favorites.map(stock => stock._id)} token={token} />
       ) : (
         <p>Add stocks to favorites to see news.</p>
       )}

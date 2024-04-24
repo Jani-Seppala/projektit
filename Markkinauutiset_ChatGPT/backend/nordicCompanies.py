@@ -34,7 +34,7 @@ def determine_market(url, stock_href):
             "SSE": "First North Sweden",
             "HEX": "First North Finland",
             "CSE": "First North Denmark",
-            "ICEX": "First North Iceland",
+            "ICE": "First North Iceland",
             # Add more mappings as necessary
         }
 

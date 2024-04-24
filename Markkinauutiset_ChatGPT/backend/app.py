@@ -201,67 +201,57 @@ def get_stock(stockId):
         return jsonify({"error": "An error occurred", "details": str(e)}), 500
 
 
-# @app.route('/api/news-with-analysis', methods=['GET'])
-# def get_news_with_analysis():
-#     stock_id = request.args.get('stock_id')
-#     stock_ids = request.args.get('stock_ids')
-#     # print('Received stock_id:', stock_id)
-#     # print('Received stock_ids:', stock_ids)
-    
-    
-
-#     if stock_id:
-#         # If stock_id is provided, fetch news for the specified stock
-#         news_items = mongo.db.news.find({"stock_id": ObjectId(stock_id)})
-#     elif stock_ids:
-#         # If stock_ids is provided, fetch news for the specified stocks
-#         stock_ids_list = stock_ids.split(',')
-#         stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
-#         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})
-#         # print('Fetched news items:', list(news_items))  # debug
-#         news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}})  # Fetch the news items again
-#     else:
-#         # If neither stock_id nor stock_ids is provided, fetch all news
-#         news_items = mongo.db.news.find()
-
-#     result = []
-#     for news_item in news_items:
-#         analysis = mongo.db.analysis.find_one({"news_id": news_item["_id"]})
-#         combined = {"news": news_item, "analysis": analysis}
-#         result.append(combined)
-
-#     result_json = json_util.dumps(result)
-#     return app.response_class(response=result_json, mimetype='application/json')
-
 @app.route('/api/news-with-analysis', methods=['GET'])
 def get_news_with_analysis():
     stock_id = request.args.get('stock_id')
     stock_ids = request.args.get('stock_ids')
+    page = int(request.args.get('page', 1))
+    limit = 10
+    actual_fetch_limit = limit + 1
+    # Adjust the skip to account for the extra news item
+    skip = (page - 1) * limit
+    
+    print(f"{limit=}")
+    print(f"{skip=}")
 
-    # Decide on the field and the direction of sorting (-1 for descending, 1 for ascending)
-    sort_field = 'releaseTime'
-    sort_direction = -1  # Use pymongo.DESCENDING or -1 for descending order
-
+    # Build the query based on the provided parameters
     if stock_id:
         # Fetch news for the specified stock, sorted by releaseTime
-        news_items = mongo.db.news.find({"stock_id": ObjectId(stock_id)}).sort(sort_field, sort_direction)
+        query = {"stock_id": ObjectId(stock_id)}
     elif stock_ids:
         # Fetch news for multiple specified stocks, sorted by releaseTime
         stock_ids_list = stock_ids.split(',')
-        stock_object_ids = [ObjectId(stock_id) for stock_id in stock_ids_list]
-        news_items = mongo.db.news.find({"stock_id": {"$in": stock_object_ids}}).sort(sort_field, sort_direction)
+        stock_object_ids = [ObjectId(id) for id in stock_ids_list]
+        query = {"stock_id": {"$in": stock_object_ids}}
     else:
         # Fetch all news, sorted by releaseTime
-        news_items = mongo.db.news.find().sort(sort_field, sort_direction)
+        query = {}
 
-    result = []
-    for news_item in news_items:
-        analysis = mongo.db.analysis.find_one({"news_id": news_item["_id"]})
-        combined = {"news": news_item, "analysis": analysis}
-        result.append(combined)
+    # Apply the query, sorting, pagination, and conversion to a list
+    # news_items = mongo.db.news.find(query).sort(sort_field, sort_direction).skip(skip).limit(limit)
+    news_items = list(mongo.db.news.find(query).sort([
+        ('releaseTime', -1), 
+        ("company", 1), 
+        ("_id", 1)
+    ]).skip(skip).limit(actual_fetch_limit))
+    
+    print(f"Page: {page}, Limit: {limit}, Skip: {skip}")
+    print("News IDs returned:", [item['_id'] for item in news_items])
+    
+    has_more = len(news_items) > limit  # Check if there are more items than the limit
+    displayed_items = news_items[:limit]  # Only send 'limit' items to the frontend
 
-    result_json = json_util.dumps(result)
+    result = [{
+        "news": item,
+        "analysis": mongo.db.analysis.find_one({"news_id": item["_id"]})
+    } for item in displayed_items]
+        
+        
+    print(f"{len(result)} result pituus")
+    
+    result_json = json_util.dumps({"items": result, "has_more": has_more})
     return app.response_class(response=result_json, mimetype='application/json')
+
 
 
 
@@ -282,5 +272,7 @@ def get_logged_in_user():
     
 
 if __name__ == '__main__':
-    start_scheduler()
-    app.run(debug=True, use_reloader=False)
+    # start_scheduler()
+    # app.run(debug=True, use_reloader=False)
+    
+    app.run(debug=True)

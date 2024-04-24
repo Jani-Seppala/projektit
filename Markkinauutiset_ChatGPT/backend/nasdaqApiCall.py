@@ -192,24 +192,24 @@ def fetch_stock_price_and_analyze(news_item):
     mongo.db.news.insert_one(news_item)
     
     # Get analysis from the news with the stock price from openAiApiCall.py
-    analysis_content, prompt = analyze_news(news_item, price_before_news, close_prices)
-    analysis_document = {
-        "news_id": news_item["_id"],
-        "analysis_content": analysis_content,
-        "created_at": datetime.datetime.now(pytz.timezone('Europe/Stockholm')).strftime('%Y-%m-%d %H:%M:%S'),
-        "prompt": prompt
-    }
-    
-    # # Use static content for analysis
-    # analysis_content = "This is static analysis content for testing."
-    # prompt = "Static prompt for testing."
-
+    # analysis_content, prompt = analyze_news(news_item, price_before_news, close_prices)
     # analysis_document = {
     #     "news_id": news_item["_id"],
     #     "analysis_content": analysis_content,
     #     "created_at": datetime.datetime.now(pytz.timezone('Europe/Stockholm')).strftime('%Y-%m-%d %H:%M:%S'),
     #     "prompt": prompt
     # }
+    
+    # Use static content for analysis
+    analysis_content = "This is static analysis content for testing."
+    prompt = "Static prompt for testing."
+
+    analysis_document = {
+        "news_id": news_item["_id"],
+        "analysis_content": analysis_content,
+        "created_at": datetime.datetime.now(pytz.timezone('Europe/Stockholm')).strftime('%Y-%m-%d %H:%M:%S'),
+        "prompt": prompt
+    }
     
     
     mongo.db.analysis.insert_one(analysis_document)
