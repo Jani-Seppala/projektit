@@ -272,7 +272,7 @@ def get_logged_in_user():
     
 
 if __name__ == '__main__':
-    # start_scheduler()
-    # app.run(debug=True, use_reloader=False)
+    start_scheduler()
+    app.run(debug=True, use_reloader=False)
     
-    app.run(debug=True)
+    # app.run(debug=True)

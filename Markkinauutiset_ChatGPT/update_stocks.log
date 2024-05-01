@@ -1,0 +1,27 @@
+2024-04-29 14:42:17,531 - INFO - New stock aXichem AB TO1A will be added to the database.
+2024-04-29 14:42:17,805 - INFO - New stock Bioextrax AB BTA will be added to the database.
+2024-04-29 14:42:17,850 - INFO - New stock Biosergen AB TO3 will be added to the database.
+2024-04-29 14:42:17,963 - INFO - New stock BoMill AB BTA will be added to the database.
+2024-04-29 14:42:17,990 - INFO - New stock BoMill AB TR will be added to the database.
+2024-04-29 14:42:18,331 - INFO - New stock Cortus Energy AB BTU will be added to the database.
+2024-04-29 14:42:18,786 - INFO - Updating existing stock 'Clinical Laserthermia Syst. B' (ISIN: SE0002756130, Symbol: CLS B) in First North Sweden with new details: isin: SE0002756130 -> SE0022049920
+2024-04-29 14:42:19,057 - INFO - New stock Diagonal Bio AB BTU will be added to the database.
+2024-04-29 14:42:19,199 - INFO - New stock Diamyd Medical AB BTU B will be added to the database.
+2024-04-29 14:42:19,403 - INFO - New stock Elicera Therapeutics AB TO2 will be added to the database.
+2024-04-29 14:42:20,058 - INFO - New stock Freemelt Holding AB BTA will be added to the database.
+2024-04-29 14:42:20,178 - INFO - New stock Goodbye Kansas Group AB BTA will be added to the database.
+2024-04-29 14:42:21,750 - INFO - New stock Lipum AB BTA will be added to the database.
+2024-04-29 14:42:22,285 - INFO - New stock Minesto AB TO 4 will be added to the database.
+2024-04-29 14:42:22,694 - INFO - New stock Nordic Flanges Group AB BTA will be added to the database.
+2024-04-29 14:42:23,358 - INFO - Updating existing stock 'Perpetua Medical B' (ISIN: SE0019071812, Symbol: PERP B) in First North Sweden with new details: link: https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=SSE155215&symbol=PHLOG%20B&name=Pharmacolog%20i%20Uppsala%20B -> https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=SSE155215&symbol=PERP%20B&name=Perpetua%20Medical%20B
+2024-04-29 14:42:23,657 - INFO - New stock QLife Holding AB TO 4 will be added to the database.
+2024-04-29 14:42:23,681 - INFO - New stock QLife Holding AB TO 5 will be added to the database.
+2024-04-29 14:42:24,162 - INFO - New stock Scibase Holding AB BTU will be added to the database.
+2024-04-29 14:42:24,193 - INFO - New stock Scibase Holding AB UR will be added to the database.
+2024-04-29 14:42:24,285 - INFO - New stock ScandiDos AB BTA will be added to the database.
+2024-04-29 14:42:25,426 - INFO - New stock USWE Sports AB BTA will be added to the database.
+2024-04-29 14:42:26,376 - INFO - New stock Conferize A/S T-ret will be added to the database.
+2024-04-29 14:42:26,927 - INFO - Updating existing stock 'SPARK Technology' (ISIN: DK0062268686, Symbol: SPARK) in First North Denmark with new details: link: https://www.nasdaqomxnordic.com/shares/microsite?Instrument=CSE145941&symbol=SPARK&name=SPARK%20Technology -> https://www.nasdaqomxnordic.com/osakkeet/microsite?Instrument=CSE145941&symbol=SPARK&name=SPARK%20Technology
+2024-04-29 14:42:33,377 - INFO - Updating existing stock 'Tecnotree Oyj' (ISIN: FI0009010227, Symbol: TEM1V) in Main Market, Helsinki with new details: isin: FI0009010227 -> FI4000570890
+2024-04-29 14:42:35,168 - INFO - New stock Oculis Holding will be added to the database.
+2024-04-29 14:42:39,032 - INFO - Updating existing stock 'Volvo Car B' (ISIN: SE0016844831, Symbol: VOLCAR B) in Main Market, Stockholm with new details: isin: SE0016844831 -> SE0021628898

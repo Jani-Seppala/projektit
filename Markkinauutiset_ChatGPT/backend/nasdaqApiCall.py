@@ -132,40 +132,6 @@ def link_related_news(grouped_news):
     process_and_save_news(linked_news)
 
 
-def normalize_company_name(name):
-    name = re.sub(r'[\s.,;:\'\"()&/]+', '', name).lower()
-    for suffix in ['ab', 'oyj', 'plc', 'as', 'ltd']:
-        if name.endswith(suffix):
-            name = name[:-len(suffix)]
-    return name
-
-
-def find_best_stock_match(company_name, market, stocks_collection):
-    normalized_company_name = normalize_company_name(company_name)
-    # Filter stocks by market
-    stocks_in_same_market = [stock for stock in stocks_collection if stock.get('market') == market]
-    stock_names = {stock['_id']: (normalize_company_name(stock['name']), stock.get('symbol', 'N/A')) for stock in stocks_in_same_market}
-    # best_match, score = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values())
-    result = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values())
-    
-    # best_match, score = process.extractOne(normalized_company_name, {k: v[0] for k, v in stock_names.items()}.values(), default=(None, 0))
-    
-    # Check if result is None
-    if result is None:
-        print(f"Could not find a good match for news item company name '{company_name}' in market '{market}'.")
-        return None, None
-    else:
-        best_match, score = result
-
-
-    if score > 85:  # You may adjust this threshold based on your observation
-        stock_id = list(stock_names.keys())[list({k: v[0] for k, v in stock_names.items()}.values()).index(best_match)]
-        stock_symbol = stock_names[stock_id][1]  # Get the symbol for the matched stock
-        return stock_id, stock_symbol
-    else:
-        return None, None
-
-
 def fetch_stock_price_and_analyze(news_item):
     # Create a unique cache key based on company name and release time
     cache_key = (news_item['company'], news_item['releaseTime'])
@@ -176,40 +142,53 @@ def fetch_stock_price_and_analyze(news_item):
         print("Using cached price data.")
         print(f"{price_cache=}")
     else:
-    # try:
-        # Fetch stock price from YahooFinanceApicall.py
-        price_before_news, close_prices = fetch_stock_data(news_item)
-        # Store in cache
-        price_cache[cache_key] = (price_before_news, close_prices)
-        print("Fetched new price data and cached it.")
-    # except Exception as e:
-    #     print(f"Error fetching stock price data: {e} for {news_item.get('stock_symbol')}, price_before_news: {price_before_news}, close_prices: {close_prices}")
-    #     return
+        try:
+            # Fetch stock price from YahooFinanceApicall.py
+            # price_before_news, close_prices = fetch_stock_data(news_item)
+            # Store in cache
+            # price_cache[cache_key] = (price_before_news, close_prices)
+            stock_info = fetch_stock_data(news_item)
+                # Store in cache
+            price_cache[cache_key] = stock_info
+            print("Fetched new price data and cached it.")
+        except Exception as e:
+                print(f"Error fetching stock data: {e} for {news_item.get('stock_symbol')}")
+                return
             
     
     
-    news_item['price_before_news'] = price_before_news
+    # news_item['price_before_news'] = price_before_news
+    # mongo.db.news.insert_one(news_item)
+    
+    if 'price_before_news' in stock_info:
+        news_item['price_before_news'] = stock_info['price_before_news']
+    else:
+        print("Price before news not found in stock info.")
+        return
+
+    # Save news item in MongoDB
     mongo.db.news.insert_one(news_item)
     
     # Get analysis from the news with the stock price from openAiApiCall.py
     # analysis_content, prompt = analyze_news(news_item, price_before_news, close_prices)
-    # analysis_document = {
-    #     "news_id": news_item["_id"],
-    #     "analysis_content": analysis_content,
-    #     "created_at": datetime.datetime.now(pytz.timezone('Europe/Stockholm')).strftime('%Y-%m-%d %H:%M:%S'),
-    #     "prompt": prompt
-    # }
-    
-    # Use static content for analysis
-    analysis_content = "This is static analysis content for testing."
-    prompt = "Static prompt for testing."
-
+    analysis_content, prompt = analyze_news(news_item, stock_info)
     analysis_document = {
         "news_id": news_item["_id"],
         "analysis_content": analysis_content,
         "created_at": datetime.datetime.now(pytz.timezone('Europe/Stockholm')).strftime('%Y-%m-%d %H:%M:%S'),
         "prompt": prompt
     }
+    
+    # Use static content for analysis
+    # analysis_content = "This is static analysis content for testing."
+    # prompt = "Static prompt for testing."
+
+    # analysis_document = {
+    #     "news_id": news_item["_id"],
+    #     "analysis_content": analysis_content,
+    #     "created_at": datetime.datetime.now(pytz.timezone('Europe/Stockholm')).strftime('%Y-%m-%d %H:%M:%S'),
+    #     "prompt": prompt
+    # }
     
     
     mongo.db.analysis.insert_one(analysis_document)
@@ -220,36 +199,40 @@ def fetch_stock_price_and_analyze(news_item):
 
 
 def process_and_save_news(linked_news):
-    stocks_collection = list(mongo.db.stocks.find({}))  # Fetch all stocks once to improve efficiency
-
     for key, value in linked_news.items():
         related_id = value['relatedId']
         for item in value['items']:
             item['relatedId'] = related_id
             unique_id = item['disclosureId']
+            
+            # Check for language and market requirements
+            if item['language'] != 'fi' or (item['market'] not in ["Main Market, Helsinki", "First North Finland"]):
+                print(f"Skipping news item with ID {unique_id} due to language/market mismatch.")
+                continue
+            
+            # Check for existing item in both news and unmatched_news collections
             existing_news_item = mongo.db.news.find_one({'disclosureId': unique_id})
-            print(f"Checking for existing item with ID {unique_id}: Found - {existing_news_item is not None}")
+            existing_unmatched_item = mongo.db.unmatched_news.find_one({'disclosureId': unique_id})
+            print(f"Checking for existing item with ID {unique_id}: Found in news - {existing_news_item is not None}, Found in unmatched_news - {existing_unmatched_item is not None}")
 
-            if not existing_news_item:
+            if not existing_news_item and not existing_unmatched_item:
                 item_text = fetch_text_from_url(item['messageUrl'])
                 if item_text:
                     item['messageUrlContent'] = item_text
 
-                # Attempt to find the best matching stock, including the stock symbol
-                stock_id, stock_symbol = find_best_stock_match(item.get('company'), item.get('market'), stocks_collection)
-                if stock_id:
-                    item['stock_id'] = stock_id
-                    item['stock_symbol'] = stock_symbol  # Add the stock symbol to the news item
-
-                    matched_stock_name = next((stock['name'] for stock in stocks_collection if stock['_id'] == stock_id), None)
-                    print(f"Matched '{item.get('company')}' with stock '{matched_stock_name}'")
-                    
+                # Directly look up the stock in the database using the company name, market, and aliases
+                stock = mongo.db.stocks.find_one({"$or": [{"name": item.get('company')}, {"aliases": item.get('company')}], "market": item.get('market')})
+                if stock:
+                    item['stock_id'] = stock['_id']
+                    item['stock_symbol'] = stock.get('symbol', 'N/A')  # Add the stock symbol to the news item
+                    print(f"Matched '{item.get('company')}' with stock '{stock['name']}'")
                     fetch_stock_price_and_analyze(item)
-
                 else:
-                    print(f"Could not find a good match for news item company name '{item.get('company')}' in market '{item.get('market')}'.")
-            
-            elif existing_news_item:
+                    print(f"Could not find a match for news item company name '{item.get('company')}' in market '{item.get('market')}'; saved for manual review.")
+                    item['review_needed'] = True
+                    mongo.db.unmatched_news.insert_one(item)
+
+            elif existing_news_item or existing_unmatched_item:
                 print(f"News item with disclosureId '{unique_id}' already exists in the database. Company '{item.get('company')}'")
 
 
@@ -269,34 +252,6 @@ def fetch_text_from_url(url):
     except Exception as e:
         print(f"Error fetching page content: {e}")
         return None
-
-
-# def scheduled_job():
-#     global price_cache
-#     price_cache = {}  # Reset the cache at the start of each job
-
-#     CET = pytz.timezone('Europe/Stockholm')
-#     now = datetime.datetime.now(CET)
-    
-    
-    
-    
-#     print(f"Scheduled job attempted at {now.strftime('%Y-%m-%d %H:%M:%S')}")
-
-#     # Fetch news from Main Market
-#     fetch_news("https://api.news.eu.nasdaq.com/news/query.action?type=json&showAttachments=true&showCnsSpecific=true&showCompany=true&countResults=false&freeText=&market=&cnscategory=&company=&fromDate=&toDate=&globalGroup=exchangeNotice&globalName=NordicMainMarkets&displayLanguage=en&language=&timeZone=CET&dateMask=yyyy-MM-dd%20HH%3Amm%3Ass&limit=20&start=0&dir=DESC")
-    
-#     # Fetch news from First North
-#     fetch_news("https://api.news.eu.nasdaq.com/news/query.action?type=json&showAttachments=true&showCnsSpecific=true&showCompany=true&countResults=false&freeText=&market=&cnscategory=&company=&fromDate=&toDate=&globalGroup=exchangeNotice&globalName=NordicFirstNorth&displayLanguage=en&language=&timeZone=CET&dateMask=yyyy-MM-dd%20HH%3Amm%3Ass&limit=20&start=0&dir=DESC")
-
-# schedule.every().minute.at(":05").do(scheduled_job)
-
-# try:
-#     while True:
-#         schedule.run_pending()
-#         time.sleep(1)
-# except KeyboardInterrupt:
-#     print("Stopped by user.")
 
 
 def market_hours_job():
@@ -324,7 +279,7 @@ def check_and_reschedule():
     # Clear any existing schedules regardless of the time or day
     schedule.clear()
 
-    if weekday < 5 and 7 <= hour < 19:
+    if weekday < 5 and 7 <= hour < 18:
         schedule.every().minute.at(":05").do(market_hours_job)
         # schedule.every(10).minutes.at(":05").do(market_hours_job)
     else:

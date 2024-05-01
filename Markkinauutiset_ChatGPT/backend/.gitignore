@@ -1,5 +1,7 @@
 venv/
+tests/
 openAiApiCall.py
+openAiApiCall_test
 nasdaqApiCall_test.py
 nasdaqApiCall_test2.py
 nasdaqApiCall_test3.py
@@ -9,11 +11,4 @@ saatofilu2.py
 saatofilu3.py
 saatofilu4.py
 saatofilu5.py
-uutistestiobjekti.json
-uutistestiobjekti.txt
-uutistestiobjekti2.json
-uutistestiobjekti2.txt
-uutistestiobjekti3.txt
 YahooFinanceApiCall_test.py
-nordicCompanies.json
-mongoDebug.py
