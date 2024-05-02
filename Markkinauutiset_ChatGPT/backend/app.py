@@ -5,10 +5,11 @@ from bson.objectid import ObjectId
 from flask_cors import CORS
 from bson import json_util
 from datetime import timedelta
-import bson.json_util
+# import bson.json_util
 import bcrypt
 import config
 import subprocess
+import sys
 import os
 
 app = Flask(__name__)
@@ -27,10 +28,20 @@ CORS(app)
 
 
 def start_scheduler():
-    nasdaq_script_path = 'C:\\Users\\Kingi\\Ohjelmointi\\Github\\projektit\\Markkinauutiset_ChatGPT\\backend\\nasdaqApiCall.py'
+    # nasdaq_script_path = 'C:\\Users\\Kingi\\Ohjelmointi\\Github\\projektit\\Markkinauutiset_ChatGPT\\backend\\apicalls\\nasdaqApiCall.py'
+    # sys.path.insert(0, 'C:\\Users\\Kingi\\Ohjelmointi\\Github\\projektit\\Markkinauutiset_ChatGPT')
+    print("Before changing directory:", os.getcwd())
+    # os.chdir('C:\\Users\\Kingi\\Ohjelmointi\\Github\\projektit\\Markkinauutiset_ChatGPT')
+    # print("After changing directory:", os.getcwd())
+    
+    # env = os.environ.copy()
+    # env['PYTHONPATH'] = 'C:\\Users\\Kingi\\Ohjelmointi\\Github\\projektit\\Markkinauutiset_ChatGPT\\backend'
     
     # Start nasdaqApiCall.py as a background process
-    subprocess.Popen(['python', nasdaq_script_path])
+    # subprocess.Popen(['python', nasdaq_script_path])
+    subprocess.Popen([sys.executable, '-m', 'apicalls.nasdaqApiCall'])
+    # subprocess.Popen([sys.executable, '-m', 'apicalls.nasdaqApiCall'], env=env)
+
     
 
 @app.route('/')

@@ -5,11 +5,10 @@ import time
 from uuid import uuid4
 from bs4 import BeautifulSoup
 from app import mongo
-from fuzzywuzzy import process
 import re
 import schedule
-from YahooFinanceApiCall import main as fetch_stock_data
-from openAiApiCall import analyze_news
+from .YahooFinanceApiCall import main as fetch_stock_data
+from .openAiApiCall import analyze_news
 
 print('fsfs')
 
@@ -279,12 +278,23 @@ def check_and_reschedule():
     # Clear any existing schedules regardless of the time or day
     schedule.clear()
 
-    if weekday < 5 and 7 <= hour < 18:
-        schedule.every().minute.at(":05").do(market_hours_job)
-        # schedule.every(10).minutes.at(":05").do(market_hours_job)
-    else:
-        # schedule.clear()  # Clears all scheduled jobs
-        schedule.every(15).minutes.do(off_market_hours_job)
+    # if weekday < 5 and 7 <= hour < 18:
+    #     schedule.every().minute.at(":05").do(market_hours_job)
+    # else:
+    #     schedule.every(15).minutes.do(off_market_hours_job)
+    if weekday < 5 and 7 <= hour < 18:  # During market hours
+        job = schedule.every().minute.at(":05").do(market_hours_job)
+        print_next_fetch_time(job)
+    else:  # Outside market hours
+        job = schedule.every(15).minutes.do(off_market_hours_job)
+        print_next_fetch_time(job)
+
+
+def print_next_fetch_time(job):
+    # Get the next scheduled run time from the job
+    next_run = job.next_run
+    print(f"Next fetch scheduled at {next_run.strftime('%Y-%m-%d %H:%M:%S')}")
+
 
 main_market_url = "https://api.news.eu.nasdaq.com/news/query.action?type=json&showAttachments=true&showCnsSpecific=true&showCompany=true&countResults=false&freeText=&market=&cnscategory=&company=&fromDate=&toDate=&globalGroup=exchangeNotice&globalName=NordicMainMarkets&displayLanguage=en&language=&timeZone=CET&dateMask=yyyy-MM-dd%20HH%3Amm%3Ass&limit=20&start=0&dir=DESC"
 first_north_url = "https://api.news.eu.nasdaq.com/news/query.action?type=json&showAttachments=true&showCnsSpecific=true&showCompany=true&countResults=false&freeText=&market=&cnscategory=&company=&fromDate=&toDate=&globalGroup=exchangeNotice&globalName=NordicFirstNorth&displayLanguage=en&language=&timeZone=CET&dateMask=yyyy-MM-dd%20HH%3Amm%3Ass&limit=20&start=0&dir=DESC"
